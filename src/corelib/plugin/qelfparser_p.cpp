@@ -118,8 +118,12 @@ struct ElfMachineCheck
             EM_AARCH64
 #elif defined(Q_PROCESSOR_BLACKFIN)
             EM_BLACKFIN
+#elif defined(Q_PROCESSOR_HPPA)
+            EM_PARISC
 #elif defined(Q_PROCESSOR_IA64)
             EM_IA_64
+#elif defined(Q_PROCESSOR_M68K)
+            EM_68K
 #elif defined(Q_PROCESSOR_MIPS)
             EM_MIPS
 #elif defined(Q_PROCESSOR_POWER_32)
@@ -376,6 +380,7 @@ Q_DECL_UNUSED Q_DECL_COLD_FUNCTION static QDebug &operator<<(QDebug &d, ElfHeade
     switch (r.machine) {
     // list definitely not exhaustive!
     case EM_NONE:       d << ", no machine"; break;
+    case EM_68K:        d << ", MC68000"; break;
     case EM_ARM:        d << ", ARM"; break;
     case EM_AARCH64:    d << ", AArch64"; break;
 #ifdef EM_BLACKFIN
@@ -383,6 +388,7 @@ Q_DECL_UNUSED Q_DECL_COLD_FUNCTION static QDebug &operator<<(QDebug &d, ElfHeade
 #endif
     case EM_IA_64:      d << ", IA-64"; break;
     case EM_MIPS:       d << ", MIPS"; break;
+    case EM_PARISC:     d << ", HPPA"; break;
     case EM_PPC:        d << ", PowerPC"; break;
     case EM_PPC64:      d << ", PowerPC 64-bit"; break;
 #ifdef EM_RISCV

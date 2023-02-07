@@ -1791,11 +1791,29 @@ bool qSharedBuild() noexcept
 */
 
 /*!
+    \macro Q_PROCESSOR_HPPA
+    \relates <QtGlobal>
+
+    Defined if the application is compiled for PA-RISC processors.
+
+    \sa QSysInfo::buildCpuArchitecture()
+*/
+
+/*!
     \macro Q_PROCESSOR_IA64
     \relates <QtGlobal>
 
     Defined if the application is compiled for IA-64 processors. This includes
     all Itanium and Itanium 2 processors.
+
+    \sa QSysInfo::buildCpuArchitecture()
+*/
+
+/*!
+    \macro Q_PROCESSOR_M68K
+    \relates <QtGlobal>
+
+    Defined if the application is compiled for Motorola 68000 processors.
 
     \sa QSysInfo::buildCpuArchitecture()
 */

@@ -151,8 +151,6 @@ function(qt_build_internals_disable_pkg_config_if_needed)
     set(FEATURE_pkg_config "${pkg_config_enabled}" CACHE STRING "Using pkg-config")
     if(NOT pkg_config_enabled)
         qt_build_internals_disable_pkg_config()
-    else()
-        unset(PKG_CONFIG_EXECUTABLE CACHE)
     endif()
 endfunction()
 

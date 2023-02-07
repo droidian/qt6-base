@@ -25,11 +25,8 @@ include(FindPackageHandleStandardArgs)
 if(TARGET zstd::libzstd_static OR TARGET zstd::libzstd_shared)
     find_package_handle_standard_args(WrapZSTD
                                       REQUIRED_VARS zstd_VERSION VERSION_VAR zstd_VERSION)
-    if(TARGET zstd::libzstd_static)
-        set(zstdtargetsuffix "_static")
-    else()
-        set(zstdtargetsuffix "_shared")
-    endif()
+    set(zstdtargetsuffix "_shared")
+
     if(NOT TARGET WrapZSTD::WrapZSTD)
         add_library(WrapZSTD::WrapZSTD INTERFACE IMPORTED)
         set_target_properties(WrapZSTD::WrapZSTD PROPERTIES

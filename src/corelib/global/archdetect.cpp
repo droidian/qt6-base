@@ -17,12 +17,16 @@
 #  define ARCH_PROCESSOR "bfin"
 #elif defined(Q_PROCESSOR_WASM)
 #  define ARCH_PROCESSOR "wasm"
+#elif defined(Q_PROCESSOR_HPPA)
+#  define ARCH_PROCESSOR "hppa"
 #elif defined(Q_PROCESSOR_X86_32)
 #  define ARCH_PROCESSOR "i386"
 #elif defined(Q_PROCESSOR_X86_64)
 #  define ARCH_PROCESSOR "x86_64"
 #elif defined(Q_PROCESSOR_IA64)
 #  define ARCH_PROCESSOR "ia64"
+#elif defined(Q_PROCESSOR_M68K)
+#  define ARCH_PROCESSOR "m68k"
 #elif defined(Q_PROCESSOR_MIPS_64)
 #  define ARCH_PROCESSOR "mips64"
 #elif defined(Q_PROCESSOR_MIPS)
