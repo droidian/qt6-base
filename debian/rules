@@ -7,18 +7,6 @@ include /usr/share/dpkg/architecture.mk
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all optimize=+lto
 sslpkgname := $(shell dpkg-query --show '--showformat=$${Depends}' libssl-dev | cut -d ' ' -f1)
 
-ifneq (,$(filter libqt6sql6-ibase,$(shell dh_listpackages)))
-        extra_cmake_args += -DFEATURE_sql_ibase=ON
-else
-        extra_cmake_args += -DFEATURE_sql_ibase=OFF
-endif
-
-ifeq ($(DEB_HOST_ARCH_OS),linux)
-        extra_cmake_args += -DFEATURE_sctp=ON
-else
-        extra_cmake_args += -DFEATURE_sctp=OFF
-endif
-
 # cross-builds
 ifneq ($(DEB_BUILD_ARCH),$(DEB_HOST_ARCH))
 	extra_cmake_args += \
@@ -50,7 +38,6 @@ override_dh_auto_configure:
 		-DINSTALL_TRANSLATIONDIR=share/qt6/translations \
 		-DINSTALL_MKSPECSDIR=lib/$(DEB_HOST_MULTIARCH)/qt6/mkspecs \
 		-DINSTALL_PUBLICBINDIR=bin \
-		-DBUILD_EXAMPLES=ON \
 		-DFEATURE_mimetype_database=OFF \
 		-DFEATURE_dbus_linked=ON \
 		-DFEATURE_accessibility=ON \
@@ -59,21 +46,10 @@ override_dh_auto_configure:
 		-DFEATURE_icu=ON \
 		-DFEATURE_pcre2=ON \
 		-DFEATURE_system_pcre2=ON \
-		-DFEATURE_zlib=ON \
-		-DFEATURE_ssl=ON \
-		-DFEATURE_libproxy=ON \
-		-DFEATURE_system_proxies=ON \
-		-DFEATURE_cups=ON \
 		-DFEATURE_fontconfig=ON \
 		-DFEATURE_freetype=ON \
 		-DFEATURE_harfbuzz=ON \
-		-DFEATURE_gtk=ON \
 		-DFEATURE_directfb=OFF \
-		-DFEATURE_sql_odbc=ON \
-		-DFEATURE_sql_mysql=ON \
-		-DFEATURE_sql_psql=ON \
-		-DFEATURE_sql_sqlite=ON \
-		-DFEATURE_system_sqlite=ON \
 		-DFEATURE_jpeg=ON \
 		-DFEATURE_system_jpeg=ON \
 		-DFEATURE_png=ON \
@@ -81,11 +57,22 @@ override_dh_auto_configure:
 		-DFEATURE_system_libb2=ON \
 		-DFEATURE_rpath=OFF \
 		-DFEATURE_relocatable=OFF \
+		-DFEATURE_concurrent=OFF \
+		-DFEATURE_dbus=ON \
+		-DFEATURE_network=OFF \
+		-DFEATURE_printsupport=OFF \
+		-DFEATURE_sql=OFF \
+		-DFEATURE_widgets=OFF \
+		-DFEATURE_xml=OFF \
+		-DFEATURE_opengl=ON \
 		-DINPUT_opengl=es2 \
 		$(extra_cmake_args)
 
+override_dh_auto_install:
+	mkdir -p debian/tmp/usr
+	cp -r obj-$(DEB_HOST_MULTIARCH)/lib debian/tmp/usr
 
-execute_after_dh_auto_install:
+execute_after_dh_auto_instal:
 	# Policy § 10.4. Remove this if https://bugs.debian.org/904409 gets fixed.
 	sed -i 's,bin/env perl,bin/perl,' debian/tmp/usr/lib/qt6/libexec/*.pl \
 		debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt6/mkspecs/features/data/unix/findclasslist.pl
@@ -105,8 +92,11 @@ execute_after_dh_auto_install:
 		< debian/qmake-cross-wrapper.in > debian/tmp/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake6
 	chmod +x debian/tmp/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake6
 
+override_dh_shlibdeps:
+	dh_shlibdeps --dpkg-shlibdeps-params=--ignore-missing-info
+
 override_dh_makeshlibs:
 	dh_makeshlibs -XlibQt6EglFSDeviceIntegration -XlibQt6EglFsKmsGbmSupport -XlibQt6EglFsKmsSupport -XlibQt6XcbQpa
 
-execute_after_dh_shlibdeps-arch:
-	echo libssl:Depends=$(sslpkgname) >> debian/libqt6network6.substvars
+override_dh_missing:
+	dh_missing --list-missing
