@@ -328,7 +328,7 @@ bool QHstsHeaderParser::parse(const QList<QPair<QByteArray, QByteArray>> &header
 {
     for (const auto &h : headers) {
         // We use '==' since header name was already 'trimmed' for us:
-        if (h.first == "Strict-Transport-Security") {
+        if (h.first.compare("Strict-Transport-Security", Qt::CaseInsensitive) == 0) {
             header = h.second;
             // RFC6797, 8.1:
             //
