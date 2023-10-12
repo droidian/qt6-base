@@ -83,9 +83,10 @@ Rules-Requires-Root: no
 Vcs-Git: https://salsa.debian.org/qt-kde-team/qt6/qt6-base.git
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt6/qt6-base
 
-Package: libqt6gui6
+Package: libqt6gui6-gles
 Architecture: any
 Conflicts: libqt6gui6
+Provides: libqt6gui6 (= 6.4.2+dfsg-18)
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends},
 Depends: fontconfig, ${misc:Depends}, ${shlibs:Depends},
