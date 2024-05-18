@@ -2,7 +2,8 @@ Source: qt6-base
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Patrick Franz <deltaone@debian.org>,
-Build-Depends: cmake (>= 3.24~),
+Build-Depends: dpkg-dev (>= 1.22.5),
+               cmake (>= 3.24~),
                debhelper-compat (= 13),
                default-libmysqlclient-dev,
                dh-exec,
@@ -71,9 +72,9 @@ Build-Depends: cmake (>= 3.24~),
                pkg-config,
                pkg-kde-tools (>= 0.15.17~),
                qt6-base-dev:native <cross>,
-               libqt6core6,
-               libqt6dbus6,
-               libqt6network6,
+               libqt6core6t64,
+               libqt6dbus6t64,
+               libqt6network6t64,
                unixodbc-dev,
                zlib1g-dev,
 Standards-Version: 4.6.2
@@ -83,15 +84,15 @@ Rules-Requires-Root: no
 Vcs-Git: https://salsa.debian.org/qt-kde-team/qt6/qt6-base.git
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt6/qt6-base
 
-Package: libqt6gui6-gles
+Package: libqt6gui6t64-gles
 Architecture: any
 Conflicts: libqt6gui6
-Provides: libqt6gui6 (= 6.4.2+dfsg-21)
+Provides: libqt6gui6t64 (<= 6.4.2+z~)
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends},
 Depends: fontconfig, ${misc:Depends}, ${shlibs:Depends},
-Breaks: qt6-qpa-plugins (<< 6.3.1+dfsg-6~),
-Replaces: qt6-qpa-plugins (<< 6.3.1+dfsg-6~),
+Breaks: libqt6gui6-gles (<< ${source:Version}), qt6-qpa-plugins (<< 6.3.1+dfsg-6~),
+Replaces: libqt6gui6-gles, qt6-qpa-plugins (<< 6.3.1+dfsg-6~),
 Recommends: qt6-gtk-platformtheme, qt6-qpa-plugins, qt6-wayland [linux-any],
 Description: Qt 6 GUI module
  Qt is a cross-platform C++ application framework. Qt's primary feature
