@@ -50,6 +50,7 @@ override_dh_auto_configure:
 		-DFEATURE_freetype=ON \
 		-DFEATURE_harfbuzz=ON \
 		-DFEATURE_directfb=OFF \
+		-DFEATURE_system_xcb_xinput=ON \
 		-DFEATURE_jpeg=ON \
 		-DFEATURE_system_jpeg=ON \
 		-DFEATURE_png=ON \
