@@ -417,7 +417,9 @@ static inline void qYieldCpu()
          https://stackoverflow.com/a/70076751/134841
          https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105416
     */
+#    if !defined(Q_CC_GNU) || (__ARM_ARCH >= 7)
     asm volatile("yield"); /* this works everywhere */
+#    endif
 #  else
     __yield(); /* this is what should work everywhere */
 #  endif
