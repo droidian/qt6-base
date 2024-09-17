@@ -1,5 +1,7 @@
 qt6-base (6.7.2+dfsg-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Replace Qml2Imports (deprecated) with QmlImports in debian/qt.conf.in.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Sep 2024 11:38:37 +0300
 
