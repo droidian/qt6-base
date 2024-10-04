@@ -1,8 +1,8 @@
-qt6-base (6.7.2+dfsg-3) UNRELEASED; urgency=medium
+qt6-base (6.7.2+dfsg-3) unstable; urgency=medium
 
   * Merge 6.6.2+dfsg-12 upload from unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Sep 2024 11:38:37 +0300
+ -- Patrick Franz <deltaone@debian.org>  Sat, 05 Oct 2024 01:12:57 +0200
 
 qt6-base (6.7.2+dfsg-2) experimental; urgency=medium
 
