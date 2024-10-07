@@ -1,5 +1,6 @@
 # fixed in 6.9.0
 upstream_IPC-add-PATH_MAX-less-fallback-definition-for-MAX_PA.patch
+upstream_QStorageInfo-Unix-fix-declaration-of-mnt-on-Hurd.patch
 
 # Needs to be fixed upstream.
 Add-SH-detection.patch
