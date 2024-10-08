@@ -4,6 +4,7 @@ qt6-base (6.7.2+dfsg-4) UNRELEASED; urgency=medium
   * Backport upstream commit fc3e3d033584c62dfb2f3e3da551a7dbd7c0150d to fix
     the build on the Hurd; patch
     upstream_QStorageInfo-Unix-fix-declaration-of-mnt-on-Hurd.patch.
+  * Mark some Linux symbols as such.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 07 Oct 2024 22:17:21 +0200
 

@@ -1632,15 +1632,15 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZN16QNativeInterface11QGLXContextD0Ev@Qt_6 6.6.0
  _ZN16QNativeInterface11QGLXContextD1Ev@Qt_6 6.6.0
  _ZN16QNativeInterface11QGLXContextD2Ev@Qt_6 6.6.0
- _ZN16QNativeInterface14QWaylandScreenD0Ev@Qt_6 6.7.2
- _ZN16QNativeInterface14QWaylandScreenD1Ev@Qt_6 6.7.2
- _ZN16QNativeInterface14QWaylandScreenD2Ev@Qt_6 6.7.2
+ (arch=linux-any)_ZN16QNativeInterface14QWaylandScreenD0Ev@Qt_6 6.7.2
+ (arch=linux-any)_ZN16QNativeInterface14QWaylandScreenD1Ev@Qt_6 6.7.2
+ (arch=linux-any)_ZN16QNativeInterface14QWaylandScreenD2Ev@Qt_6 6.7.2
  _ZN16QNativeInterface15QX11ApplicationD0Ev@Qt_6 6.6.0
  _ZN16QNativeInterface15QX11ApplicationD1Ev@Qt_6 6.6.0
  _ZN16QNativeInterface15QX11ApplicationD2Ev@Qt_6 6.6.0
- _ZN16QNativeInterface19QWaylandApplicationD0Ev@Qt_6 6.6.0
- _ZN16QNativeInterface19QWaylandApplicationD1Ev@Qt_6 6.6.0
- _ZN16QNativeInterface19QWaylandApplicationD2Ev@Qt_6 6.6.0
+ (arch=linux-any)_ZN16QNativeInterface19QWaylandApplicationD0Ev@Qt_6 6.6.0
+ (arch=linux-any)_ZN16QNativeInterface19QWaylandApplicationD1Ev@Qt_6 6.6.0
+ (arch=linux-any)_ZN16QNativeInterface19QWaylandApplicationD2Ev@Qt_6 6.6.0
  _ZN16QOpenGLFunctions25initializeOpenGLFunctionsEv@Qt_6 6.1.2
  _ZN16QOpenGLFunctionsC1EP14QOpenGLContext@Qt_6 6.1.2
  _ZN16QOpenGLFunctionsC1Ev@Qt_6 6.1.2
@@ -4763,9 +4763,9 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZTIN11QAccessible18ActivationObserverE@Qt_6 6.1.2
  _ZTIN16QNativeInterface11QEGLContextE@Qt_6 6.1.2
  _ZTIN16QNativeInterface11QGLXContextE@Qt_6 6.6.0
- _ZTIN16QNativeInterface14QWaylandScreenE@Qt_6 6.7.2
+ (arch=linux-any)_ZTIN16QNativeInterface14QWaylandScreenE@Qt_6 6.7.2
  _ZTIN16QNativeInterface15QX11ApplicationE@Qt_6 6.6.0
- _ZTIN16QNativeInterface19QWaylandApplicationE@Qt_6 6.6.0
+ (arch=linux-any)_ZTIN16QNativeInterface19QWaylandApplicationE@Qt_6 6.6.0
  _ZTIN4QCss13StyleSelectorE@Qt_6 6.6.0
  _ZTIN5QTest19QTouchEventSequenceE@Qt_6 6.1.2
  (arch=armel riscv64)_ZTIN9__gnu_cxx7__mutexE@Qt_6 6.3.0
@@ -4916,9 +4916,9 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZTSN11QAccessible18ActivationObserverE@Qt_6 6.1.2
  _ZTSN16QNativeInterface11QEGLContextE@Qt_6 6.1.2
  _ZTSN16QNativeInterface11QGLXContextE@Qt_6 6.6.0
- _ZTSN16QNativeInterface14QWaylandScreenE@Qt_6 6.7.2
+ (arch=linux-any)_ZTSN16QNativeInterface14QWaylandScreenE@Qt_6 6.7.2
  _ZTSN16QNativeInterface15QX11ApplicationE@Qt_6 6.6.0
- _ZTSN16QNativeInterface19QWaylandApplicationE@Qt_6 6.6.0
+ (arch=linux-any)_ZTSN16QNativeInterface19QWaylandApplicationE@Qt_6 6.6.0
  _ZTSN4QCss13StyleSelectorE@Qt_6 6.6.0
  _ZTSN5QTest19QTouchEventSequenceE@Qt_6 6.1.2
  (arch=armel riscv64)_ZTSN9__gnu_cxx7__mutexE@Qt_6 6.3.0
@@ -5067,9 +5067,9 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZTVN11QAccessible18ActivationObserverE@Qt_6 6.1.2
  _ZTVN16QNativeInterface11QEGLContextE@Qt_6 6.1.2
  _ZTVN16QNativeInterface11QGLXContextE@Qt_6 6.6.0
- _ZTVN16QNativeInterface14QWaylandScreenE@Qt_6 6.7.2
+ (arch=linux-any)_ZTVN16QNativeInterface14QWaylandScreenE@Qt_6 6.7.2
  _ZTVN16QNativeInterface15QX11ApplicationE@Qt_6 6.6.0
- _ZTVN16QNativeInterface19QWaylandApplicationE@Qt_6 6.6.0
+ (arch=linux-any)_ZTVN16QNativeInterface19QWaylandApplicationE@Qt_6 6.6.0
  _ZTVN4QCss13StyleSelectorE@Qt_6 6.6.0
  _ZTVN5QTest19QTouchEventSequenceE@Qt_6 6.1.2
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI4QMapI7QStringS2_E9QIterableI16QMetaAssociationEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.6.0
