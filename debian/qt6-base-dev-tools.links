@@ -8,4 +8,4 @@ usr/lib/qt6/bin/qtpaths6 usr/bin/qtpaths6
 # so we do not install androiddeployqt. Instead, androiddeployqt is a symbolic link pointing to androiddeployqt6.
 usr/lib/qt6/bin/androiddeployqt6 usr/lib/qt6/bin/androiddeployqt
 # On public path we want androiddeployqt6.
-usr/lib/qt6/bin/androiddeployqt6 usr/bin/androiddeployqt
+usr/lib/qt6/bin/androiddeployqt6 usr/bin/androiddeployqt6
