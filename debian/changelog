@@ -9,6 +9,11 @@ qt6-base (6.7.2+dfsg-4) UNRELEASED; urgency=medium
     - mark 64bit symbols as such
     - drop ia64 markers, as that architecture was discontinued
 
+  [ Patrick Franz ]
+  * Do not ship the androiddeployqt tool any more and always use
+    androiddeployqt6 instead. Also, add a symlink for androiddeployqt6
+    in /usr/bin.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 07 Oct 2024 22:17:21 +0200
 
 qt6-base (6.7.2+dfsg-3) unstable; urgency=medium
