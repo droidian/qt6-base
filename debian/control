@@ -105,7 +105,7 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends},
 Depends: shared-mime-info, ${misc:Depends}, ${shlibs:Depends},
 Recommends: qt6-translations-l10n,
-Breaks: libqt6core6 (<< ${source:Version}), libqt6core5compat6 (<< 6.6.0~)
+Breaks: libqt6core5compat6 (<< 6.6.0~), libqt6core6 (<< ${source:Version}),
 Replaces: libqt6core6,
 Description: Qt 6 core module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -153,7 +153,10 @@ Depends: fontconfig, ${misc:Depends}, ${shlibs:Depends},
 Breaks: libqt6gui6t64 (<< ${source:Version}),
         qt6-qpa-plugins (<< 6.3.1+dfsg-6~),
 Replaces: libqt6gui6t64, qt6-qpa-plugins (<< 6.3.1+dfsg-6~),
-Recommends: qt6-gtk-platformtheme, qt6-qpa-plugins, qt6-wayland [linux-any],
+Recommends: qt6-gtk-platformtheme,
+            qt6-qpa-plugins,
+            qt6-svg-plugins,
+            qt6-wayland [linux-any],
 Description: Qt 6 GUI module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -477,9 +480,7 @@ Package: qmake6
 Architecture: any
 Multi-Arch: same
 Section: devel
-Depends: qmake6-bin (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends},
+Depends: qmake6-bin (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends},
 Breaks: qt6-base-dev (<< 6.6.0+dfsg~),
 Replaces: qt6-base-dev (<< 6.6.0+dfsg~),
 Description: Qt 6 qmake Makefile generator tool

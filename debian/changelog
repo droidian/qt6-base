@@ -1,5 +1,8 @@
 qt6-base (6.7.2+dfsg-5) UNRELEASED; urgency=medium
 
+  [ Patrick Franz ]
+  * Let libqt6gui6 recommend qt6-svg-plugins.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Dec 2024 22:43:59 +0100
 
 qt6-base (6.7.2+dfsg-4) unstable; urgency=medium
