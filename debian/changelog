@@ -3,6 +3,9 @@ qt6-base (6.7.2+dfsg-6) UNRELEASED; urgency=medium
   [ Helmut Grohne ]
   * Create <triplet>-qtpaths6 cross wrapper (Closes: 1057346).
 
+  [ Sandro Knauß ]
+  * Install the qtpaths6 wrapper scripts within qt6-base-dev.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 Jan 2025 20:41:46 +0100
 
 qt6-base (6.7.2+dfsg-5) unstable; urgency=medium
