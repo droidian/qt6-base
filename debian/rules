@@ -94,12 +94,14 @@ execute_after_dh_auto_install-arch:
 	sed 's/@DEB_HOST_MULTIARCH@/$(DEB_HOST_MULTIARCH)/' debian/qt.conf.in \
 		> debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt6/qt6.conf
 
-	# Inject cross-wrapper for qmake6
+	# Inject cross-wrapper for qmake6 and qtpaths
 	mkdir -p debian/tmp/usr/bin
 	sed -e 's/@DEB_HOST_MULTIARCH@/$(DEB_HOST_MULTIARCH)/g' \
 		-e 's/@DEB_HOST_GNU_TYPE@/$(DEB_HOST_GNU_TYPE)/g' \
 		< debian/qmake-cross-wrapper.in > debian/tmp/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake6
-	chmod +x debian/tmp/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake6
+	sed -e 's/@DEB_HOST_MULTIARCH@/$(DEB_HOST_MULTIARCH)/g' \
+		< debian/qtpaths-cross-wrapper.in > debian/tmp/usr/bin/$(DEB_HOST_GNU_TYPE)-qtpaths6
+	chmod +x debian/tmp/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake6 debian/tmp/usr/bin/$(DEB_HOST_GNU_TYPE)-qtpaths6
 
 	# Fix Qt6::qmake IMPORTED_LOCATION, see https://bugs.debian.org/1030980
 	sed -i 's,lib/qt6/bin/qmake,bin/$(DEB_HOST_GNU_TYPE)-qmake6,' \
