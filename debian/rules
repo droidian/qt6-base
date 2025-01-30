@@ -107,6 +107,10 @@ execute_after_dh_auto_install-arch:
 	sed -i 's,lib/qt6/bin/qmake,bin/$(DEB_HOST_GNU_TYPE)-qmake6,' \
 		debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/cmake/Qt6CoreTools/Qt6CoreToolsTargets-none.cmake
 
+	# Fix Qt6::qpaths IMPORTED_LOCATION
+	sed -i 's,lib/qt6/bin/qpaths,bin/$(DEB_HOST_GNU_TYPE)-qpaths6,' \
+		debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/cmake/Qt6CoreTools/Qt6CoreToolsTargets-none.cmake
+
 override_dh_auto_build-indep:
 	dh_auto_build -- docs
 
