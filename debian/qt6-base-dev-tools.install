@@ -9,6 +9,7 @@ usr/lib/qt6/bin/qtpaths6
 usr/lib/qt6/libexec/cmake_automoc_parser
 usr/lib/qt6/libexec/moc
 usr/lib/qt6/libexec/qlalr
+usr/lib/qt6/libexec/qt-android-runner.py
 usr/lib/qt6/libexec/qt-cmake-private
 usr/lib/qt6/libexec/qt-cmake-private-install.cmake
 usr/lib/qt6/libexec/qt-cmake-standalone-test
