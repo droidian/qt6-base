@@ -1,3 +1,7 @@
+qt6-base (6.8.2+dfsg-1) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 02 Feb 2025 20:09:38 +0100
+
 qt6-base (6.7.2+dfsg-6) unstable; urgency=medium
 
   [ Helmut Grohne ]
