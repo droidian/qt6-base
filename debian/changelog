@@ -6,6 +6,8 @@ qt6-base (6.7.2+dfsg-6) UNRELEASED; urgency=medium
 
   [ Sandro Knauß ]
   * Install the qtpaths6 wrapper scripts within qt6-base-dev.
+  * Remove version contrain on firebird-dev, as it does not exist << 4.0
+    anymore.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 Jan 2025 20:41:46 +0100
 
