@@ -2,6 +2,7 @@ qt6-base (6.7.2+dfsg-6) UNRELEASED; urgency=medium
 
   [ Helmut Grohne ]
   * Create <triplet>-qtpaths6 cross wrapper (Closes: 1057346).
+  * Fix FTCBFS: Update debian/not-installed. (Closes: #1089600)
 
   [ Sandro Knauß ]
   * Install the qtpaths6 wrapper scripts within qt6-base-dev.
