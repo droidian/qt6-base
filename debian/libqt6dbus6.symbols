@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.7.2 amd64
+# SymbolsHelper-Confirmed: 6.8.2 amd64
 libQt6DBus.so.6 libqt6dbus6 #MINVER#
 | libqt6dbus6 #MINVER#, qt6-base-private-abi (= 6.8.2)
 * Build-Depends-Package: qt6-base-dev
@@ -152,6 +152,8 @@ libQt6DBus.so.6 libqt6dbus6 #MINVER#
  _ZN14QDBusInterfaceD1Ev@Qt_6 6.1.2
  _ZN14QDBusInterfaceD2Ev@Qt_6 6.1.2
  _ZN14QDBusSignature7doCheckEv@Qt_6 6.1.2
+ _ZN14QDBusSignatureC1Ev@Qt_6 6.8.2
+ _ZN14QDBusSignatureC2Ev@Qt_6 6.8.2
  _ZN15QDBusConnection10disconnectERK7QStringS2_S2_S2_P7QObjectPKc@Qt_6 6.1.2
  _ZN15QDBusConnection10disconnectERK7QStringS2_S2_S2_RK5QListIS0_ES2_P7QObjectPKc@Qt_6 6.1.2
  _ZN15QDBusConnection10disconnectERK7QStringS2_S2_S2_S2_P7QObjectPKc@Qt_6 6.1.2
@@ -553,6 +555,7 @@ libQt6DBus.so.6 libqt6dbus6 #MINVER#
  (optional=templinst)_ZZN9QMetaType23registerMutableViewImplI5QListIyE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS7_EES_S_E10unregister@Qt_6 6.2.0
  _Zls6QDebugRK10QDBusError@Qt_6 6.1.2
  _Zls6QDebugRK12QDBusMessage@Qt_6 6.1.2
+ _Zls6QDebugRK15QDBusObjectPath@Qt_6 6.8.2
  _ZlsR13QDBusArgumentRK5QDate@Qt_6 6.1.2
  _ZlsR13QDBusArgumentRK5QLine@Qt_6 6.1.2
  _ZlsR13QDBusArgumentRK5QRect@Qt_6 6.1.2
