@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 6.7.2 amd64 armel armhf hppa i386 powerpc riscv64 sh4 x32
 libQt6Core.so.6 libqt6core6t64 #MINVER#
-| libqt6core6t64 #MINVER#, qt6-base-private-abi (= 6.7.2)
+| libqt6core6t64 #MINVER#, qt6-base-private-abi (= 6.8.2)
 * Build-Depends-Package: qt6-base-dev
  NonQt@NonQt 6.7.2
  Qt_6.0@Qt_6.0 6.1.2
