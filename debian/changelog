@@ -1,4 +1,4 @@
-qt6-base (6.7.2+dfsg-6) UNRELEASED; urgency=medium
+qt6-base (6.7.2+dfsg-6) unstable; urgency=medium
 
   [ Helmut Grohne ]
   * Create <triplet>-qtpaths6 cross wrapper (Closes: 1057346).
@@ -9,7 +9,7 @@ qt6-base (6.7.2+dfsg-6) UNRELEASED; urgency=medium
   * Remove version contrain on firebird-dev, as it does not exist << 4.0
     anymore.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 Jan 2025 20:41:46 +0100
+ -- Sandro Knauß <hefee@debian.org>  Sun, 02 Feb 2025 13:00:45 +0100
 
 qt6-base (6.7.2+dfsg-5) unstable; urgency=medium
 
