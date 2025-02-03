@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.8.2 amd64
+# SymbolsHelper-Confirmed: 6.8.2 amd64 armel armhf hppa i386 powerpc
 libQt6Gui.so.6 libqt6gui6 #MINVER#
 | libqt6gui6 #MINVER#, qt6-base-private-abi (= 6.8.2)
 * Build-Depends-Package: qt6-base-dev
@@ -2666,7 +2666,8 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZN7QRegion4execERK10QByteArrayiN11QDataStream9ByteOrderE@Qt_6 6.1.2
  _ZN7QRegion6detachEv@Qt_6 6.1.2
  _ZN7QRegion7cleanUpEPNS_11QRegionDataE@Qt_6 6.1.2
- _ZN7QRegion8setRectsE5QSpanIK5QRectLm18446744073709551615EE@Qt_6 6.8.2
+ (arch=!amd64)_ZN7QRegion8setRectsE5QSpanIK5QRectLj4294967295EE@Qt_6 6.8.2
+ (arch=amd64)_ZN7QRegion8setRectsE5QSpanIK5QRectLm18446744073709551615EE@Qt_6 6.8.2
  _ZN7QRegion8setRectsEPK5QRecti@Qt_6 6.1.2
  _ZN7QRegion9translateEii@Qt_6 6.1.2
  _ZN7QRegionC1ERK5QRectNS_10RegionTypeE@Qt_6 6.1.2

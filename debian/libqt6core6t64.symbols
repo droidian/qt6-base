@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.8.2 amd64
+# SymbolsHelper-Confirmed: 6.8.2 amd64 armel armhf hppa i386 powerpc
 libQt6Core.so.6 libqt6core6t64 #MINVER#
 | libqt6core6t64 #MINVER#, qt6-base-private-abi (= 6.8.2)
 * Build-Depends-Package: qt6-base-dev
@@ -88,13 +88,13 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _Z18qSetMessagePatternRK7QString@Qt_6 6.1.2
  (subst)_Z19qCalculateBlockSize{qptrdiff}{qptrdiff}{qptrdiff}@Qt_6 6.1.2
  _Z19qSetGlobalQHashSeedi@Qt_6 6.1.2
- _Z19qint128toBasicLatinni@Qt_6 6.8.2
+ (arch=amd64)_Z19qint128toBasicLatinni@Qt_6 6.8.2
  _Z20processOpenModeFlags6QFlagsIN13QIODeviceBase12OpenModeFlagEE@Qt_6 6.1.2
  _Z20qEnvironmentVariablePKc@Qt_6 6.1.2
  _Z20qEnvironmentVariablePKcRK7QString@Qt_6 6.1.2
  _Z20qt_qFindChild_helperPK7QObject14QAnyStringViewRK11QMetaObject6QFlagsIN2Qt15FindChildOptionEE@Qt_6 6.7.2
  _Z20qt_qFindChild_helperPK7QObjectRK7QStringRK11QMetaObject6QFlagsIN2Qt15FindChildOptionEE@Qt_6 6.1.2
- _Z20quint128toBasicLatinoi@Qt_6 6.8.2
+ (arch=amd64)_Z20quint128toBasicLatinoi@Qt_6 6.8.2
  _Z21qMetaTypeTypeInternalPKc@Qt_6 6.1.2
  _Z21qRegisterResourceDataiPKhS0_S0_@Qt_6 6.1.2
  _Z21qt_call_post_routinesv@Qt_6 6.1.2
@@ -112,9 +112,9 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _Z27qEnvironmentVariableIsEmptyPKc@Qt_6 6.1.2
  _Z28qEnvironmentVariableIntValuePKcPb@Qt_6 6.1.2
  _Z29qRegisterStaticPluginFunction13QStaticPlugin@Qt_6 6.1.2
- _Z30qt_QMetaEnum_flagDebugOperatorR6QDebugmj@Qt_6 6.8.2
  _Z30qt_QMetaEnum_flagDebugOperatorR6QDebugyPK11QMetaObjectPKc@Qt_6 6.1.2
  (subst)_Z30qt_QMetaEnum_flagDebugOperatorR6QDebug{size_t}i@Qt_6 6.1.2
+ (subst)_Z30qt_QMetaEnum_flagDebugOperatorR6QDebug{size_t}j@Qt_6 6.8.2
  _Z36qRegisterNormalizedMetaType_QCborTagRK10QByteArray@Qt_6 6.3.0
  _Z36qRegisterNormalizedMetaType_qfloat16RK10QByteArray@Qt_6 6.3.0
  _Z37qRegisterNormalizedMetaType_QFileInfoRK10QByteArray@Qt_6 6.3.0
@@ -182,7 +182,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _Z7qstrdupPKc@Qt_6 6.1.2
  _Z7qt_hash11QStringViewj@Qt_6 6.1.2
  _Z8qAppNamev@Qt_6 6.1.2
- _Z8qmemrchrPKvim@Qt_6 6.8.2
+ (subst)_Z8qmemrchrPKvi{size_t}@Qt_6 6.8.2
  _Z8qstricmpPKcS0_@Qt_6 6.1.2
  (subst)_Z8qstrncpyPcPKc{size_t}@Qt_6 6.1.2
  (subst)_Z8qstrntodPKc{qptrdiff}PS0_Pb@Qt_6 6.1.2
@@ -227,7 +227,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN10QByteArray17simplified_helperERS_@Qt_6 6.1.2
  _ZN10QByteArray18fromBase64EncodingEOS_6QFlagsINS_12Base64OptionEE@Qt_6 6.1.2
  _ZN10QByteArray18fromBase64EncodingERKS_6QFlagsINS_12Base64OptionEE@Qt_6 6.1.2
- _ZN10QByteArray18resizeForOverwriteEx@Qt_6 6.8.2
+ (subst)_ZN10QByteArray18resizeForOverwriteE{qptrdiff}@Qt_6 6.8.2
  _ZN10QByteArray19fromPercentEncodingERKS_c@Qt_6 6.1.2
  (subst)_ZN10QByteArray4chopE{qptrdiff}@Qt_6 6.1.2
  (subst)_ZN10QByteArray4fillEc{qptrdiff}@Qt_6 6.1.2
@@ -571,8 +571,8 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN11QObjectDataD0Ev@Qt_6 6.1.2
  _ZN11QObjectDataD1Ev@Qt_6 6.1.2
  _ZN11QObjectDataD2Ev@Qt_6 6.1.2
- _ZN11QStringView12equal_helperES_PKcx@Qt_6 6.8.2
- _ZN11QStringView14compare_helperES_PKcx@Qt_6 6.8.2
+ (subst)_ZN11QStringView12equal_helperES_PKc{qptrdiff}@Qt_6 6.8.2
+ (subst)_ZN11QStringView14compare_helperES_PKc{qptrdiff}@Qt_6 6.8.2
  _ZN11QTextStream10setPadCharE5QChar@Qt_6 6.1.2
  _ZN11QTextStream11resetStatusEv@Qt_6 6.1.2
  _ZN11QTextStream11setEncodingEN16QStringConverter8EncodingE@Qt_6 6.1.2
@@ -692,7 +692,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN12QChronoTimer10timerEventEP11QTimerEvent@Qt_6 6.8.2
  _ZN12QChronoTimer11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.8.2
  _ZN12QChronoTimer11qt_metacastEPKc@Qt_6 6.8.2
- _ZN12QChronoTimer11setIntervalENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE@Qt_6 6.8.2
+ (subst)_ZN12QChronoTimer11setIntervalENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000000000EEEE@Qt_6 6.8.2
  _ZN12QChronoTimer12setTimerTypeEN2Qt9TimerTypeE@Qt_6 6.8.2
  _ZN12QChronoTimer13setSingleShotEb@Qt_6 6.8.2
  _ZN12QChronoTimer14bindableActiveEv@Qt_6 6.8.2
@@ -703,9 +703,9 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN12QChronoTimer4stopEv@Qt_6 6.8.2
  _ZN12QChronoTimer5startEv@Qt_6 6.8.2
  _ZN12QChronoTimer7timeoutENS_14QPrivateSignalE@Qt_6 6.8.2
- _ZN12QChronoTimerC1ENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEEP7QObject@Qt_6 6.8.2
+ (subst)_ZN12QChronoTimerC1ENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000000000EEEEP7QObject@Qt_6 6.8.2
  _ZN12QChronoTimerC1EP7QObject@Qt_6 6.8.2
- _ZN12QChronoTimerC2ENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEEP7QObject@Qt_6 6.8.2
+ (subst)_ZN12QChronoTimerC2ENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000000000EEEEP7QObject@Qt_6 6.8.2
  _ZN12QChronoTimerC2EP7QObject@Qt_6 6.8.2
  _ZN12QChronoTimerD0Ev@Qt_6 6.8.2
  _ZN12QChronoTimerD1Ev@Qt_6 6.8.2
@@ -807,7 +807,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN13QJsonValueRef6detachEv@Qt_6 6.4.0
  _ZN13QJsonValueRefaSERK10QJsonValue@Qt_6 6.1.2
  _ZN13QJsonValueRefaSERKS_@Qt_6 6.1.2
- _ZN13QLatin1String12equal_helperES_PKcx@Qt_6 6.8.2
+ (subst)_ZN13QLatin1String12equal_helperES_PKc{qptrdiff}@Qt_6 6.8.2
  (subst)_ZN13QLatin1String14compare_helperEPK5QChar{qptrdiff}S_N2Qt15CaseSensitivityE@Qt_6 6.1.2
  (subst)_ZN13QLatin1String14compare_helperERKS_PKc{qptrdiff}@Qt_6 6.6.0
  _ZN13QMetaProperty19getMetaPropertyDataEPK11QMetaObjecti@Qt_6 6.1.2
@@ -1578,7 +1578,8 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN18QCryptographicHash7addDataEP9QIODevice@Qt_6 6.1.2
  (subst)_ZN18QCryptographicHash7addDataEPKc{qptrdiff}@Qt_6 6.1.2
  _ZN18QCryptographicHash7addDataERK10QByteArray@Qt_6 6.1.2
- _ZN18QCryptographicHash8hashIntoE5QSpanISt4byteLm18446744073709551615EES0_IK14QByteArrayViewLm18446744073709551615EENS_9AlgorithmE@Qt_6 6.8.2
+ (arch=!amd64)_ZN18QCryptographicHash8hashIntoE5QSpanISt4byteLj4294967295EES0_IK14QByteArrayViewLj4294967295EENS_9AlgorithmE@Qt_6 6.8.2
+ (arch=amd64)_ZN18QCryptographicHash8hashIntoE5QSpanISt4byteLm18446744073709551615EES0_IK14QByteArrayViewLm18446744073709551615EENS_9AlgorithmE@Qt_6 6.8.2
  _ZN18QCryptographicHashC1ENS_9AlgorithmE@Qt_6 6.1.2
  _ZN18QCryptographicHashC2ENS_9AlgorithmE@Qt_6 6.1.2
  _ZN18QCryptographicHashD1Ev@Qt_6 6.1.2
@@ -2098,8 +2099,8 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN24QAbstractEventDispatcher11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
  _ZN24QAbstractEventDispatcher11qt_metacastEPKc@Qt_6 6.1.2
  _ZN24QAbstractEventDispatcher12aboutToBlockEv@Qt_6 6.1.2
- _ZN24QAbstractEventDispatcher13registerTimerEN2Qt7TimerIdENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEENS0_9TimerTypeEP7QObject@Qt_6 6.8.2
- _ZN24QAbstractEventDispatcher13registerTimerENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEEN2Qt9TimerTypeEP7QObject@Qt_6 6.8.2
+ (subst)_ZN24QAbstractEventDispatcher13registerTimerEN2Qt7TimerIdENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000000000EEEENS0_9TimerTypeEP7QObject@Qt_6 6.8.2
+ (subst)_ZN24QAbstractEventDispatcher13registerTimerENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000000000EEEEN2Qt9TimerTypeEP7QObject@Qt_6 6.8.2
  _ZN24QAbstractEventDispatcher13registerTimerExN2Qt9TimerTypeEP7QObject@Qt_6 6.1.2
  _ZN24QAbstractEventDispatcher15unregisterTimerEN2Qt7TimerIdE@Qt_6 6.8.2
  _ZN24QAbstractEventDispatcher16staticMetaObjectE@Qt_6 6.1.2
@@ -2159,7 +2160,8 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN26QMessageAuthenticationCode7addDataEP9QIODevice@Qt_6 6.1.2
  (subst)_ZN26QMessageAuthenticationCode7addDataEPKc{qptrdiff}@Qt_6 6.1.2
  _ZN26QMessageAuthenticationCode7addDataERK10QByteArray@Qt_6 6.1.2
- _ZN26QMessageAuthenticationCode8hashIntoE5QSpanISt4byteLm18446744073709551615EES0_IK14QByteArrayViewLm18446744073709551615EES3_N18QCryptographicHash9AlgorithmE@Qt_6 6.8.2
+ (arch=!amd64)_ZN26QMessageAuthenticationCode8hashIntoE5QSpanISt4byteLj4294967295EES0_IK14QByteArrayViewLj4294967295EES3_N18QCryptographicHash9AlgorithmE@Qt_6 6.8.2
+ (arch=amd64)_ZN26QMessageAuthenticationCode8hashIntoE5QSpanISt4byteLm18446744073709551615EES0_IK14QByteArrayViewLm18446744073709551615EES3_N18QCryptographicHash9AlgorithmE@Qt_6 6.8.2
  _ZN26QMessageAuthenticationCodeC1EN18QCryptographicHash9AlgorithmE14QByteArrayView@Qt_6 6.6.0
  _ZN26QMessageAuthenticationCodeC1EN18QCryptographicHash9AlgorithmERK10QByteArray@Qt_6 6.1.2
  _ZN26QMessageAuthenticationCodeC2EN18QCryptographicHash9AlgorithmE14QByteArrayView@Qt_6 6.6.0
@@ -2439,28 +2441,28 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN6QLineF8setAngleEd@Qt_6 6.1.2
  _ZN6QLineF9fromPolarEdd@Qt_6 6.1.2
  _ZN6QSizeF9transposeEv@Qt_6 6.1.2
- _ZN6QTimer10from_msecsENSt6chrono8durationIlSt5ratioILl1ELl1000EEEE@Qt_6 6.8.2
- _ZN6QTimer10singleShotENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEEN2Qt9TimerTypeEPK7QObjectPKc@Qt_6 6.8.2
- _ZN6QTimer10singleShotENSt6chrono8durationIlSt5ratioILl1ELl1000EEEEN2Qt9TimerTypeEPK7QObjectPKc@Qt_6 6.8.2
+ (subst)_ZN6QTimer10from_msecsENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEE@Qt_6 6.8.2
+ (subst)_ZN6QTimer10singleShotENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000000000EEEEN2Qt9TimerTypeEPK7QObjectPKc@Qt_6 6.8.2
+ (subst)_ZN6QTimer10singleShotENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEEN2Qt9TimerTypeEPK7QObjectPKc@Qt_6 6.8.2
  _ZN6QTimer10singleShotEiN2Qt9TimerTypeEPK7QObjectPKc@Qt_6 6.1.2
  _ZN6QTimer10singleShotEiPK7QObjectPKc@Qt_6 6.1.2
  _ZN6QTimer10timerEventEP11QTimerEvent@Qt_6 6.1.2
  _ZN6QTimer11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
  _ZN6QTimer11qt_metacastEPKc@Qt_6 6.1.2
- _ZN6QTimer11setIntervalENSt6chrono8durationIlSt5ratioILl1ELl1000EEEE@Qt_6 6.8.2
+ (subst)_ZN6QTimer11setIntervalENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEE@Qt_6 6.8.2
  _ZN6QTimer11setIntervalEi@Qt_6 6.1.2
  _ZN6QTimer12setTimerTypeEN2Qt9TimerTypeE@Qt_6 6.1.2
  _ZN6QTimer13setSingleShotEb@Qt_6 6.1.2
  _ZN6QTimer14bindableActiveEv@Qt_6 6.1.2
- _ZN6QTimer14singleShotImplENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEEN2Qt9TimerTypeEPK7QObjectPN9QtPrivate15QSlotObjectBaseE@Qt_6 6.8.2
- _ZN6QTimer14singleShotImplENSt6chrono8durationIlSt5ratioILl1ELl1000EEEEN2Qt9TimerTypeEPK7QObjectPN9QtPrivate15QSlotObjectBaseE@Qt_6 6.8.2
+ (subst)_ZN6QTimer14singleShotImplENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000000000EEEEN2Qt9TimerTypeEPK7QObjectPN9QtPrivate15QSlotObjectBaseE@Qt_6 6.8.2
+ (subst)_ZN6QTimer14singleShotImplENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEEN2Qt9TimerTypeEPK7QObjectPN9QtPrivate15QSlotObjectBaseE@Qt_6 6.8.2
  _ZN6QTimer14singleShotImplEiN2Qt9TimerTypeEPK7QObjectPN9QtPrivate15QSlotObjectBaseE@Qt_6 6.1.2
  _ZN6QTimer16bindableIntervalEv@Qt_6 6.2.0
  _ZN6QTimer16staticMetaObjectE@Qt_6 6.1.2
  _ZN6QTimer17bindableTimerTypeEv@Qt_6 6.1.2
  _ZN6QTimer18bindableSingleShotEv@Qt_6 6.1.2
  _ZN6QTimer4stopEv@Qt_6 6.1.2
- _ZN6QTimer5startENSt6chrono8durationIlSt5ratioILl1ELl1000EEEE@Qt_6 6.8.2
+ (subst)_ZN6QTimer5startENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEE@Qt_6 6.8.2
  _ZN6QTimer5startEi@Qt_6 6.1.2
  _ZN6QTimer5startEv@Qt_6 6.1.2
  _ZN6QTimer7timeoutENS_14QPrivateSignalE@Qt_6 6.1.2
@@ -2530,7 +2532,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN7QObject10disconnectEPKS_PKcS1_S3_@Qt_6 6.1.2
  _ZN7QObject10disconnectEPKS_RK11QMetaMethodS1_S4_@Qt_6 6.1.2
  _ZN7QObject10disconnectERKN11QMetaObject10ConnectionE@Qt_6 6.1.2
- _ZN7QObject10startTimerENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEEN2Qt9TimerTypeE@Qt_6 6.8.2
+ (subst)_ZN7QObject10startTimerENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000000000EEEEN2Qt9TimerTypeE@Qt_6 6.8.2
  (subst)_ZN7QObject10startTimerENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEEN2Qt9TimerTypeE@Qt_6 6.6.0
  _ZN7QObject10startTimerEiN2Qt9TimerTypeE@Qt_6 6.1.2
  _ZN7QObject10timerEventEP11QTimerEvent@Qt_6 6.1.2
@@ -2593,7 +2595,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN7QString17simplified_helperERS_@Qt_6 6.1.2
  _ZN7QString17toIntegral_helperE11QStringViewPbi@Qt_6 6.1.2
  _ZN7QString17toIntegral_helperE11QStringViewPbj@Qt_6 6.1.2
- _ZN7QString18resizeForOverwriteEx@Qt_6 6.8.2
+ (subst)_ZN7QString18resizeForOverwriteE{qptrdiff}@Qt_6 6.8.2
  (subst)_ZN7QString18toLocal8Bit_helperEPK5QChar{qptrdiff}@Qt_6 6.1.2
  _ZN7QString19toCaseFolded_helperERKS_@Qt_6 6.1.2
  _ZN7QString19toCaseFolded_helperERS_@Qt_6 6.1.2
@@ -3329,13 +3331,13 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN9QtPrivate10startsWithE14QByteArrayViewS0_@Qt_6 6.1.2
  _ZN9QtPrivate11isValidUtf8E14QByteArrayView@Qt_6 6.3.0
  (subst)_ZN9QtPrivate11lastIndexOfE11QStringViewRK18QRegularExpression{qptrdiff}P23QRegularExpressionMatch@Qt_6 6.1.2
- _ZN9QtPrivate11lastIndexOfE11QStringViewxDsN2Qt15CaseSensitivityE@Qt_6 6.8.2
  (subst)_ZN9QtPrivate11lastIndexOfE11QStringView{qptrdiff}13QLatin1StringN2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate11lastIndexOfE11QStringView{qptrdiff}DsN2Qt15CaseSensitivityE@Qt_6 6.8.2
  (subst)_ZN9QtPrivate11lastIndexOfE11QStringView{qptrdiff}S0_N2Qt15CaseSensitivityE@Qt_6 6.1.2
  (subst)_ZN9QtPrivate11lastIndexOfE13QLatin1String{qptrdiff}11QStringViewN2Qt15CaseSensitivityE@Qt_6 6.1.2
  (subst)_ZN9QtPrivate11lastIndexOfE13QLatin1String{qptrdiff}S0_N2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZN9QtPrivate11lastIndexOfE14QByteArrayViewxc@Qt_6 6.8.2
  (subst)_ZN9QtPrivate11lastIndexOfE14QByteArrayView{qptrdiff}S0_@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate11lastIndexOfE14QByteArrayView{qptrdiff}c@Qt_6 6.8.2
  (subst)_ZN9QtPrivate12argToQStringE11QStringView{size_t}PPKNS_7ArgBaseE@Qt_6 6.1.2
  (subst)_ZN9QtPrivate12argToQStringE13QLatin1String{size_t}PPKNS_7ArgBaseE@Qt_6 6.1.2
  _ZN9QtPrivate12equalStringsE11QStringView13QLatin1String@Qt_6 6.1.2
@@ -4832,7 +4834,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZNK20QFutureInterfaceBase9isStartedEv@Qt_6 6.1.2
  _ZNK20QFutureInterfaceBase9loadStateEv@Qt_6 6.1.2
  _ZNK20QLatin1StringMatcher15caseSensitivityEv@Qt_6 6.6.0
- _ZNK20QLatin1StringMatcher7indexInE11QStringViewx@Qt_6 6.8.2
+ (subst)_ZNK20QLatin1StringMatcher7indexInE11QStringView{qptrdiff}@Qt_6 6.8.2
  (subst)_ZNK20QLatin1StringMatcher7indexInE13QLatin1String{qptrdiff}@Qt_6 6.6.0
  _ZNK20QLatin1StringMatcher7patternEv@Qt_6 6.6.0
  _ZNK20QTransposeProxyModel10headerDataEiN2Qt11OrientationEi@Qt_6 6.1.2
