@@ -1,9 +1,9 @@
-qt6-base (6.8.2+dfsg-3) UNRELEASED; urgency=medium
+qt6-base (6.8.2+dfsg-3) experimental; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Update the symbols files from the logs of buildds, with manual tweaks.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Feb 2025 15:19:19 +0100
+ -- Pino Toscano <pino@debian.org>  Tue, 04 Feb 2025 15:28:07 +0100
 
 qt6-base (6.8.2+dfsg-2) experimental; urgency=medium
 
