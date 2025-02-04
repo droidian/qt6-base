@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.8.2 amd64 armel armhf hppa i386 powerpc
+# SymbolsHelper-Confirmed: 6.8.2 amd64 arm64 armel armhf hppa i386 loong64 mips64el powerpc ppc64 ppc64el s390x sparc64
 libQt6Core.so.6 libqt6core6t64 #MINVER#
 | libqt6core6t64 #MINVER#, qt6-base-private-abi (= 6.8.2)
 * Build-Depends-Package: qt6-base-dev
@@ -88,13 +88,13 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _Z18qSetMessagePatternRK7QString@Qt_6 6.1.2
  (subst)_Z19qCalculateBlockSize{qptrdiff}{qptrdiff}{qptrdiff}@Qt_6 6.1.2
  _Z19qSetGlobalQHashSeedi@Qt_6 6.1.2
- (arch=amd64)_Z19qint128toBasicLatinni@Qt_6 6.8.2
+ (arch-bits=64)_Z19qint128toBasicLatinni@Qt_6 6.8.2
  _Z20processOpenModeFlags6QFlagsIN13QIODeviceBase12OpenModeFlagEE@Qt_6 6.1.2
  _Z20qEnvironmentVariablePKc@Qt_6 6.1.2
  _Z20qEnvironmentVariablePKcRK7QString@Qt_6 6.1.2
  _Z20qt_qFindChild_helperPK7QObject14QAnyStringViewRK11QMetaObject6QFlagsIN2Qt15FindChildOptionEE@Qt_6 6.7.2
  _Z20qt_qFindChild_helperPK7QObjectRK7QStringRK11QMetaObject6QFlagsIN2Qt15FindChildOptionEE@Qt_6 6.1.2
- (arch=amd64)_Z20quint128toBasicLatinoi@Qt_6 6.8.2
+ (arch-bits=64)_Z20quint128toBasicLatinoi@Qt_6 6.8.2
  _Z21qMetaTypeTypeInternalPKc@Qt_6 6.1.2
  _Z21qRegisterResourceDataiPKhS0_S0_@Qt_6 6.1.2
  _Z21qt_call_post_routinesv@Qt_6 6.1.2
@@ -1578,8 +1578,8 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN18QCryptographicHash7addDataEP9QIODevice@Qt_6 6.1.2
  (subst)_ZN18QCryptographicHash7addDataEPKc{qptrdiff}@Qt_6 6.1.2
  _ZN18QCryptographicHash7addDataERK10QByteArray@Qt_6 6.1.2
- (arch=!amd64)_ZN18QCryptographicHash8hashIntoE5QSpanISt4byteLj4294967295EES0_IK14QByteArrayViewLj4294967295EENS_9AlgorithmE@Qt_6 6.8.2
- (arch=amd64)_ZN18QCryptographicHash8hashIntoE5QSpanISt4byteLm18446744073709551615EES0_IK14QByteArrayViewLm18446744073709551615EENS_9AlgorithmE@Qt_6 6.8.2
+ (arch-bits=32)_ZN18QCryptographicHash8hashIntoE5QSpanISt4byteLj4294967295EES0_IK14QByteArrayViewLj4294967295EENS_9AlgorithmE@Qt_6 6.8.2
+ (arch-bits=64)_ZN18QCryptographicHash8hashIntoE5QSpanISt4byteLm18446744073709551615EES0_IK14QByteArrayViewLm18446744073709551615EENS_9AlgorithmE@Qt_6 6.8.2
  _ZN18QCryptographicHashC1ENS_9AlgorithmE@Qt_6 6.1.2
  _ZN18QCryptographicHashC2ENS_9AlgorithmE@Qt_6 6.1.2
  _ZN18QCryptographicHashD1Ev@Qt_6 6.1.2
@@ -2160,8 +2160,8 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN26QMessageAuthenticationCode7addDataEP9QIODevice@Qt_6 6.1.2
  (subst)_ZN26QMessageAuthenticationCode7addDataEPKc{qptrdiff}@Qt_6 6.1.2
  _ZN26QMessageAuthenticationCode7addDataERK10QByteArray@Qt_6 6.1.2
- (arch=!amd64)_ZN26QMessageAuthenticationCode8hashIntoE5QSpanISt4byteLj4294967295EES0_IK14QByteArrayViewLj4294967295EES3_N18QCryptographicHash9AlgorithmE@Qt_6 6.8.2
- (arch=amd64)_ZN26QMessageAuthenticationCode8hashIntoE5QSpanISt4byteLm18446744073709551615EES0_IK14QByteArrayViewLm18446744073709551615EES3_N18QCryptographicHash9AlgorithmE@Qt_6 6.8.2
+ (arch-bits=32)_ZN26QMessageAuthenticationCode8hashIntoE5QSpanISt4byteLj4294967295EES0_IK14QByteArrayViewLj4294967295EES3_N18QCryptographicHash9AlgorithmE@Qt_6 6.8.2
+ (arch-bits=64)_ZN26QMessageAuthenticationCode8hashIntoE5QSpanISt4byteLm18446744073709551615EES0_IK14QByteArrayViewLm18446744073709551615EES3_N18QCryptographicHash9AlgorithmE@Qt_6 6.8.2
  _ZN26QMessageAuthenticationCodeC1EN18QCryptographicHash9AlgorithmE14QByteArrayView@Qt_6 6.6.0
  _ZN26QMessageAuthenticationCodeC1EN18QCryptographicHash9AlgorithmERK10QByteArray@Qt_6 6.1.2
  _ZN26QMessageAuthenticationCodeC2EN18QCryptographicHash9AlgorithmE14QByteArrayView@Qt_6 6.6.0
