@@ -2,6 +2,12 @@
 upstream_IPC-add-PATH_MAX-less-fallback-definition-for-MAX_PA.patch
 upstream_QStorageInfo-Unix-fix-declaration-of-mnt-on-Hurd.patch
 
+# fixed in 6.8.3
+upstream_unset_current_openglcontext.diff
+upstream_qlocale_shutdown.patch
+upstream_qsystemlocale_post_destruction_access.patch
+upstream_qlibraryinfo_speedup.patch
+
 # Needs to be fixed upstream.
 Add-SH-detection.patch
 
