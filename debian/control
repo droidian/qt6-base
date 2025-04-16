@@ -183,7 +183,7 @@ Package: qt6-gtk-platformtheme
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends},
-Depends: ${misc:Depends}, ${shlibs:Depends},
+Depends: gnome-themes-extra-data, ${misc:Depends}, ${shlibs:Depends},
 Description: Qt 6 GTK+ 3 platform theme
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
