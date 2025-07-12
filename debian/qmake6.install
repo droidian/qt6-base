@@ -168,7 +168,6 @@ usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/ctest_testcase_installed.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/data/configure.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/data/dummy.cpp
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/data/dumpvcvars.bat
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/data/mac/objc_namespace.sh
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/data/macros.cpp
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/data/testserver/Dockerfile
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/data/testserver/docker-compose-common.yml
