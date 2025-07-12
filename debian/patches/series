@@ -1,22 +1,3 @@
-# fixed in 6.9.1
-upstream_prevent_recursion_in_qsortfilterproxymodel.diff
-
-# fixed in 6.9.0
-upstream_IPC-add-PATH_MAX-less-fallback-definition-for-MAX_PA.patch
-upstream_QStorageInfo-Unix-fix-declaration-of-mnt-on-Hurd.patch
-
-# fixed in 6.8.4
-upstream_cve-2025-3512_fix_heap_buffer_overflow.diff
-upstream_cve-2025-5455_fix_data_assertion_error.diff
-
-# fixed in 6.8.3
-upstream_unset_current_openglcontext.diff
-upstream_qlocale_shutdown.patch
-upstream_qsystemlocale_post_destruction_access.patch
-upstream_qlibraryinfo_speedup.patch
-upstream_prevent_unregistering_input_device.diff
-upstream_cups_for_multiple_page_ranges.diff
-
 # Needs to be fixed upstream.
 Add-SH-detection.patch
 
