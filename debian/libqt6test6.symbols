@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.8.2 amd64 armel armhf hppa i386 powerpc riscv64
+# SymbolsHelper-Confirmed: 6.9.1 amd64
 libQt6Test.so.6 libqt6test6 #MINVER#
 | libqt6test6 #MINVER#, qt6-base-private-abi (= 6.9.1)
 * Build-Depends-Package: qt6-base-dev
@@ -80,6 +80,7 @@ libQt6Test.so.6 libqt6test6 #MINVER#
  _ZN5QTest17setMainSourcePathEPKcS1_@Qt_6 6.1.2
  _ZN5QTest18lastMouseTimestampE@Qt_6 6.1.2
  _ZN5QTest18setBenchmarkResultEdNS_16QBenchmarkMetricE@Qt_6 6.1.2
+ _ZN5QTest19compare_3way_helperEbPKcPKvS3_PFS1_S3_ES5_S1_S1_S5_S5_S3_S3_S1_S1_i@Qt_6 6.9.1
  _ZN5QTest19currentTestFunctionEv@Qt_6 6.1.2
  _ZN5QTest19currentTestResolvedEv@Qt_6 6.6.0
  (subst)_ZN5QTest19toHexRepresentationEPKc{qptrdiff}@Qt_6 6.4.0

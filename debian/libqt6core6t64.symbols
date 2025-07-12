@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.8.2 amd64 arm64 armel armhf hppa i386 loong64 mips64el powerpc ppc64 ppc64el s390x sparc64
+# SymbolsHelper-Confirmed: 6.9.1 amd64
 libQt6Core.so.6 libqt6core6t64 #MINVER#
 | libqt6core6t64 #MINVER#, qt6-base-private-abi (= 6.9.1)
 * Build-Depends-Package: qt6-base-dev
@@ -12,6 +12,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  Qt_6.6@Qt_6.6 6.6.0
  Qt_6.7@Qt_6.7 6.7.2
  Qt_6.8@Qt_6.8 6.8.2
+ Qt_6.9@Qt_6.9 6.9.1
  Qt_6@Qt_6 6.1.2
  (symver)Qt_6_PRIVATE_API 0 1
  (subst)_Z10qLocalTime{time_t}P2tm@Qt_6 6.6.0
@@ -55,7 +56,6 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _Z13comparesEqualRK9QMimeTypeS1_@Qt_6 6.8.2
  _Z13comparesEqualRK9QTimeZoneS1_@Qt_6 6.7.2
  _Z13comparesEqualRK9QUrlQueryS1_@Qt_6 6.8.2
- _Z13lcPermissionsv@Qt_6 6.6.0
  _Z13qErrnoWarningPKcz@Qt_6 6.1.2
  _Z13qErrnoWarningiPKcz@Qt_6 6.1.2
  _Z13qFlagLocationPKc@Qt_6 6.1.2
@@ -95,7 +95,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _Z20qt_qFindChild_helperPK7QObject14QAnyStringViewRK11QMetaObject6QFlagsIN2Qt15FindChildOptionEE@Qt_6 6.7.2
  _Z20qt_qFindChild_helperPK7QObjectRK7QStringRK11QMetaObject6QFlagsIN2Qt15FindChildOptionEE@Qt_6 6.1.2
  (arch-bits=64)_Z20quint128toBasicLatinoi@Qt_6 6.8.2
- _Z21qMetaTypeTypeInternalPKc@Qt_6 6.1.2
+ _Z21qMetaTypeTypeInternal14QByteArrayView@Qt_6 6.9.1
  _Z21qRegisterResourceDataiPKhS0_S0_@Qt_6 6.1.2
  _Z21qt_call_post_routinesv@Qt_6 6.1.2
  _Z21qt_cbor_simpletype_id15QCborSimpleType@Qt_6 6.1.2
@@ -112,6 +112,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _Z27qEnvironmentVariableIsEmptyPKc@Qt_6 6.1.2
  _Z28qEnvironmentVariableIntValuePKcPb@Qt_6 6.1.2
  _Z29qRegisterStaticPluginFunction13QStaticPlugin@Qt_6 6.1.2
+ _Z30qt_QMetaEnum_flagDebugOperatorR6QDebugmy@Qt_6 6.9.1
  _Z30qt_QMetaEnum_flagDebugOperatorR6QDebugyPK11QMetaObjectPKc@Qt_6 6.1.2
  (subst)_Z30qt_QMetaEnum_flagDebugOperatorR6QDebug{size_t}i@Qt_6 6.1.2
  (subst)_Z30qt_QMetaEnum_flagDebugOperatorR6QDebug{size_t}j@Qt_6 6.8.2
@@ -365,6 +366,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (subst)_ZN10QJsonArrayixE{qptrdiff}@Qt_6 6.1.2
  _ZN10QJsonValue11fromVariantERK8QVariant@Qt_6 6.1.2
  _ZN10QJsonValue4swapERS_@Qt_6 6.1.2
+ _ZN10QJsonValue8fromJsonE14QByteArrayViewP15QJsonParseError@Qt_6 6.9.1
  _ZN10QJsonValueC1E13QLatin1String@Qt_6 6.1.2
  _ZN10QJsonValueC1ENS_4TypeE@Qt_6 6.1.2
  _ZN10QJsonValueC1EO10QJsonArray@Qt_6 6.3.0
@@ -410,7 +412,9 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN11QBasicMutex12lockInternalEv@Qt_6 6.1.2
  _ZN11QBasicMutex14unlockInternalEv@Qt_6 6.1.2
  _ZN11QBasicMutex15destroyInternalEP13QMutexPrivate@Qt_6 6.1.2
+ _ZN11QBasicMutex15destroyInternalEPv@Qt_6 6.9.1
  _ZN11QBasicTimer4stopEv@Qt_6 6.1.2
+ _ZN11QBasicTimer5startENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEEN2Qt9TimerTypeEP7QObject@Qt_6 6.9.1
  (subst)_ZN11QBasicTimer5startENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEEN2Qt9TimerTypeEP7QObject@Qt_6 6.6.0
  (subst)_ZN11QBasicTimer5startENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEEP7QObject@Qt_6 6.6.0
  _ZN11QBasicTimer5startEiN2Qt9TimerTypeEP7QObject@Qt_6 6.1.2
@@ -652,6 +656,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN11QThreadPool13releaseThreadEv@Qt_6 6.1.2
  _ZN11QThreadPool13reserveThreadEv@Qt_6 6.1.2
  _ZN11QThreadPool14globalInstanceEv@Qt_6 6.1.2
+ _ZN11QThreadPool15setServiceLevelEN7QThread16QualityOfServiceE@Qt_6 6.9.1
  _ZN11QThreadPool16setExpiryTimeoutEi@Qt_6 6.1.2
  _ZN11QThreadPool16staticMetaObjectE@Qt_6 6.1.2
  _ZN11QThreadPool17setMaxThreadCountEi@Qt_6 6.1.2
@@ -1170,7 +1175,6 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN16QLoggingCategory13installFilterEPFvPS_E@Qt_6 6.1.2
  _ZN16QLoggingCategory14setFilterRulesERK7QString@Qt_6 6.1.2
  _ZN16QLoggingCategory15defaultCategoryEv@Qt_6 6.1.2
- _ZN16QLoggingCategory4initEPKc9QtMsgType@Qt_6 6.1.2
  _ZN16QLoggingCategoryC1EPKc9QtMsgType@Qt_6 6.1.2
  _ZN16QLoggingCategoryC2EPKc9QtMsgType@Qt_6 6.1.2
  _ZN16QLoggingCategoryD1Ev@Qt_6 6.1.2
@@ -1318,6 +1322,8 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN16QXmlStreamWriterC2Ev@Qt_6 6.1.2
  _ZN16QXmlStreamWriterD1Ev@Qt_6 6.1.2
  _ZN16QXmlStreamWriterD2Ev@Qt_6 6.1.2
+ _ZN16QtPrivateLogging13lcPermissionsEv@Qt_6 6.9.1
+ _ZN16QtPrivateLogging17lcNativeInterfaceEv@Qt_6 6.9.1
  _ZN17QByteArrayMatcher10setPatternERK10QByteArray@Qt_6 6.1.2
  (subst)_ZN17QByteArrayMatcherC1EPKc{qptrdiff}@Qt_6 6.1.2
  _ZN17QByteArrayMatcherC1ERK10QByteArray@Qt_6 6.1.2
@@ -1554,6 +1560,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN18QCommandLineParser11showVersionEv@Qt_6 6.1.2
  _ZN18QCommandLineParser13addHelpOptionEv@Qt_6 6.1.2
  _ZN18QCommandLineParser16addVersionOptionEv@Qt_6 6.1.2
+ _ZN18QCommandLineParser18showMessageAndExitENS_11MessageTypeERK7QStringi@Qt_6 6.9.1
  _ZN18QCommandLineParser21addPositionalArgumentERK7QStringS2_S2_@Qt_6 6.1.2
  _ZN18QCommandLineParser24clearPositionalArgumentsEv@Qt_6 6.1.2
  _ZN18QCommandLineParser25setApplicationDescriptionERK7QString@Qt_6 6.1.2
@@ -1980,6 +1987,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN21QSortFilterProxyModel16bindableSortRoleEv@Qt_6 6.2.0
  _ZN21QSortFilterProxyModel16invalidateFilterEv@Qt_6 6.1.2
  _ZN21QSortFilterProxyModel16staticMetaObjectE@Qt_6 6.1.2
+ _ZN21QSortFilterProxyModel17beginFilterChangeEv@Qt_6 6.9.1
  _ZN21QSortFilterProxyModel17filterRoleChangedEi@Qt_6 6.1.2
  _ZN21QSortFilterProxyModel17setFilterWildcardERK7QString@Qt_6 6.1.2
  _ZN21QSortFilterProxyModel18bindableFilterRoleEv@Qt_6 6.2.0
@@ -2367,6 +2375,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN5QFile14setPermissionsE6QFlagsIN11QFileDevice10PermissionEE@Qt_6 6.1.2
  _ZN5QFile14setPermissionsERK7QString6QFlagsIN11QFileDevice10PermissionEE@Qt_6 6.1.2
  _ZN5QFile16staticMetaObjectE@Qt_6 6.1.2
+ _ZN5QFile19supportsMoveToTrashEv@Qt_6 6.9.1
  _ZN5QFile4copyERK7QString@Qt_6 6.1.2
  _ZN5QFile4copyERK7QStringS2_@Qt_6 6.1.2
  _ZN5QFile4linkERK7QString@Qt_6 6.1.2
@@ -2415,6 +2424,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN5QUuid12createUuidV3ES_14QByteArrayView@Qt_6 6.8.2
  _ZN5QUuid12createUuidV5ERKS_RK10QByteArray@Qt_6 6.1.2
  _ZN5QUuid12createUuidV5ES_14QByteArrayView@Qt_6 6.8.2
+ _ZN5QUuid12createUuidV7Ev@Qt_6 6.9.1
  _ZN5QUuidC1EPKc@Qt_6 6.1.2
  _ZN5QUuidC1ERK10QByteArray@Qt_6 6.1.2
  _ZN5QUuidC1ERK7QString@Qt_6 6.1.2
@@ -2424,8 +2434,11 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN6QDebug10putUInt128EPKv@Qt_6 6.7.2
  _ZN6QDebug11putTimeUnitExx@Qt_6 6.6.0
  _ZN6QDebug11resetFormatEv@Qt_6 6.1.2
+ _ZN6QDebug11toBytesImplEPFvRS_PKvES2_@Qt_6 6.9.1
  (subst)_ZN6QDebug12putByteArrayEPKc{size_t}NS_13Latin1ContentE@Qt_6 6.1.2
  _ZN6QDebug12toStringImplEPFvRS_PKvES2_@Qt_6 6.8.2
+ _ZN6QDebug13putQtOrderingE6QFlagsIN17QtOrderingPrivate14QtOrderingTypeEEN2Qt16partial_orderingE@Qt_6 6.9.1
+ _ZN6QDebug20putTupleLikeImplImplEPKcS1_mPPFvRS_PKvEPS4_@Qt_6 6.9.1
  _ZN6QDebug7putUcs4Ej@Qt_6 6.1.2
  _ZN6QDebug9putInt128EPKv@Qt_6 6.7.2
  (subst)_ZN6QDebug9putStringEPK5QChar{size_t}@Qt_6 6.1.2
@@ -2670,6 +2683,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN7QThread12isMainThreadEv@Qt_6 6.8.2
  _ZN7QThread12setStackSizeEj@Qt_6 6.1.2
  _ZN7QThread13currentThreadEv@Qt_6 6.1.2
+ _ZN7QThread15setServiceLevelENS_16QualityOfServiceE@Qt_6 6.9.1
  _ZN7QThread16createThreadImplEOSt6futureIvE@Qt_6 6.1.2
  _ZN7QThread16idealThreadCountEv@Qt_6 6.1.2
  _ZN7QThread16staticMetaObjectE@Qt_6 6.1.2
@@ -3055,6 +3069,8 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN9QIODevice12aboutToCloseEv@Qt_6 6.1.2
  _ZN9QIODevice12bytesWrittenEx@Qt_6 6.1.2
  _ZN9QIODevice12readLineDataEPcx@Qt_6 6.1.2
+ _ZN9QIODevice12readLineIntoE5QSpanISt4byteLm18446744073709551615EE@Qt_6 6.9.1
+ _ZN9QIODevice12readLineIntoEP10QByteArrayx@Qt_6 6.9.1
  _ZN9QIODevice14setErrorStringERK7QString@Qt_6 6.1.2
  _ZN9QIODevice16channelReadyReadEi@Qt_6 6.1.2
  _ZN9QIODevice16startTransactionEv@Qt_6 6.1.2
@@ -3340,6 +3356,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (subst)_ZN9QtPrivate11lastIndexOfE14QByteArrayView{qptrdiff}c@Qt_6 6.8.2
  (subst)_ZN9QtPrivate12argToQStringE11QStringView{size_t}PPKNS_7ArgBaseE@Qt_6 6.1.2
  (subst)_ZN9QtPrivate12argToQStringE13QLatin1String{size_t}PPKNS_7ArgBaseE@Qt_6 6.1.2
+ _ZN9QtPrivate12argToQStringE14QAnyStringViewmPPKNS_7ArgBaseE@Qt_6 6.9.1
  _ZN9QtPrivate12equalStringsE11QStringView13QLatin1String@Qt_6 6.1.2
  _ZN9QtPrivate12equalStringsE11QStringView20QBasicUtf8StringViewILb0EE@Qt_6 6.1.2
  _ZN9QtPrivate12equalStringsE11QStringViewS0_@Qt_6 6.1.2
@@ -3354,6 +3371,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN9QtPrivate13compareMemoryE14QByteArrayViewS0_@Qt_6 6.1.2
  _ZN9QtPrivate13convertToUcs4E11QStringView@Qt_6 6.1.2
  _ZN9QtPrivate13convertToUtf8E11QStringView@Qt_6 6.1.2
+ _ZN9QtPrivate13convertToUtf8E13QLatin1String@Qt_6 6.9.1
  (subst)_ZN9QtPrivate13findByteArrayE14QByteArrayView{qptrdiff}S0_@Qt_6 6.1.2
  _ZN9QtPrivate13isBuiltinTypeERK10QByteArray@Qt_6 6.1.2
  _ZN9QtPrivate13isRightToLeftE11QStringView@Qt_6 6.1.2
@@ -3391,7 +3409,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QCborArrayE10getCopyCtrEv@Qt_6 6.4.0
@@ -3399,7 +3417,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QCborArrayE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QCborArrayE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI10QCborArrayE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI10QCborArrayE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QCborArrayE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QCborArrayE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QCborArrayE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QCborValueE10getCopyCtrEv@Qt_6 6.4.0
@@ -3407,7 +3425,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QCborValueE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QCborValueE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI10QCborValueE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI10QCborValueE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QCborValueE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QCborValueE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QCborValueE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QJsonArrayE10getCopyCtrEv@Qt_6 6.4.0
@@ -3415,7 +3433,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QJsonArrayE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QJsonArrayE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI10QJsonArrayE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI10QJsonArrayE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QJsonArrayE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QJsonArrayE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QJsonArrayE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QJsonValueE10getCopyCtrEv@Qt_6 6.4.0
@@ -3423,7 +3441,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QJsonValueE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QJsonValueE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI10QJsonValueE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI10QJsonValueE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QJsonValueE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QJsonValueE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI10QJsonValueE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI11QJsonObjectE10getCopyCtrEv@Qt_6 6.4.0
@@ -3431,7 +3449,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI11QJsonObjectE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI11QJsonObjectE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI11QJsonObjectE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI11QJsonObjectE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI11QJsonObjectE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI11QJsonObjectE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI11QJsonObjectE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI11QModelIndexE10getCopyCtrEv@Qt_6 6.4.0
@@ -3439,7 +3457,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI11QModelIndexE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI11QModelIndexE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI11QModelIndexE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI11QModelIndexE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI11QModelIndexE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI11QModelIndexE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI11QModelIndexE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI12QEasingCurveE10getCopyCtrEv@Qt_6 6.4.0
@@ -3447,7 +3465,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI12QEasingCurveE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI12QEasingCurveE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI12QEasingCurveE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI12QEasingCurveE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI12QEasingCurveE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI12QEasingCurveE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI12QEasingCurveE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI13QJsonDocumentE10getCopyCtrEv@Qt_6 6.4.0
@@ -3455,7 +3473,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI13QJsonDocumentE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI13QJsonDocumentE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI13QJsonDocumentE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI13QJsonDocumentE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI13QJsonDocumentE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI13QJsonDocumentE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI13QJsonDocumentE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI15QCborSimpleTypeE10getCopyCtrEv@Qt_6 6.4.0
@@ -3463,7 +3481,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI15QCborSimpleTypeE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI15QCborSimpleTypeE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI15QCborSimpleTypeE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI15QCborSimpleTypeE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI15QCborSimpleTypeE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI15QCborSimpleTypeE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI15QCborSimpleTypeE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI18QRegularExpressionE10getCopyCtrEv@Qt_6 6.4.0
@@ -3471,7 +3489,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI18QRegularExpressionE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI18QRegularExpressionE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI18QRegularExpressionE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI18QRegularExpressionE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI18QRegularExpressionE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI18QRegularExpressionE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI18QRegularExpressionE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI21QPersistentModelIndexE10getCopyCtrEv@Qt_6 6.4.0
@@ -3479,7 +3497,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI21QPersistentModelIndexE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI21QPersistentModelIndexE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI21QPersistentModelIndexE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI21QPersistentModelIndexE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI21QPersistentModelIndexE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI21QPersistentModelIndexE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI21QPersistentModelIndexE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI4QMapI7QString8QVariantEE10getCopyCtrEv@Qt_6 6.4.0
@@ -3487,7 +3505,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI4QMapI7QString8QVariantEE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI4QMapI7QString8QVariantEE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI4QMapI7QString8QVariantEE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI4QMapI7QString8QVariantEE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI4QMapI7QString8QVariantEE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI4QMapI7QString8QVariantEE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI4QMapI7QString8QVariantEE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI4QUrlE10getCopyCtrEv@Qt_6 6.4.0
@@ -3495,7 +3513,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI4QUrlE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI4QUrlE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI4QUrlE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI4QUrlE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI4QUrlE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI4QUrlE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI4QUrlE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QCharE10getCopyCtrEv@Qt_6 6.4.0
@@ -3503,7 +3521,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QCharE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QCharE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI5QCharE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI5QCharE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QCharE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QCharE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QCharE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QDateE10getCopyCtrEv@Qt_6 6.4.0
@@ -3511,7 +3529,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QDateE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QDateE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI5QDateE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI5QDateE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QDateE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QDateE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QDateE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QHashI7QString8QVariantEE10getCopyCtrEv@Qt_6 6.4.0
@@ -3519,7 +3537,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QHashI7QString8QVariantEE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QHashI7QString8QVariantEE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI5QHashI7QString8QVariantEE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI5QHashI7QString8QVariantEE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QHashI7QString8QVariantEE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QHashI7QString8QVariantEE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QHashI7QString8QVariantEE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QLineE10getCopyCtrEv@Qt_6 6.4.0
@@ -3527,7 +3545,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QLineE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QLineE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI5QLineE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI5QLineE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QLineE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QLineE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QLineE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI10QByteArrayEE10getCopyCtrEv@Qt_6 6.4.0
@@ -3535,7 +3553,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI10QByteArrayEE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI10QByteArrayEE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI5QListI10QByteArrayEE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI5QListI10QByteArrayEE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI10QByteArrayEE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI10QByteArrayEE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI10QByteArrayEE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI7QStringEE10getCopyCtrEv@Qt_6 6.4.0
@@ -3543,7 +3561,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI7QStringEE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI7QStringEE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI5QListI7QStringEE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI5QListI7QStringEE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI7QStringEE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI7QStringEE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI7QStringEE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI8QVariantEE10getCopyCtrEv@Qt_6 6.4.0
@@ -3551,7 +3569,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI8QVariantEE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI8QVariantEE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI5QListI8QVariantEE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI5QListI8QVariantEE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI8QVariantEE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI8QVariantEE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QListI8QVariantEE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QRectE10getCopyCtrEv@Qt_6 6.4.0
@@ -3559,7 +3577,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QRectE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QRectE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI5QRectE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI5QRectE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QRectE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QRectE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QRectE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QSizeE10getCopyCtrEv@Qt_6 6.4.0
@@ -3567,7 +3585,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QSizeE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QSizeE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI5QSizeE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI5QSizeE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QSizeE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QSizeE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QSizeE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QTimeE10getCopyCtrEv@Qt_6 6.4.0
@@ -3575,7 +3593,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QTimeE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QTimeE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI5QTimeE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI5QTimeE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QTimeE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QTimeE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QTimeE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QUuidE10getCopyCtrEv@Qt_6 6.4.0
@@ -3583,7 +3601,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QUuidE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QUuidE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI5QUuidE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI5QUuidE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QUuidE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QUuidE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI5QUuidE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QLineFE10getCopyCtrEv@Qt_6 6.4.0
@@ -3591,7 +3609,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QLineFE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QLineFE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI6QLineFE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI6QLineFE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QLineFE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QLineFE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QLineFE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QPointE10getCopyCtrEv@Qt_6 6.4.0
@@ -3599,7 +3617,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QPointE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QPointE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI6QPointE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI6QPointE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QPointE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QPointE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QPointE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QRectFE10getCopyCtrEv@Qt_6 6.4.0
@@ -3607,7 +3625,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QRectFE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QRectFE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI6QRectFE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI6QRectFE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QRectFE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QRectFE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QRectFE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QSizeFE10getCopyCtrEv@Qt_6 6.4.0
@@ -3615,7 +3633,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QSizeFE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QSizeFE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI6QSizeFE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI6QSizeFE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QSizeFE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QSizeFE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI6QSizeFE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QLocaleE10getCopyCtrEv@Qt_6 6.4.0
@@ -3623,7 +3641,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QLocaleE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QLocaleE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI7QLocaleE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI7QLocaleE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QLocaleE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QLocaleE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QLocaleE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QPointFE10getCopyCtrEv@Qt_6 6.4.0
@@ -3631,7 +3649,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QPointFE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QPointFE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI7QPointFE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI7QPointFE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QPointFE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QPointFE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QPointFE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QStringE10getCopyCtrEv@Qt_6 6.4.0
@@ -3639,7 +3657,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QStringE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QStringE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI7QStringE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI7QStringE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QStringE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QStringE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI7QStringE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8QCborMapE10getCopyCtrEv@Qt_6 6.4.0
@@ -3647,7 +3665,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8QCborMapE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8QCborMapE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI8QCborMapE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI8QCborMapE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8QCborMapE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8QCborMapE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8QCborMapE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8QVariantE10getCopyCtrEv@Qt_6 6.4.0
@@ -3655,7 +3673,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8QVariantE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8QVariantE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI8QVariantE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI8QVariantE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8QVariantE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8QVariantE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8QVariantE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8qfloat16E10getCopyCtrEv@Qt_6 6.6.0
@@ -3663,7 +3681,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8qfloat16E13getDefaultCtrEv@Qt_6 6.6.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8qfloat16E17getLegacyRegisterEv@Qt_6 6.6.0
  _ZN9QtPrivate16QMetaTypeForTypeI8qfloat16E4nameE@Qt_6 6.6.0
- _ZN9QtPrivate16QMetaTypeForTypeI8qfloat16E5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8qfloat16E5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8qfloat16E7getDtorEv@Qt_6 6.6.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI8qfloat16E7getNameEv@Qt_6 6.6.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI9QBitArrayE10getCopyCtrEv@Qt_6 6.4.0
@@ -3671,7 +3689,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI9QBitArrayE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI9QBitArrayE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI9QBitArrayE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI9QBitArrayE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI9QBitArrayE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI9QBitArrayE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI9QBitArrayE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI9QDateTimeE10getCopyCtrEv@Qt_6 6.4.0
@@ -3679,7 +3697,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI9QDateTimeE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI9QDateTimeE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeI9QDateTimeE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeI9QDateTimeE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI9QDateTimeE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI9QDateTimeE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeI9QDateTimeE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDiE10getCopyCtrEv@Qt_6 6.4.0
@@ -3687,7 +3705,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDiE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDiE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIDiE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIDiE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDiE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDiE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDiE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDnE10getCopyCtrEv@Qt_6 6.4.0
@@ -3695,7 +3713,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDnE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDnE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIDnE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIDnE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDnE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDnE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDnE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDsE10getCopyCtrEv@Qt_6 6.4.0
@@ -3703,7 +3721,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDsE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDsE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIDsE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIDsE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDsE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDsE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIDsE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIP7QObjectE10getCopyCtrEv@Qt_6 6.4.0
@@ -3711,7 +3729,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIP7QObjectE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIP7QObjectE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIP7QObjectE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIP7QObjectE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIP7QObjectE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIP7QObjectE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIP7QObjectE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIPvE10getCopyCtrEv@Qt_6 6.4.0
@@ -3719,7 +3737,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIPvE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIPvE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIPvE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIPvE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIPvE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIPvE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIPvE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeISt4pairI8QVariantS2_EE10getCopyCtrEv@Qt_6 6.4.0
@@ -3727,7 +3745,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeISt4pairI8QVariantS2_EE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeISt4pairI8QVariantS2_EE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeISt4pairI8QVariantS2_EE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeISt4pairI8QVariantS2_EE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeISt4pairI8QVariantS2_EE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeISt4pairI8QVariantS2_EE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeISt4pairI8QVariantS2_EE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIaE10getCopyCtrEv@Qt_6 6.4.0
@@ -3735,7 +3753,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIaE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIaE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIaE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIaE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIaE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIaE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIaE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIbE10getCopyCtrEv@Qt_6 6.4.0
@@ -3743,7 +3761,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIbE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIbE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIbE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIbE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIbE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIbE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIbE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIcE10getCopyCtrEv@Qt_6 6.4.0
@@ -3751,7 +3769,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIcE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIcE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIcE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIcE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIcE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIcE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIcE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIdE10getCopyCtrEv@Qt_6 6.4.0
@@ -3759,7 +3777,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIdE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIdE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIdE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIdE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIdE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIdE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIdE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIfE10getCopyCtrEv@Qt_6 6.4.0
@@ -3767,7 +3785,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIfE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIfE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIfE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIfE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIfE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIfE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIfE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIhE10getCopyCtrEv@Qt_6 6.4.0
@@ -3775,7 +3793,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIhE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIhE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIhE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIhE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIhE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIhE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIhE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIiE10getCopyCtrEv@Qt_6 6.4.0
@@ -3783,7 +3801,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIiE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIiE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIiE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIiE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIiE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIiE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIiE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIjE10getCopyCtrEv@Qt_6 6.4.0
@@ -3791,7 +3809,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIjE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIjE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIjE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIjE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIjE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIjE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIjE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIlE10getCopyCtrEv@Qt_6 6.4.0
@@ -3799,7 +3817,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIlE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIlE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIlE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIlE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIlE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIlE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIlE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeImE10getCopyCtrEv@Qt_6 6.4.0
@@ -3807,7 +3825,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeImE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeImE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeImE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeImE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeImE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeImE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeImE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIsE10getCopyCtrEv@Qt_6 6.4.0
@@ -3815,7 +3833,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIsE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIsE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIsE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIsE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIsE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIsE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIsE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeItE10getCopyCtrEv@Qt_6 6.4.0
@@ -3823,7 +3841,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeItE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeItE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeItE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeItE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeItE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeItE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeItE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIxE10getCopyCtrEv@Qt_6 6.4.0
@@ -3831,7 +3849,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIxE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIxE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIxE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIxE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIxE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIxE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIxE7getNameEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIyE10getCopyCtrEv@Qt_6 6.4.0
@@ -3839,7 +3857,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIyE13getDefaultCtrEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIyE17getLegacyRegisterEv@Qt_6 6.4.0
  _ZN9QtPrivate16QMetaTypeForTypeIyE4nameE@Qt_6 6.4.0
- _ZN9QtPrivate16QMetaTypeForTypeIyE5FlagsE@Qt_6 6.6.0
+ (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIyE5flagsEv@Qt_6 6.9.1
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIyE7getDtorEv@Qt_6 6.4.0
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIyE7getNameEv@Qt_6 6.4.0
  _ZN9QtPrivate16QStringList_joinEPK5QListI7QStringE11QStringView@Qt_6 6.1.2
@@ -3847,13 +3865,13 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN9QtPrivate16QStringList_joinERK5QListI7QStringE13QLatin1String@Qt_6 6.1.2
  _ZN9QtPrivate16QStringList_sortEP5QListI7QStringEN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN9QtPrivate16convertToQStringE14QAnyStringView@Qt_6 6.1.2
- _ZN9QtPrivate17lcNativeInterfaceEv@Qt_6 6.2.4
  _ZN9QtPrivate17shouldLogToStderrEv@Qt_6 6.1.2
  _ZN9QtPrivate17toUnsignedIntegerE14QByteArrayViewi@Qt_6 6.3.0
  _ZN9QtPrivate18QStringList_filterEPK5QListI7QStringE11QStringViewN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN9QtPrivate18QStringList_filterEPK5QListI7QStringERK18QRegularExpression@Qt_6 6.1.2
  _ZN9QtPrivate18QStringList_filterERK5QListI7QStringE13QLatin1StringN2Qt15CaseSensitivityE@Qt_6 6.7.2
  _ZN9QtPrivate18QStringList_filterERK5QListI7QStringERK14QStringMatcher@Qt_6 6.7.2
+ _ZN9QtPrivate18QStringList_filterERK5QListI7QStringERK20QLatin1StringMatcher@Qt_6 6.9.1
  _ZN9QtPrivate18ResultIteratorBase14batchedAdvanceEv@Qt_6 6.1.2
  _ZN9QtPrivate18ResultIteratorBaseC1EN4QMapIiNS_10ResultItemEE14const_iteratorEi@Qt_6 6.1.2
  _ZN9QtPrivate18ResultIteratorBaseC1Ev@Qt_6 6.1.2
@@ -3863,6 +3881,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN9QtPrivate18convertToLocal8BitE11QStringView@Qt_6 6.1.2
  _ZN9QtPrivate19QByteArrayList_joinEPK5QListI10QByteArrayEPKci@Qt_6 6.1.2
  (arch-bits=64)_ZN9QtPrivate19QByteArrayList_joinEPK5QListI10QByteArrayEPKcx@Qt_6 6.6.2
+ _ZN9QtPrivate19QMetaTypeCopyTraits23warnAboutDeprecatedCopyEPKc@Qt_6 6.9.1
  (subst)_ZN9QtPrivate19QStringList_indexOfEPK5QListI7QStringERK18QRegularExpression{qptrdiff}@Qt_6 6.1.2
  (subst)_ZN9QtPrivate19QStringList_indexOfERK5QListI7QStringE11QStringView{qptrdiff}N2Qt15CaseSensitivityE@Qt_6 6.7.2
  (subst)_ZN9QtPrivate19QStringList_indexOfERK5QListI7QStringE13QLatin1String{qptrdiff}N2Qt15CaseSensitivityE@Qt_6 6.7.2
@@ -4113,6 +4132,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZNK10QJsonValue4typeEv@Qt_6 6.1.2
  _ZNK10QJsonValue5toIntEi@Qt_6 6.1.2
  _ZNK10QJsonValue6toBoolEb@Qt_6 6.1.2
+ _ZNK10QJsonValue6toJsonEN13QJsonDocument10JsonFormatE@Qt_6 6.9.1
  _ZNK10QJsonValue7toArrayERK10QJsonArray@Qt_6 6.1.2
  _ZNK10QJsonValue7toArrayEv@Qt_6 6.1.2
  _ZNK10QJsonValue8toDoubleEd@Qt_6 6.1.2
@@ -4208,6 +4228,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZNK11QMetaMethod6accessEv@Qt_6 6.1.2
  _ZNK11QMetaMethod6invokeEP7QObjectN2Qt14ConnectionTypeE22QGenericReturnArgument16QGenericArgumentS5_S5_S5_S5_S5_S5_S5_S5_S5_@Qt_6 6.1.2
  _ZNK11QMetaMethod7isConstEv@Qt_6 6.2.0
+ _ZNK11QMetaMethod8nameViewEv@Qt_6 6.9.1
  _ZNK11QMetaMethod8revisionEv@Qt_6 6.1.2
  _ZNK11QMetaMethod8typeNameEv@Qt_6 6.1.2
  _ZNK11QMetaObject10Connection18isConnected_helperEv@Qt_6 6.1.2
@@ -4264,6 +4285,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZNK11QTextStream7padCharEv@Qt_6 6.1.2
  _ZNK11QTextStream8encodingEv@Qt_6 6.1.2
  _ZNK11QThreadPool10metaObjectEv@Qt_6 6.1.2
+ _ZNK11QThreadPool12serviceLevelEv@Qt_6 6.9.1
  _ZNK11QThreadPool13expiryTimeoutEv@Qt_6 6.1.2
  _ZNK11QThreadPool14maxThreadCountEv@Qt_6 6.1.2
  _ZNK11QThreadPool14threadPriorityEv@Qt_6 6.2.0
@@ -4982,6 +5004,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZNK28QConcatenateTablesProxyModel8mimeDataERK5QListI11QModelIndexE@Qt_6 6.1.2
  _ZNK28QConcatenateTablesProxyModel8rowCountERK11QModelIndex@Qt_6 6.1.2
  _ZNK28QConcatenateTablesProxyModel9mimeTypesEv@Qt_6 6.1.2
+ _ZNK28QConcatenateTablesProxyModel9roleNamesEv@Qt_6 6.9.1
  _ZNK31QRegularExpressionMatchIterator12matchOptionsEv@Qt_6 6.1.2
  _ZNK31QRegularExpressionMatchIterator17regularExpressionEv@Qt_6 6.1.2
  _ZNK31QRegularExpressionMatchIterator7hasNextEv@Qt_6 6.1.2
@@ -5289,6 +5312,10 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (subst)_ZNK7QString7sectionERK18QRegularExpression{qptrdiff}{qptrdiff}6QFlagsINS_11SectionFlagEE@Qt_6 6.1.2
  (subst)_ZNK7QString7sectionERKS_{qptrdiff}{qptrdiff}6QFlagsINS_11SectionFlagEE@Qt_6 6.1.2
  _ZNK7QString7toFloatEPb@Qt_6 6.1.2
+ _ZNK7QString8arg_implE14QAnyStringViewi5QChar@Qt_6 6.9.1
+ _ZNK7QString8arg_implEdici5QChar@Qt_6 6.9.1
+ _ZNK7QString8arg_implExii5QChar@Qt_6 6.9.1
+ _ZNK7QString8arg_implEyii5QChar@Qt_6 6.9.1
  _ZNK7QString8containsERK18QRegularExpressionP23QRegularExpressionMatch@Qt_6 6.1.2
  _ZNK7QString8endsWithE13QLatin1StringN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZNK7QString8endsWithE5QCharN2Qt15CaseSensitivityE@Qt_6 6.1.2
@@ -5297,6 +5324,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZNK7QString8toDoubleEPb@Qt_6 6.1.2
  _ZNK7QThread10isFinishedEv@Qt_6 6.1.2
  _ZNK7QThread10metaObjectEv@Qt_6 6.1.2
+ _ZNK7QThread12serviceLevelEv@Qt_6 6.9.1
  _ZNK7QThread15eventDispatcherEv@Qt_6 6.1.2
  _ZNK7QThread15isCurrentThreadEv@Qt_6 6.8.2
  _ZNK7QThread23isInterruptionRequestedEv@Qt_6 6.1.2
@@ -5520,14 +5548,20 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZNK9QLockFile8isLockedEv@Qt_6 6.1.2
  _ZNK9QMetaEnum10keyToValueEPKcPb@Qt_6 6.1.2
  _ZNK9QMetaEnum10valueToKeyEi@Qt_6 6.1.2
+ _ZNK9QMetaEnum10valueToKeyEy@Qt_6 6.9.1
  _ZNK9QMetaEnum11keysToValueEPKcPb@Qt_6 6.1.2
  _ZNK9QMetaEnum11valueToKeysEi@Qt_6 6.1.2
+ _ZNK9QMetaEnum11valueToKeysEy@Qt_6 6.9.1
+ _ZNK9QMetaEnum12keyToValue64EPKc@Qt_6 6.9.1
+ _ZNK9QMetaEnum13keysToValue64EPKc@Qt_6 6.9.1
  _ZNK9QMetaEnum3keyEi@Qt_6 6.1.2
  _ZNK9QMetaEnum4Data5indexEPK11QMetaObject@Qt_6 6.6.0
  _ZNK9QMetaEnum4nameEv@Qt_6 6.1.2
  _ZNK9QMetaEnum5scopeEv@Qt_6 6.1.2
  _ZNK9QMetaEnum5valueEi@Qt_6 6.1.2
  _ZNK9QMetaEnum6isFlagEv@Qt_6 6.1.2
+ _ZNK9QMetaEnum7is64BitEv@Qt_6 6.9.1
+ _ZNK9QMetaEnum7value64Ei@Qt_6 6.9.1
  _ZNK9QMetaEnum8enumNameEv@Qt_6 6.1.2
  _ZNK9QMetaEnum8isScopedEv@Qt_6 6.1.2
  _ZNK9QMetaEnum8keyCountEv@Qt_6 6.1.2
@@ -6156,6 +6190,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  qt_version_tag@Qt_6.6 6.6.0
  qt_version_tag@Qt_6.7 6.7.2
  qt_version_tag@Qt_6.8 6.8.2
+ qt_version_tag@Qt_6.9 6.9.1
  qt_version_tag_6_0@Qt_6 6.1.2
  qt_version_tag_6_1@Qt_6 6.1.2
  qt_version_tag_6_2@Qt_6 6.2.0
@@ -6165,3 +6200,4 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  qt_version_tag_6_6@Qt_6 6.6.0
  qt_version_tag_6_7@Qt_6 6.7.2
  qt_version_tag_6_8@Qt_6 6.8.2
+ qt_version_tag_6_9@Qt_6 6.9.1

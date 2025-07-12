@@ -6,6 +6,7 @@ qt6-base (6.9.1+dfsg-1) UNRELEASED; urgency=medium
   * Bump B-Ds for the documentation to 6.9.
   * Update ABI to 6.9.1.
   * Update list of installed files.
+  * Update symbols from buildlogs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 12 Jul 2025 15:51:10 +0200
 

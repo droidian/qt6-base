@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.8.2 amd64
+# SymbolsHelper-Confirmed: 6.9.1 amd64
 libQt6Widgets.so.6 libqt6widgets6 #MINVER#
 | libqt6widgets6 #MINVER#, qt6-base-private-abi (= 6.9.1)
 * Build-Depends-Package: qt6-base-dev
@@ -345,6 +345,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZN11QDockWidget11setFloatingEb@Qt_6 6.1.2
  _ZN11QDockWidget15featuresChangedE6QFlagsINS_17DockWidgetFeatureEE@Qt_6 6.1.2
  _ZN11QDockWidget15setAllowedAreasE6QFlagsIN2Qt14DockWidgetAreaEE@Qt_6 6.1.2
+ _ZN11QDockWidget15setDockLocationEN2Qt14DockWidgetAreaE@Qt_6 6.9.1
  _ZN11QDockWidget15topLevelChangedEb@Qt_6 6.1.2
  _ZN11QDockWidget16staticMetaObjectE@Qt_6 6.1.2
  _ZN11QDockWidget17setTitleBarWidgetEP7QWidget@Qt_6 6.1.2
@@ -1837,6 +1838,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZN14QStackedLayout11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
  _ZN14QStackedLayout11qt_metacastEPKc@Qt_6 6.1.2
  _ZN14QStackedLayout11setGeometryERK5QRect@Qt_6 6.1.2
+ _ZN14QStackedLayout11widgetAddedEi@Qt_6 6.9.1
  _ZN14QStackedLayout12insertWidgetEiP7QWidget@Qt_6 6.1.2
  _ZN14QStackedLayout13widgetRemovedEi@Qt_6 6.1.2
  _ZN14QStackedLayout14currentChangedEi@Qt_6 6.1.2
@@ -1858,6 +1860,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZN14QStackedLayoutD2Ev@Qt_6 6.1.2
  _ZN14QStackedWidget11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
  _ZN14QStackedWidget11qt_metacastEPKc@Qt_6 6.1.2
+ _ZN14QStackedWidget11widgetAddedEi@Qt_6 6.9.1
  _ZN14QStackedWidget12insertWidgetEiP7QWidget@Qt_6 6.1.2
  _ZN14QStackedWidget12removeWidgetEP7QWidget@Qt_6 6.1.2
  _ZN14QStackedWidget13widgetRemovedEi@Qt_6 6.1.2
@@ -2408,6 +2411,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZN17QAbstractItemView17scrollDirtyRegionEii@Qt_6 6.1.2
  _ZN17QAbstractItemView17setSelectionModelEP19QItemSelectionModel@Qt_6 6.1.2
  _ZN17QAbstractItemView18focusNextPrevChildEb@Qt_6 6.1.2
+ _ZN17QAbstractItemView18setUpdateThresholdEi@Qt_6 6.9.1
  _ZN17QAbstractItemView19setAutoScrollMarginEi@Qt_6 6.1.2
  _ZN17QAbstractItemView19setTabKeyNavigationEb@Qt_6 6.1.2
  _ZN17QAbstractItemView20openPersistentEditorERK11QModelIndex@Qt_6 6.1.2
@@ -3622,6 +3626,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZN7QWidget21setAutoFillBackgroundEb@Qt_6 6.1.2
  _ZN7QWidget21setShortcutAutoRepeatEib@Qt_6 6.1.2
  _ZN7QWidget21windowIconTextChangedERK7QString@Qt_6 6.1.2
+ _ZN7QWidget23setAccessibleIdentifierERK7QString@Qt_6 6.9.1
  _ZN7QWidget24setAccessibleDescriptionERK7QString@Qt_6 6.1.2
  _ZN7QWidget26customContextMenuRequestedERK6QPoint@Qt_6 6.1.2
  (subst)_ZN7QWidget4findE{quintptr}@Qt_6 6.1.2
@@ -3967,6 +3972,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZN9QComboBox18setMaxVisibleItemsEi@Qt_6 6.1.2
  _ZN9QComboBox18setPlaceholderTextERK7QString@Qt_6 6.1.2
  _ZN9QComboBox19currentIndexChangedEi@Qt_6 6.1.2
+ _ZN9QComboBox19setLabelDrawingModeENS_16LabelDrawingModeE@Qt_6 6.9.1
  _ZN9QComboBox19setSizeAdjustPolicyENS_16SizeAdjustPolicyE@Qt_6 6.1.2
  _ZN9QComboBox20setDuplicatesEnabledEb@Qt_6 6.1.2
  _ZN9QComboBox24setMinimumContentsLengthEi@Qt_6 6.1.2
@@ -4553,6 +4559,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZNK11QColumnView8sizeHintEv@Qt_6 6.1.2
  _ZNK11QDockWidget10metaObjectEv@Qt_6 6.1.2
  _ZNK11QDockWidget12allowedAreasEv@Qt_6 6.1.2
+ _ZNK11QDockWidget12dockLocationEv@Qt_6 6.9.1
  _ZNK11QDockWidget14titleBarWidgetEv@Qt_6 6.1.2
  _ZNK11QDockWidget15initStyleOptionEP22QStyleOptionDockWidget@Qt_6 6.1.2
  _ZNK11QDockWidget16toggleViewActionEv@Qt_6 6.1.2
@@ -5498,6 +5505,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZNK17QAbstractItemView14selectionModelEv@Qt_6 6.1.2
  _ZNK17QAbstractItemView14sizeHintForRowEi@Qt_6 6.1.2
  _ZNK17QAbstractItemView15selectedIndexesEv@Qt_6 6.1.2
+ _ZNK17QAbstractItemView15updateThresholdEv@Qt_6 6.9.1
  _ZNK17QAbstractItemView16autoScrollMarginEv@Qt_6 6.1.2
  _ZNK17QAbstractItemView16inputMethodQueryEN2Qt16InputMethodQueryE@Qt_6 6.1.2
  _ZNK17QAbstractItemView16selectionCommandERK11QModelIndexPK6QEvent@Qt_6 6.1.2
@@ -6050,6 +6058,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZNK7QWidget19graphicsProxyWidgetEv@Qt_6 6.1.2
  _ZNK7QWidget1xEv@Qt_6 6.1.2
  _ZNK7QWidget1yEv@Qt_6 6.1.2
+ _ZNK7QWidget20accessibleIdentifierEv@Qt_6 6.9.1
  _ZNK7QWidget20previousInFocusChainEv@Qt_6 6.1.2
  _ZNK7QWidget20testAttribute_helperEN2Qt15WidgetAttributeE@Qt_6 6.1.2
  _ZNK7QWidget21accessibleDescriptionEv@Qt_6 6.1.2
@@ -6196,6 +6205,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZNK9QComboBox15placeholderTextEv@Qt_6 6.1.2
  _ZNK9QComboBox16inputMethodQueryEN2Qt16InputMethodQueryE@Qt_6 6.1.2
  _ZNK9QComboBox16inputMethodQueryEN2Qt16InputMethodQueryERK8QVariant@Qt_6 6.1.2
+ _ZNK9QComboBox16labelDrawingModeEv@Qt_6 6.9.1
  _ZNK9QComboBox16sizeAdjustPolicyEv@Qt_6 6.1.2
  _ZNK9QComboBox17duplicatesEnabledEv@Qt_6 6.1.2
  _ZNK9QComboBox21minimumContentsLengthEv@Qt_6 6.1.2

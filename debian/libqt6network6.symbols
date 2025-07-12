@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.8.2 amd64
+# SymbolsHelper-Confirmed: 6.9.1 amd64
 libQt6Network.so.6 libqt6network6 #MINVER#
 | libqt6network6 #MINVER#, qt6-base-private-abi (= 6.9.1)
 * Build-Depends-Package: qt6-base-dev
@@ -782,6 +782,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN19QHttp1ConfigurationaSERKS_@Qt_6 6.6.0
  _ZN19QHttp2Configuration15setMaxFrameSizeEj@Qt_6 6.1.2
  _ZN19QHttp2Configuration20setServerPushEnabledEb@Qt_6 6.1.2
+ _ZN19QHttp2Configuration23setMaxConcurrentStreamsEj@Qt_6 6.9.1
  _ZN19QHttp2Configuration26setStreamReceiveWindowSizeEj@Qt_6 6.1.2
  _ZN19QHttp2Configuration27setSessionReceiveWindowSizeEj@Qt_6 6.1.2
  _ZN19QHttp2Configuration28setHuffmanCompressionEnabledEb@Qt_6 6.1.2
@@ -1434,6 +1435,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZNK19QHttp1Configuration6equalsERKS_@Qt_6 6.6.0
  _ZNK19QHttp2Configuration12maxFrameSizeEv@Qt_6 6.1.2
  _ZNK19QHttp2Configuration17serverPushEnabledEv@Qt_6 6.1.2
+ _ZNK19QHttp2Configuration20maxConcurrentStreamsEv@Qt_6 6.9.1
  _ZNK19QHttp2Configuration23streamReceiveWindowSizeEv@Qt_6 6.1.2
  _ZNK19QHttp2Configuration24sessionReceiveWindowSizeEv@Qt_6 6.1.2
  _ZNK19QHttp2Configuration25huffmanCompressionEnabledEv@Qt_6 6.1.2
