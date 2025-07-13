@@ -1,5 +1,7 @@
 qt6-base (6.9.1+dfsg-3) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Update the symbols files from the logs of buildds.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Jul 2025 11:18:01 +0200
 

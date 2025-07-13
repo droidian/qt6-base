@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.9.1 amd64
+# SymbolsHelper-Confirmed: 6.9.1 amd64 armel armhf hppa i386 powerpc
 libQt6Core.so.6 libqt6core6t64 #MINVER#
 | libqt6core6t64 #MINVER#, qt6-base-private-abi (= 6.9.1)
 * Build-Depends-Package: qt6-base-dev
@@ -112,10 +112,10 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _Z27qEnvironmentVariableIsEmptyPKc@Qt_6 6.1.2
  _Z28qEnvironmentVariableIntValuePKcPb@Qt_6 6.1.2
  _Z29qRegisterStaticPluginFunction13QStaticPlugin@Qt_6 6.1.2
- _Z30qt_QMetaEnum_flagDebugOperatorR6QDebugmy@Qt_6 6.9.1
  _Z30qt_QMetaEnum_flagDebugOperatorR6QDebugyPK11QMetaObjectPKc@Qt_6 6.1.2
  (subst)_Z30qt_QMetaEnum_flagDebugOperatorR6QDebug{size_t}i@Qt_6 6.1.2
  (subst)_Z30qt_QMetaEnum_flagDebugOperatorR6QDebug{size_t}j@Qt_6 6.8.2
+ (subst)_Z30qt_QMetaEnum_flagDebugOperatorR6QDebug{size_t}y@Qt_6 6.9.1
  _Z36qRegisterNormalizedMetaType_QCborTagRK10QByteArray@Qt_6 6.3.0
  _Z36qRegisterNormalizedMetaType_qfloat16RK10QByteArray@Qt_6 6.3.0
  _Z37qRegisterNormalizedMetaType_QFileInfoRK10QByteArray@Qt_6 6.3.0
@@ -414,7 +414,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN11QBasicMutex15destroyInternalEP13QMutexPrivate@Qt_6 6.1.2
  _ZN11QBasicMutex15destroyInternalEPv@Qt_6 6.9.1
  _ZN11QBasicTimer4stopEv@Qt_6 6.1.2
- _ZN11QBasicTimer5startENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEEN2Qt9TimerTypeEP7QObject@Qt_6 6.9.1
+ (subst)_ZN11QBasicTimer5startENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000000000EEEEN2Qt9TimerTypeEP7QObject@Qt_6 6.9.1
  (subst)_ZN11QBasicTimer5startENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEEN2Qt9TimerTypeEP7QObject@Qt_6 6.6.0
  (subst)_ZN11QBasicTimer5startENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEEP7QObject@Qt_6 6.6.0
  _ZN11QBasicTimer5startEiN2Qt9TimerTypeEP7QObject@Qt_6 6.1.2
@@ -2438,7 +2438,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (subst)_ZN6QDebug12putByteArrayEPKc{size_t}NS_13Latin1ContentE@Qt_6 6.1.2
  _ZN6QDebug12toStringImplEPFvRS_PKvES2_@Qt_6 6.8.2
  _ZN6QDebug13putQtOrderingE6QFlagsIN17QtOrderingPrivate14QtOrderingTypeEEN2Qt16partial_orderingE@Qt_6 6.9.1
- _ZN6QDebug20putTupleLikeImplImplEPKcS1_mPPFvRS_PKvEPS4_@Qt_6 6.9.1
+ (subst)_ZN6QDebug20putTupleLikeImplImplEPKcS1_{size_t}PPFvRS_PKvEPS4_@Qt_6 6.9.1
  _ZN6QDebug7putUcs4Ej@Qt_6 6.1.2
  _ZN6QDebug9putInt128EPKv@Qt_6 6.7.2
  (subst)_ZN6QDebug9putStringEPK5QChar{size_t}@Qt_6 6.1.2
@@ -3069,7 +3069,8 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN9QIODevice12aboutToCloseEv@Qt_6 6.1.2
  _ZN9QIODevice12bytesWrittenEx@Qt_6 6.1.2
  _ZN9QIODevice12readLineDataEPcx@Qt_6 6.1.2
- _ZN9QIODevice12readLineIntoE5QSpanISt4byteLm18446744073709551615EE@Qt_6 6.9.1
+ (arch-bits=32)_ZN9QIODevice12readLineIntoE5QSpanISt4byteLj4294967295EE@Qt_6 6.9.1
+ (arch-bits=64)_ZN9QIODevice12readLineIntoE5QSpanISt4byteLm18446744073709551615EE@Qt_6 6.9.1
  _ZN9QIODevice12readLineIntoEP10QByteArrayx@Qt_6 6.9.1
  _ZN9QIODevice14setErrorStringERK7QString@Qt_6 6.1.2
  _ZN9QIODevice16channelReadyReadEi@Qt_6 6.1.2
@@ -3356,7 +3357,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (subst)_ZN9QtPrivate11lastIndexOfE14QByteArrayView{qptrdiff}c@Qt_6 6.8.2
  (subst)_ZN9QtPrivate12argToQStringE11QStringView{size_t}PPKNS_7ArgBaseE@Qt_6 6.1.2
  (subst)_ZN9QtPrivate12argToQStringE13QLatin1String{size_t}PPKNS_7ArgBaseE@Qt_6 6.1.2
- _ZN9QtPrivate12argToQStringE14QAnyStringViewmPPKNS_7ArgBaseE@Qt_6 6.9.1
+ (subst)_ZN9QtPrivate12argToQStringE14QAnyStringView{size_t}PPKNS_7ArgBaseE@Qt_6 6.9.1
  _ZN9QtPrivate12equalStringsE11QStringView13QLatin1String@Qt_6 6.1.2
  _ZN9QtPrivate12equalStringsE11QStringView20QBasicUtf8StringViewILb0EE@Qt_6 6.1.2
  _ZN9QtPrivate12equalStringsE11QStringViewS0_@Qt_6 6.1.2

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.9.1 amd64
+# SymbolsHelper-Confirmed: 6.9.1 amd64 loong64
 libQt6Gui.so.6 libqt6gui6 #MINVER#
 | libqt6gui6 #MINVER#, qt6-base-private-abi (= 6.9.1)
 * Build-Depends-Package: qt6-base-dev
@@ -90,9 +90,11 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _Z29QT_DISTANCEFIELD_BASEFONTSIZEb@Qt_6 6.1.2
  _Z29qt_convert_rgb888_to_rgbx8888PjPKhi@Qt_6 6.1.2
  _Z29qt_set_sequence_auto_mnemonicb@Qt_6 6.1.2
+ (arch=loong64)_Z30qt_convert_rgb888_to_rgb32_lsxPjPKhi@Qt_6 6.9.1
  _Z30qt_getImageTextFromDescriptionRK7QString@Qt_6 6.1.2
  _Z30qt_gl_set_global_share_contextP14QOpenGLContext@Qt_6 6.1.2
  _Z31QT_DISTANCEFIELD_HIGHGLYPHCOUNTv@Qt_6 6.1.2
+ (arch=loong64)_Z31qt_convert_rgb888_to_rgb32_lasxPjPKhi@Qt_6 6.9.1
  (arch=arm64)_Z31qt_convert_rgb888_to_rgb32_neonPjPKhi@Qt_6 6.2.1
  _Z32qGamma_correct_back_to_linear_csP6QImage@Qt_6 6.1.2
  _Z32qglx_surfaceFormatFromVisualInfoP14QSurfaceFormatP9_XDisplayP11XVisualInfoi@Qt_6 6.1.2
