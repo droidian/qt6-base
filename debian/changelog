@@ -1,12 +1,12 @@
-qt6-base (6.9.1+dfsg-3) UNRELEASED; urgency=medium
+qt6-base (6.9.1+dfsg-3) experimental; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Update the symbols files from the logs of buildds.
   * Merge changes from 6.8.2+dfsg-9:
     - drop patch upstream_QColorTransferGeneric_fix_BT2100PQEOTF.patch,
       backported from upstream
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Jul 2025 11:18:01 +0200
+ -- Pino Toscano <pino@debian.org>  Sat, 19 Jul 2025 19:58:57 +0200
 
 qt6-base (6.9.1+dfsg-2) experimental; urgency=medium
 
