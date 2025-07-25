@@ -14,6 +14,7 @@ else
 endif
 
 ifeq ($(DEB_HOST_ARCH_OS),linux)
+        extra_cmake_args += -DQT_USE_CCACHE=ON
         extra_cmake_args += -DFEATURE_sctp=ON
 else
         extra_cmake_args += -DFEATURE_sctp=OFF
@@ -34,7 +35,6 @@ endif
 override_dh_auto_configure:
 	dh_auto_configure -- \
 		--log-level=STATUS \
-		-DQT_USE_CCACHE=ON \
 		-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH) \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DINSTALL_BINDIR=lib/qt6/bin \

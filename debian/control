@@ -2,7 +2,7 @@ Source: qt6-base
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Patrick Franz <deltaone@debian.org>,
-Build-Depends: ccache,
+Build-Depends: ccache [linux-any],
                cmake (>= 3.24~),
                debhelper-compat (= 13),
                default-libmysqlclient-dev,

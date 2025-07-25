@@ -1,5 +1,8 @@
 qt6-base (6.9.1+dfsg-4) UNRELEASED; urgency=medium
 
+  [ Patrick Franz ]
+  * Do not use ccache on hurd.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 25 Jul 2025 11:13:32 +0200
 
 qt6-base (6.9.1+dfsg-3) experimental; urgency=medium
