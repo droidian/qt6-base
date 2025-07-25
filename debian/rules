@@ -29,7 +29,7 @@ ifneq ($(DEB_BUILD_ARCH),$(DEB_HOST_ARCH))
 endif
 
 %:
-	dh $@ --with pkgkde_symbolshelper --buildsystem=cmake+ninja
+	dh $@ --buildsystem=cmake+ninja
 
 
 override_dh_auto_configure:
