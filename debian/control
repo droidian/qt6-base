@@ -9,7 +9,7 @@ Build-Depends: debhelper-compat (= 13),
                ccache [linux-any],
                cmake (>= 3.24~),
                default-libmysqlclient-dev,
-               firebird-dev [linux-any],
+               firebird-dev [!hurd-any !m68k !x32],
                libatspi2.0-dev,
                libb2-dev,
                libcups2-dev,
@@ -317,7 +317,7 @@ Description: Qt 6 SQLite 3 database driver
  SQLite 3 DB.
 
 Package: libqt6sql6-ibase
-Architecture: linux-any
+Architecture: amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends},
 Depends: ${misc:Depends}, ${shlibs:Depends},
