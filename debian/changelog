@@ -1,11 +1,11 @@
-qt6-base (6.9.1+dfsg-4) UNRELEASED; urgency=medium
+qt6-base (6.9.1+dfsg-4) experimental; urgency=medium
 
   [ Patrick Franz ]
   * Do not use ccache on hurd.
   * Use dh-sequence-pkgkde-symbolshelper instead of --with.
   * Do not use the firebird-database on m68k and x32 (Closes: #1067008).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 25 Jul 2025 11:13:32 +0200
+ -- Patrick Franz <deltaone@debian.org>  Fri, 01 Aug 2025 23:55:50 +0200
 
 qt6-base (6.9.1+dfsg-3) experimental; urgency=medium
 
