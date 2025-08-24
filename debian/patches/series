@@ -1,5 +1,6 @@
 # fixed in 6.8.4/6.9.2
 upstream_cve-2025-5992_input_range_qcolortransformation.diff
+upstream_fix_high_cpu_load_kwin_x11.diff
 
 # Needs to be fixed upstream.
 Add-SH-detection.patch

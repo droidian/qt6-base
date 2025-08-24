@@ -44,6 +44,14 @@ qt6-base (6.9.1+dfsg-1) experimental; urgency=medium
 
  -- Patrick Franz <deltaone@debian.org>  Sat, 12 Jul 2025 17:43:21 +0200
 
+qt6-base (6.8.2+dfsg-10) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Backport patch to fix high CPU load of kwin_x11 when locking the
+    screen (Closes: #1111957).
+
+ -- Patrick Franz <deltaone@debian.org>  Sun, 24 Aug 2025 13:11:15 +0200
+
 qt6-base (6.8.2+dfsg-9) unstable; urgency=medium
 
   [ Patrick Franz ]
