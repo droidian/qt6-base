@@ -1,9 +1,9 @@
-qt6-base (6.9.1+dfsg-5) UNRELEASED; urgency=medium
+qt6-base (6.9.1+dfsg-5) experimental; urgency=medium
 
   [ Patrick Franz ]
   * Fix list of installed files for m68k and x32.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Aug 2025 09:24:31 +0200
+ -- Patrick Franz <deltaone@debian.org>  Sun, 24 Aug 2025 13:06:04 +0200
 
 qt6-base (6.9.1+dfsg-4) experimental; urgency=medium
 
