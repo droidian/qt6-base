@@ -1,4 +1,10 @@
 #!/usr/bin/dh-exec
+[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginAdditionalTargetInfo.cmake
+[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfig.cmake
+[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfigVersion.cmake
+[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfigVersionImpl.cmake
+[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginTargets-none.cmake
+[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginTargets.cmake
 [linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsGbmSupport/QtEglFsKmsGbmSupport
 [linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsGbmSupport/QtEglFsKmsGbmSupportDepends
 [linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsGbmSupport/QtEglFsKmsGbmSupportVersion
@@ -96,12 +102,6 @@
 [linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginConfigVersionImpl.cmake
 [linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-none.cmake
 [linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets.cmake
-[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginAdditionalTargetInfo.cmake
-[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfig.cmake
-[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfigVersion.cmake
-[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfigVersionImpl.cmake
-[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginTargets.cmake
-[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginTargets-none.cmake
 [linux-any] usr/lib/${DEB_HOST_MULTIARCH}/libQt6EglFsKmsGbmSupport.prl
 [linux-any] usr/lib/${DEB_HOST_MULTIARCH}/libQt6EglFsKmsGbmSupport.so
 [linux-any] usr/lib/${DEB_HOST_MULTIARCH}/libQt6EglFsKmsSupport.prl
@@ -1930,6 +1930,7 @@ usr/include/${DEB_HOST_MULTIARCH}/qt6/QtXml/qtxmlglobal.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtXml/qtxmlversion.h
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/3rdparty/extra-cmake-modules/0001-ECMEnableSanitizers.cmake-fix-GCC-s-note-variable-tr.patch
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/3rdparty/extra-cmake-modules/0002-ECMEnableSanitizers.cmake-replace-tabs-with-spaces.patch
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/3rdparty/extra-cmake-modules/0003-ECMEnableSanitizers.cmake-fix-no-undefined-flag-replacement.patch
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/3rdparty/extra-cmake-modules/REUSE.toml
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/ECMFindModuleHelpersStub.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake
@@ -2084,6 +2085,7 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/QtProcessConfigureArgs.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/QtProperties.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/QtPublicAndroidHelpers.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/QtPublicAppleHelpers.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/QtPublicCMakeHelpers.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/QtPublicDependencyHelpers.cmake
@@ -2587,6 +2589,9 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6TestInternalsPrivate/Qt6TestInternalsPriv
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6TestInternalsPrivate/Qt6TestInternalsPrivateTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6TestInternalsPrivate/Qt6TestInternalsPrivateVersionlessAliasTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6TestInternalsPrivate/Qt6TestInternalsPrivateVersionlessTargets.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6TestInternalsPrivate/QtRunCMake.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6TestInternalsPrivate/QtRunCMakeTestWrappers.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6TestInternalsPrivate/RunCMake.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6TestPrivate/Qt6TestPrivateAdditionalTargetInfo.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6TestPrivate/Qt6TestPrivateConfig.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6TestPrivate/Qt6TestPrivateConfigVersion.cmake

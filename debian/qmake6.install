@@ -205,7 +205,6 @@ usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/mac/rez.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/mac/sdk.mk
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/mac/sdk.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/mac/toolchain.prf
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/mac/unsupported/objc_namespace.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/metatypes.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/moc.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/no_debug_info.prf
