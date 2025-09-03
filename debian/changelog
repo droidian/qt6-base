@@ -5,6 +5,7 @@ qt6-base (6.9.2+dfsg-1) UNRELEASED; urgency=medium
   * Remove patches that have been applied upstream.
   * Update ABI to 6.9.2.
   * Update list of installed files.
+  * Update symbols from buildlogs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Sep 2025 22:22:10 +0200
 

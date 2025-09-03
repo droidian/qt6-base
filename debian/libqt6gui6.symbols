@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.9.1 amd64 loong64
+# SymbolsHelper-Confirmed: 6.9.2 amd64
 libQt6Gui.so.6 libqt6gui6 #MINVER#
 | libqt6gui6 #MINVER#, qt6-base-private-abi (= 6.9.2)
 * Build-Depends-Package: qt6-base-dev
@@ -17,6 +17,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _Z13qFuzzyCompareRK10QMatrix4x4S1_@Qt_6 6.1.2
  _Z13qt_defaultDpiv@Qt_6 6.1.2
  _Z14qglx_buildSpecRK14QSurfaceFormatii@Qt_6 6.1.2
+ _Z14qt_accStripAmpRK7QString@Qt_6 6.9.2
  _Z14qt_defaultDpiXv@Qt_6 6.1.2
  _Z14qt_defaultDpiYv@Qt_6 6.1.2
  _Z14qt_getFreetypev@Qt_6 6.1.2
