@@ -158,7 +158,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (subst)_Z5qHashRK9QUrlQuery{size_t}@Qt_6 6.1.2
  (subst)_Z5qHashRKN10QByteArray16FromBase64ResultE{size_t}@Qt_6 6.1.2
  (subst)_Z5qHashd{size_t}@Qt_6 6.1.2
- (subst)_Z5qHash{long_double}{size_t}@Qt_6 6.1.2
+ (optional|subst)_Z5qHash{long_double}{size_t}@Qt_6 6.1.2
  _Z5qQNaNv@Qt_6 6.1.2
  _Z5qSNaNv@Qt_6 6.1.2
  _Z5qdtoadPiS_@Qt_6 6.1.2
