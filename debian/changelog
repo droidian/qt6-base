@@ -1,3 +1,9 @@
+qt6-base (6.9.2+dfsg-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Patrick Franz <deltaone@debian.org>  Mon, 22 Sep 2025 20:42:57 +0200
+
 qt6-base (6.9.2+dfsg-1) experimental; urgency=medium
 
   [ Patrick Franz ]
