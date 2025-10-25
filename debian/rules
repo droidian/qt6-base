@@ -14,7 +14,6 @@ else
 endif
 
 ifeq ($(DEB_HOST_ARCH_OS),linux)
-        extra_cmake_args += -DQT_USE_CCACHE=ON
         extra_cmake_args += -DFEATURE_sctp=ON
 else
         extra_cmake_args += -DFEATURE_sctp=OFF
@@ -26,6 +25,11 @@ ifneq ($(DEB_BUILD_ARCH),$(DEB_HOST_ARCH))
 		-DQT_HOST_PATH=/usr \
 		-DQT_HOST_PATH_CMAKE_DIR=/usr/lib/${DEB_BUILD_MULTIARCH}/cmake \
 		-DQT_FORCE_BUILD_TOOLS=ON
+endif
+
+# enable ccache with corresponding build-profile
+ifneq ($(filter ccache,$(DEB_BUILD_PROFILES)),)
+	extra_cmake_args += -DQT_USE_CCACHE=ON
 endif
 
 %:
