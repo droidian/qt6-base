@@ -158,10 +158,10 @@ libQt6Test.so.6 libqt6test6 #MINVER#
  _ZNK9QTestData9dataCountEv@Qt_6 6.1.2
  _ZTI14QTestEventLoop@Qt_6 6.1.2
  _ZTI24QAbstractItemModelTester@Qt_6 6.1.2
- (arch=armel riscv64)_ZTIN9__gnu_cxx7__mutexE@Qt_6 6.8.2
+ (arch=riscv64)_ZTIN9__gnu_cxx7__mutexE@Qt_6 6.8.2
  _ZTS14QTestEventLoop@Qt_6 6.1.2
  _ZTS24QAbstractItemModelTester@Qt_6 6.1.2
- (arch=armel riscv64)_ZTSN9__gnu_cxx7__mutexE@Qt_6 6.8.2
+ (arch=riscv64)_ZTSN9__gnu_cxx7__mutexE@Qt_6 6.8.2
  _ZTV14QTestEventLoop@Qt_6 6.1.2
  _ZTV24QAbstractItemModelTester@Qt_6 6.1.2
  _ZZN14QTestEventLoop8instanceEvE8testLoop@Qt_6 6.3.0

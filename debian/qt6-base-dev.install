@@ -1,10 +1,10 @@
 #!/usr/bin/dh-exec
-[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginAdditionalTargetInfo.cmake
-[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfig.cmake
-[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfigVersion.cmake
-[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfigVersionImpl.cmake
-[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginTargets-none.cmake
-[amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginTargets.cmake
+[amd64 arm64 armhf i386 ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginAdditionalTargetInfo.cmake
+[amd64 arm64 armhf i386 ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfig.cmake
+[amd64 arm64 armhf i386 ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfigVersion.cmake
+[amd64 arm64 armhf i386 ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfigVersionImpl.cmake
+[amd64 arm64 armhf i386 ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginTargets-none.cmake
+[amd64 arm64 armhf i386 ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginTargets.cmake
 [linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsGbmSupport/QtEglFsKmsGbmSupport
 [linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsGbmSupport/QtEglFsKmsGbmSupportDepends
 [linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsGbmSupport/QtEglFsKmsGbmSupportVersion

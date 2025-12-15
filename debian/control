@@ -315,7 +315,7 @@ Description: Qt 6 SQLite 3 database driver
  SQLite 3 DB.
 
 Package: libqt6sql6-ibase
-Architecture: amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64
+Architecture: amd64 arm64 armhf i386 ppc64el riscv64 s390x alpha hppa loong64 powerpc ppc64 sh4 sparc64
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends},
 Depends: ${misc:Depends}, ${shlibs:Depends},

@@ -1584,7 +1584,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTI21QAbstractNetworkCache@Qt_6 6.1.2
  _ZTI21QNetworkAccessManager@Qt_6 6.1.2
  _ZTI5QDtls@Qt_6 6.1.2
- (arch=armel riscv64)_ZTIN9__gnu_cxx7__mutexE@Qt_6 6.3.0
+ (arch=riscv64)_ZTIN9__gnu_cxx7__mutexE@Qt_6 6.3.0
  _ZTIZN9QMetaType17registerConverterI5QListI14QNetworkCookieE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListI9QSslErrorE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListISt4pairI10QByteArrayS3_EE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS5_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
@@ -1614,7 +1614,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTS21QAbstractNetworkCache@Qt_6 6.1.2
  _ZTS21QNetworkAccessManager@Qt_6 6.1.2
  _ZTS5QDtls@Qt_6 6.1.2
- (arch=armel riscv64)_ZTSN9__gnu_cxx7__mutexE@Qt_6 6.3.0
+ (arch=riscv64)_ZTSN9__gnu_cxx7__mutexE@Qt_6 6.3.0
  _ZTSZN9QMetaType17registerConverterI5QListI14QNetworkCookieE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTSZN9QMetaType17registerConverterI5QListI9QSslErrorE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTSZN9QMetaType17registerConverterI5QListISt4pairI10QByteArrayS3_EE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS5_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
