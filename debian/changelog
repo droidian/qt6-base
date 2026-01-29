@@ -3,6 +3,7 @@ qt6-base (6.10.2+dfsg-1) UNRELEASED; urgency=medium
   [ Patrick Franz ]
   * New upstream release (6.10.2).
   * Bump B-Ds for the documentation to 6.10.
+  * Update ABI to 6.10.2.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Jan 2026 22:54:18 +0100
 
