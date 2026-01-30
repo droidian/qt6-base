@@ -14,5 +14,8 @@ usr/include/${DEB_HOST_MULTIARCH}/qt6/QtOpenGL/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtPrintSupport/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSql/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtTest/6.*/*
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/6.*/*
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandGlobal/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWidgets/6.*/*
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWlShellIntegration/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtXml/6.*/*

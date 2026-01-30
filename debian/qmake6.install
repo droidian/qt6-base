@@ -156,6 +156,7 @@ usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/android/sdk.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/android/spec_post.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/benchmark.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/build_pass.prf
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/ccache.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/cmake_functions.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/cmdline.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/configure.prf
@@ -254,7 +255,6 @@ usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/uikit/watchos_coretext.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/uikit/xcodebuild.mk
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/uikit/xcodebuild.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/unix/bsymbolic_functions.prf
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/unix/ccache.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/unix/hide_symbols.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/unix/largefile.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/unix/no_direct_extern_access.prf

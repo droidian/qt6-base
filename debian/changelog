@@ -7,6 +7,8 @@ qt6-base (6.10.2+dfsg-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.7.3 (no changes needed).
   * Remove Priority: optional, not needed anymore.
   * Update build-deps and deps with the info from cmake.
+  * Update list of installed files and new binary packages
+    libqt6waylandclient6 & libqt6wlshellintegration6.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Jan 2026 22:54:18 +0100
 

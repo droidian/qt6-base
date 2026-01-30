@@ -16,6 +16,8 @@ usr/lib/qt6/libexec/qt-cmake-standalone-test
 usr/lib/qt6/libexec/qt-internal-configure-examples
 usr/lib/qt6/libexec/qt-internal-configure-tests
 usr/lib/qt6/libexec/qt-testrunner.py
+usr/lib/qt6/libexec/qt_cyclonedx_generator.py
+usr/lib/qt6/libexec/qtwaylandscanner
 usr/lib/qt6/libexec/qvkgen
 usr/lib/qt6/libexec/rcc
 usr/lib/qt6/libexec/sanitizer-testrunner.py
