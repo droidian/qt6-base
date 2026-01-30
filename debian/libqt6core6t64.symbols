@@ -1,9 +1,10 @@
-# SymbolsHelper-Confirmed: 6.9.1 amd64 armhf hppa i386 powerpc
+# SymbolsHelper-Confirmed: 6.10.2 amd64
 libQt6Core.so.6 libqt6core6t64 #MINVER#
 | libqt6core6t64 #MINVER#, qt6-base-private-abi (= 6.10.2)
 * Build-Depends-Package: qt6-base-dev
  NonQt@NonQt 6.7.2
  Qt_6.0@Qt_6.0 6.1.2
+ Qt_6.10@Qt_6.10 6.10.2
  Qt_6.1@Qt_6.1 6.1.2
  Qt_6.2@Qt_6.2 6.2.0
  Qt_6.3@Qt_6.3 6.3.0
@@ -16,7 +17,6 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  Qt_6@Qt_6 6.1.2
  (symver)Qt_6_PRIVATE_API 0 1
  (subst)_Z10qLocalTime{time_t}P2tm@Qt_6 6.6.0
- (subst|arch=any-amd64 any-i386)_Z10qRandomCpuPv{qptrdiff}@Qt_6 6.1.2
  _Z10qTerminatev@Qt_6 6.1.2
  (arch=sh4)_Z10qvsnprintfPcjPKc13__va_list_tag@Qt_6 6.1.2
  (arch=alpha)_Z10qvsnprintfPcmPKc13__va_list_tag@Qt_6 6.1.2
@@ -116,6 +116,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (subst)_Z30qt_QMetaEnum_flagDebugOperatorR6QDebug{size_t}i@Qt_6 6.1.2
  (subst)_Z30qt_QMetaEnum_flagDebugOperatorR6QDebug{size_t}j@Qt_6 6.8.2
  (subst)_Z30qt_QMetaEnum_flagDebugOperatorR6QDebug{size_t}y@Qt_6 6.9.1
+ _Z32qEnvironmentVariableIntegerValuePKc@Qt_6 6.10.2
  _Z36qRegisterNormalizedMetaType_QCborTagRK10QByteArray@Qt_6 6.3.0
  _Z36qRegisterNormalizedMetaType_qfloat16RK10QByteArray@Qt_6 6.3.0
  _Z37qRegisterNormalizedMetaType_QFileInfoRK10QByteArray@Qt_6 6.3.0
@@ -199,10 +200,12 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _Z9qt_ACE_doRK7QString12AceOperation13AceLeadingDot6QFlagsIN4QUrl19AceProcessingOptionEE@Qt_6 6.6.0
  _Z9qt_assertPKcS0_i@Qt_6 6.1.2
  _Z9qunsetenvPKc@Qt_6 6.1.2
+ _ZGVZN9QMetaType21registerConverterImplI5QHashIi10QByteArrayE9QIterableI16QMetaAssociationEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.10.2
  _ZGVZN9QMetaType21registerConverterImplI5QListI11QModelIndexE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
  _ZGVZN9QMetaType21registerConverterImplI5QListI21QPersistentModelIndexE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
  _ZGVZN9QMetaType21registerConverterImplI5QListIN2Qt9DayOfWeekEE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
  _ZGVZN9QMetaType21registerConverterImplI5QListIiE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
+ _ZGVZN9QMetaType23registerMutableViewImplI5QHashIi10QByteArrayE9QIterableI16QMetaAssociationEEEbSt8functionIFbPvS8_EES_S_E10unregister@Qt_6 6.10.2
  _ZGVZN9QMetaType23registerMutableViewImplI5QListI11QModelIndexE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS8_EES_S_E10unregister@Qt_6 6.2.0
  _ZGVZN9QMetaType23registerMutableViewImplI5QListI21QPersistentModelIndexE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS8_EES_S_E10unregister@Qt_6 6.2.0
  _ZGVZN9QMetaType23registerMutableViewImplI5QListIN2Qt9DayOfWeekEE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS9_EES_S_E10unregister@Qt_6 6.2.0
@@ -216,6 +219,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (subst)_ZN10QByteArray10setRawDataEPKc{qptrdiff}@Qt_6 6.1.2
  (subst)_ZN10QByteArray11reallocDataE{qptrdiff}N10QArrayData16AllocationOptionE@Qt_6 6.1.2
  _ZN10QByteArray13fromStdStringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Qt_6 6.4.0
+ _ZN10QByteArray13nullTerminateEv@Qt_6 6.10.2
  (subst)_ZN10QByteArray13sliced_helperERS_{qptrdiff}{qptrdiff}@Qt_6 6.7.2
  _ZN10QByteArray14toLower_helperERKS_@Qt_6 6.1.2
  _ZN10QByteArray14toLower_helperERS_@Qt_6 6.1.2
@@ -410,9 +414,11 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN11QBasicMutex12lockInternalE14QDeadlineTimer@Qt_6 6.6.0
  _ZN11QBasicMutex12lockInternalEi@Qt_6 6.1.2
  _ZN11QBasicMutex12lockInternalEv@Qt_6 6.1.2
+ _ZN11QBasicMutex14unlockInternalEPv@Qt_6 6.10.2
  _ZN11QBasicMutex14unlockInternalEv@Qt_6 6.1.2
  _ZN11QBasicMutex15destroyInternalEP13QMutexPrivate@Qt_6 6.1.2
  _ZN11QBasicMutex15destroyInternalEPv@Qt_6 6.9.1
+ _ZN11QBasicMutex19unlockInternalFutexEPv@Qt_6 6.10.2
  _ZN11QBasicTimer4stopEv@Qt_6 6.1.2
  (subst)_ZN11QBasicTimer5startENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000000000EEEEN2Qt9TimerTypeEP7QObject@Qt_6 6.9.1
  (subst)_ZN11QBasicTimer5startENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEEN2Qt9TimerTypeEP7QObject@Qt_6 6.6.0
@@ -556,6 +562,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN11QMetaObject10ConnectionD2Ev@Qt_6 6.1.2
  _ZN11QMetaObject10ConnectionaSERKS0_@Qt_6 6.1.2
  _ZN11QMetaObject10disconnectEPK7QObjectiS2_i@Qt_6 6.1.2
+ _ZN11QMetaObject11connectImplEPK7QObjectRK11QMetaMethodS2_PPvPN9QtPrivate15QSlotObjectBaseEN2Qt14ConnectionTypeE@Qt_6 6.10.2
  _ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE22QGenericReturnArgument16QGenericArgumentS7_S7_S7_S7_S7_S7_S7_S7_S7_@Qt_6 6.1.2
  _ZN11QMetaObject13disconnectOneEPK7QObjectiS2_i@Qt_6 6.1.2
  _ZN11QMetaObject14normalizedTypeEPKc@Qt_6 6.1.2
@@ -575,6 +582,33 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN11QObjectDataD0Ev@Qt_6 6.1.2
  _ZN11QObjectDataD1Ev@Qt_6 6.1.2
  _ZN11QObjectDataD2Ev@Qt_6 6.1.2
+ _ZN11QRangeModel10insertRowsEiiRK11QModelIndex@Qt_6 6.10.2
+ _ZN11QRangeModel10removeRowsEiiRK11QModelIndex@Qt_6 6.10.2
+ _ZN11QRangeModel11eventFilterEP7QObjectP6QEvent@Qt_6 6.10.2
+ _ZN11QRangeModel11moveColumnsERK11QModelIndexiiS2_i@Qt_6 6.10.2
+ _ZN11QRangeModel11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.10.2
+ _ZN11QRangeModel11qt_metacastEPKc@Qt_6 6.10.2
+ _ZN11QRangeModel11setItemDataERK11QModelIndexRK4QMapIi8QVariantE@Qt_6 6.10.2
+ _ZN11QRangeModel12dropMimeDataEPK9QMimeDataN2Qt10DropActionEiiRK11QModelIndex@Qt_6 6.10.2
+ _ZN11QRangeModel12setRoleNamesERK5QHashIi10QByteArrayE@Qt_6 6.10.2
+ _ZN11QRangeModel13clearItemDataERK11QModelIndex@Qt_6 6.10.2
+ _ZN11QRangeModel13insertColumnsEiiRK11QModelIndex@Qt_6 6.10.2
+ _ZN11QRangeModel13removeColumnsEiiRK11QModelIndex@Qt_6 6.10.2
+ _ZN11QRangeModel13setHeaderDataEiN2Qt11OrientationERK8QVarianti@Qt_6 6.10.2
+ _ZN11QRangeModel14resetRoleNamesEv@Qt_6 6.10.2
+ _ZN11QRangeModel16roleNamesChangedEv@Qt_6 6.10.2
+ _ZN11QRangeModel16staticMetaObjectE@Qt_6 6.10.2
+ _ZN11QRangeModel17resetInternalDataEv@Qt_6 6.10.2
+ _ZN11QRangeModel4sortEiN2Qt9SortOrderE@Qt_6 6.10.2
+ _ZN11QRangeModel5eventEP6QEvent@Qt_6 6.10.2
+ _ZN11QRangeModel7setDataERK11QModelIndexRK8QVarianti@Qt_6 6.10.2
+ _ZN11QRangeModel8moveRowsERK11QModelIndexiiS2_i@Qt_6 6.10.2
+ _ZN11QRangeModel9fetchMoreERK11QModelIndex@Qt_6 6.10.2
+ _ZN11QRangeModelC1EP19QRangeModelImplBaseP7QObject@Qt_6 6.10.2
+ _ZN11QRangeModelC2EP19QRangeModelImplBaseP7QObject@Qt_6 6.10.2
+ _ZN11QRangeModelD0Ev@Qt_6 6.10.2
+ _ZN11QRangeModelD1Ev@Qt_6 6.10.2
+ _ZN11QRangeModelD2Ev@Qt_6 6.10.2
  (subst)_ZN11QStringView12equal_helperES_PKc{qptrdiff}@Qt_6 6.8.2
  (subst)_ZN11QStringView14compare_helperES_PKc{qptrdiff}@Qt_6 6.8.2
  _ZN11QTextStream10setPadCharE5QChar@Qt_6 6.1.2
@@ -980,8 +1014,8 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN14QTemporaryFileD2Ev@Qt_6 6.1.2
  _ZN14QUnicodeTables10idnaStatusEDi@Qt_6 6.3.0
  _ZN14QUnicodeTables10propertiesEDi@Qt_6 6.1.2
- _ZN14QUnicodeTables10propertiesEDs@Qt_6 6.1.2
  _ZN14QUnicodeTables11idnaMappingEDi@Qt_6 6.3.0
+ _ZN14QUnicodeTables14caseConversionEDi@Qt_6 6.10.2
  _ZN14QUnicodeTables14eastAsianWidthEDi@Qt_6 6.3.1
  _ZN14QUnicodeTables14lineBreakClassEDi@Qt_6 6.1.2
  _ZN14QUnicodeTables14wordBreakClassEDi@Qt_6 6.1.2
@@ -1110,6 +1144,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN16QCoreApplication13testAttributeEN2Qt20ApplicationAttributeE@Qt_6 6.1.2
  _ZN16QCoreApplication14addLibraryPathERK7QString@Qt_6 6.1.2
  _ZN16QCoreApplication14applicationPidEv@Qt_6 6.1.2
+ _ZN16QCoreApplication14instanceExistsEv@Qt_6 6.10.2
  _ZN16QCoreApplication15applicationNameEv@Qt_6 6.1.2
  _ZN16QCoreApplication15checkPermissionERK11QPermission@Qt_6 6.6.0
  _ZN16QCoreApplication15eventDispatcherEv@Qt_6 6.1.2
@@ -1127,7 +1162,6 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN16QCoreApplication17requestPermissionERK11QPermissionPN9QtPrivate15QSlotObjectBaseEPK7QObject@Qt_6 6.6.0
  _ZN16QCoreApplication18applicationDirPathEv@Qt_6 6.1.2
  _ZN16QCoreApplication18applicationVersionEv@Qt_6 6.1.2
- _ZN16QCoreApplication18libraryPathsLockedEv@Qt_6 6.1.2
  _ZN16QCoreApplication18organizationDomainEv@Qt_6 6.1.2
  _ZN16QCoreApplication18removePostedEventsEP7QObjecti@Qt_6 6.1.2
  _ZN16QCoreApplication18setApplicationNameERK7QString@Qt_6 6.1.2
@@ -1136,6 +1170,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN16QCoreApplication19applicationFilePathEv@Qt_6 6.1.2
  _ZN16QCoreApplication19setOrganizationNameERK7QString@Qt_6 6.1.2
  _ZN16QCoreApplication20sendSpontaneousEventEP7QObjectP6QEvent@Qt_6 6.1.2
+ _ZN16QCoreApplication21requestPermissionImplERK11QPermissionPN9QtPrivate15QSlotObjectBaseEPK7QObject@Qt_6 6.10.2
  _ZN16QCoreApplication21setApplicationVersionERK7QString@Qt_6 6.1.2
  _ZN16QCoreApplication21setOrganizationDomainERK7QString@Qt_6 6.1.2
  _ZN16QCoreApplication22applicationNameChangedEv@Qt_6 6.1.2
@@ -1181,6 +1216,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN16QLoggingCategoryD2Ev@Qt_6 6.1.2
  _ZN16QMetaAssociation15MetaAssociationI4QMapI7QString8QVariantEE5valueE@Qt_6 6.1.2
  _ZN16QMetaAssociation15MetaAssociationI5QHashI7QString8QVariantEE5valueE@Qt_6 6.1.2
+ _ZN16QMetaAssociation15MetaAssociationI5QHashIi10QByteArrayEE5valueE@Qt_6 6.10.2
  (subst)_ZN16QRandomGenerator10_fillRangeEPv{qptrdiff}@Qt_6 6.1.2
  _ZN16QRandomGenerator7discardEy@Qt_6 6.1.2
  _ZN16QRandomGeneratorC1EPKjS1_@Qt_6 6.1.2
@@ -1237,6 +1273,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN16QXmlStreamReader10raiseErrorERK7QString@Qt_6 6.1.2
  _ZN16QXmlStreamReader11addDataImplERK10QByteArray@Qt_6 6.6.0
  _ZN16QXmlStreamReader15readElementTextENS_24ReadElementTextBehaviourE@Qt_6 6.1.2
+ _ZN16QXmlStreamReader16readRawInnerDataEv@Qt_6 6.10.2
  _ZN16QXmlStreamReader17setEntityResolverEP24QXmlStreamEntityResolver@Qt_6 6.1.2
  _ZN16QXmlStreamReader18skipCurrentElementEv@Qt_6 6.1.2
  _ZN16QXmlStreamReader20readNextStartElementEv@Qt_6 6.1.2
@@ -1267,6 +1304,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN16QXmlStreamReaderC2Ev@Qt_6 6.1.2
  _ZN16QXmlStreamReaderD1Ev@Qt_6 6.1.2
  _ZN16QXmlStreamReaderD2Ev@Qt_6 6.1.2
+ _ZN16QXmlStreamWriter10raiseErrorE14QAnyStringView@Qt_6 6.10.2
  _ZN16QXmlStreamWriter10writeCDATAE14QAnyStringView@Qt_6 6.6.0
  _ZN16QXmlStreamWriter10writeCDATAERK7QString@Qt_6 6.1.2
  _ZN16QXmlStreamWriter12writeCommentE14QAnyStringView@Qt_6 6.6.0
@@ -1304,6 +1342,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN16QXmlStreamWriter18writeStartDocumentEv@Qt_6 6.1.2
  _ZN16QXmlStreamWriter20writeEntityReferenceE14QAnyStringView@Qt_6 6.6.0
  _ZN16QXmlStreamWriter20writeEntityReferenceERK7QString@Qt_6 6.1.2
+ _ZN16QXmlStreamWriter21setStopWritingOnErrorEb@Qt_6 6.10.2
  _ZN16QXmlStreamWriter21writeDefaultNamespaceE14QAnyStringView@Qt_6 6.6.0
  _ZN16QXmlStreamWriter21writeDefaultNamespaceERK7QString@Qt_6 6.1.2
  _ZN16QXmlStreamWriter23setAutoFormattingIndentEi@Qt_6 6.1.2
@@ -1533,6 +1572,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN18QCborValueConstRef15concreteBooleanES_b@Qt_6 6.4.0
  _ZN18QCborValueConstRef16concreteIntegralES_x@Qt_6 6.4.0
  _ZN18QCborValueConstRef17concreteByteArrayES_RK10QByteArray@Qt_6 6.4.0
+ _ZN18QCborValueConstRef18concreteStringViewES_14QAnyStringView@Qt_6 6.10.2
  _ZN18QCborValueConstRef20comparesEqual_helperES_RK10QCborValue@Qt_6 6.8.2
  _ZN18QCborValueConstRef20comparesEqual_helperES_S_@Qt_6 6.8.2
  _ZN18QCborValueConstRef22compareThreeWay_helperES_RK10QCborValue@Qt_6 6.8.2
@@ -1642,8 +1682,10 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN18QJsonValueConstRef11concreteIntES_xb@Qt_6 6.4.0
  _ZN18QJsonValueConstRef12concreteBoolES_b@Qt_6 6.4.0
  _ZN18QJsonValueConstRef12concreteTypeES_@Qt_6 6.4.0
+ _ZN18QJsonValueConstRef13objectKeyViewES_@Qt_6 6.10.2
  _ZN18QJsonValueConstRef14concreteDoubleES_d@Qt_6 6.4.0
  _ZN18QJsonValueConstRef14concreteStringES_RK7QString@Qt_6 6.4.0
+ _ZN18QJsonValueConstRef18concreteStringViewES_14QAnyStringView@Qt_6 6.10.2
  _ZN18QJsonValueConstRef8concreteES_@Qt_6 6.4.0
  _ZN18QJsonValueConstRef9objectKeyES_@Qt_6 6.4.0
  _ZN18QPropertyAnimation11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
@@ -1684,7 +1726,6 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN18QRegularExpressionD2Ev@Qt_6 6.1.2
  _ZN18QRegularExpressionaSERKS_@Qt_6 6.1.2
  _ZN18QThreadStorageData3setEPv@Qt_6 6.1.2
- _ZN18QThreadStorageData6finishEPPv@Qt_6 6.1.2
  _ZN18QThreadStorageDataC1EPFvPvE@Qt_6 6.1.2
  _ZN18QThreadStorageDataC2EPFvPvE@Qt_6 6.1.2
  _ZN18QThreadStorageDataD1Ev@Qt_6 6.1.2
@@ -1804,6 +1845,8 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN19QProcessEnvironmentD1Ev@Qt_6 6.1.2
  _ZN19QProcessEnvironmentD2Ev@Qt_6 6.1.2
  _ZN19QProcessEnvironmentaSERKS_@Qt_6 6.1.2
+ _ZN19QRangeModelImplBase22roleNamesForMetaObjectERK18QAbstractItemModelRK11QMetaObject@Qt_6 6.10.2
+ _ZN19QRangeModelImplBase22roleNamesForSimpleTypeEv@Qt_6 6.10.2
  _ZN19QSequentialIterable11removeValueENS_8PositionE@Qt_6 6.1.2
  (subst)_ZN19QSequentialIterable3setE{qptrdiff}RK8QVariant@Qt_6 6.1.2
  _ZN19QSequentialIterable8addValueERK8QVariantNS_8PositionE@Qt_6 6.1.2
@@ -1855,6 +1898,8 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN20QBluetoothPermissionaSERKS_@Qt_6 6.6.0
  (subst)_ZN20QContiguousCacheData12allocateDataE{qptrdiff}{qptrdiff}@Qt_6 6.1.2
  _ZN20QContiguousCacheData8freeDataEPS_@Qt_6 6.1.2
+ _ZN20QFutureInterfaceBase11cancelChainENS_10CancelModeE@Qt_6 6.10.2
+ _ZN20QFutureInterfaceBase11cancelChainEv@Qt_6 6.10.2
  _ZN20QFutureInterfaceBase11setRunnableEP9QRunnable@Qt_6 6.1.2
  _ZN20QFutureInterfaceBase12setSuspendedEb@Qt_6 6.1.2
  _ZN20QFutureInterfaceBase12setThrottledEb@Qt_6 6.1.2
@@ -1870,8 +1915,10 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN20QFutureInterfaceBase15reportExceptionENSt15__exception_ptr13exception_ptrE@Qt_6 6.1.2
  _ZN20QFutureInterfaceBase15reportExceptionERK10QException@Qt_6 6.1.2
  _ZN20QFutureInterfaceBase15resultStoreBaseEv@Qt_6 6.1.2
+ _ZN20QFutureInterfaceBase15setContinuationEPK7QObjectSt8functionIFvvEERK8QVariantNS_16ContinuationTypeE@Qt_6 6.10.2
  _ZN20QFutureInterfaceBase15setContinuationESt8functionIFvRKS_EE@Qt_6 6.1.2
  _ZN20QFutureInterfaceBase15setContinuationESt8functionIFvRKS_EEP27QFutureInterfaceBasePrivate@Qt_6 6.6.1
+ _ZN20QFutureInterfaceBase15setContinuationESt8functionIFvRKS_EEPvNS_16ContinuationTypeE@Qt_6 6.10.2
  _ZN20QFutureInterfaceBase15toggleSuspendedEv@Qt_6 6.1.2
  _ZN20QFutureInterfaceBase15waitForFinishedEv@Qt_6 6.1.2
  _ZN20QFutureInterfaceBase16setProgressRangeEii@Qt_6 6.1.2
@@ -1983,6 +2030,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN21QSortFilterProxyModel13setFilterRoleEi@Qt_6 6.1.2
  _ZN21QSortFilterProxyModel13setHeaderDataEiN2Qt11OrientationERK8QVarianti@Qt_6 6.1.2
  _ZN21QSortFilterProxyModel14setSourceModelEP18QAbstractItemModel@Qt_6 6.1.2
+ _ZN21QSortFilterProxyModel15endFilterChangeE6QFlagsINS_9DirectionEE@Qt_6 6.10.2
  _ZN21QSortFilterProxyModel15sortRoleChangedEi@Qt_6 6.1.2
  _ZN21QSortFilterProxyModel16bindableSortRoleEv@Qt_6 6.2.0
  _ZN21QSortFilterProxyModel16invalidateFilterEv@Qt_6 6.1.2
@@ -2297,6 +2345,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN4QUrl12idnWhitelistEv@Qt_6 6.1.2
  _ZN4QUrl12setAuthorityERK7QStringNS_11ParsingModeE@Qt_6 6.1.2
  _ZN4QUrl12toStringListERK5QListIS_E12QUrlTwoFlagsINS_19UrlFormattingOptionENS_25ComponentFormattingOptionEE@Qt_6 6.1.2
+ _ZN4QUrl13detachToClearEv@Qt_6 6.10.2
  _ZN4QUrl13fromLocalFileERK7QString@Qt_6 6.1.2
  _ZN4QUrl13fromUserInputERK7QStringS2_6QFlagsINS_25UserInputResolutionOptionEE@Qt_6 6.1.2
  _ZN4QUrl14fromStringListERK5QListI7QStringENS_11ParsingModeE@Qt_6 6.1.2
@@ -2561,6 +2610,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN7QObject12moveToThreadEP7QThreadN2Qt15Disambiguated_tE@Qt_6 6.7.2
  _ZN7QObject13connectNotifyERK11QMetaMethod@Qt_6 6.1.2
  _ZN7QObject13doSetPropertyEPKcPK8QVariantPS2_@Qt_6 6.6.0
+ _ZN7QObject13doSetPropertyEPKcRK8QVariantPS2_@Qt_6 6.10.2
  _ZN7QObject13setObjectNameE14QAnyStringView@Qt_6 6.4.0
  _ZN7QObject13setObjectNameERK7QString@Qt_6 6.1.2
  _ZN7QObject14disconnectImplEPKS_PPvS1_S3_PK11QMetaObject@Qt_6 6.1.2
@@ -2590,6 +2640,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (subst)_ZN7QString11reallocDataE{qptrdiff}N10QArrayData16AllocationOptionE@Qt_6 6.1.2
  (subst)_ZN7QString13assign_helperEPKDi{qptrdiff}@Qt_6 6.6.0
  _ZN7QString13fromLocal8BitE14QByteArrayView@Qt_6 6.1.2
+ _ZN7QString13nullTerminateEv@Qt_6 6.10.2
  (subst)_ZN7QString13sliced_helperERS_{qptrdiff}{qptrdiff}@Qt_6 6.7.2
  (subst)_ZN7QString13toUcs4_helperEPKDs{qptrdiff}PDi@Qt_6 6.6.0
  (subst)_ZN7QString13toUcs4_helperEPKt{qptrdiff}Pj@Qt_6 6.1.2
@@ -2884,7 +2935,6 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN8QVariantC1ERK9QBitArray@Qt_6 6.1.2
  _ZN8QVariantC1ERK9QDateTime@Qt_6 6.1.2
  _ZN8QVariantC1ERKS_@Qt_6 6.1.2
- _ZN8QVariantC1ESt10in_place_t9QMetaType@Qt_6 6.6.0
  _ZN8QVariantC1Eb@Qt_6 6.1.2
  _ZN8QVariantC1Ed@Qt_6 6.1.2
  _ZN8QVariantC1Ef@Qt_6 6.1.2
@@ -2934,7 +2984,6 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN8QVariantC2ERK9QBitArray@Qt_6 6.1.2
  _ZN8QVariantC2ERK9QDateTime@Qt_6 6.1.2
  _ZN8QVariantC2ERKS_@Qt_6 6.1.2
- _ZN8QVariantC2ESt10in_place_t9QMetaType@Qt_6 6.6.0
  _ZN8QVariantC2Eb@Qt_6 6.1.2
  _ZN8QVariantC2Ed@Qt_6 6.1.2
  _ZN8QVariantC2Ef@Qt_6 6.1.2
@@ -3374,7 +3423,6 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN9QtPrivate13convertToUtf8E11QStringView@Qt_6 6.1.2
  _ZN9QtPrivate13convertToUtf8E13QLatin1String@Qt_6 6.9.1
  (subst)_ZN9QtPrivate13findByteArrayE14QByteArrayView{qptrdiff}S0_@Qt_6 6.1.2
- _ZN9QtPrivate13isBuiltinTypeERK10QByteArray@Qt_6 6.1.2
  _ZN9QtPrivate13isRightToLeftE11QStringView@Qt_6 6.1.2
  _ZN9QtPrivate14ExceptionStore12setExceptionENSt15__exception_ptr13exception_ptrE@Qt_6 6.1.2
  _ZN9QtPrivate14ExceptionStore12setExceptionERK10QException@Qt_6 6.1.2
@@ -3866,6 +3914,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN9QtPrivate16QStringList_joinERK5QListI7QStringE13QLatin1String@Qt_6 6.1.2
  _ZN9QtPrivate16QStringList_sortEP5QListI7QStringEN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN9QtPrivate16convertToQStringE14QAnyStringView@Qt_6 6.1.2
+ _ZN9QtPrivate17expectedAllocSizeEmm@Qt_6 6.10.2
  _ZN9QtPrivate17shouldLogToStderrEv@Qt_6 6.1.2
  _ZN9QtPrivate17toUnsignedIntegerE14QByteArrayViewi@Qt_6 6.3.0
  _ZN9QtPrivate18QStringList_filterEPK5QListI7QStringE11QStringViewN2Qt15CaseSensitivityE@Qt_6 6.1.2
@@ -4017,6 +4066,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN9QtPrivate25QMetaTypeInterfaceWrapperIyE8metaTypeE@Qt_6 6.4.0
  _ZN9QtPrivate25initBindingStatusThreadIdEv@Qt_6 6.2.0
  _ZN9QtPrivate26isPropertyInBindingWrapperEPK20QUntypedPropertyData@Qt_6 6.2.0
+ _ZN9QtPrivate26qfutureWarnIfUnusedResultsEx@Qt_6 6.10.2
  _ZN9QtPrivate27suspendCurrentBindingStatusEv@Qt_6 6.2.0
  _ZN9QtPrivate28QStringList_removeDuplicatesEP5QListI7QStringE@Qt_6 6.1.2
  _ZN9QtPrivate28QStringList_replaceInStringsEP5QListI7QStringE11QStringViewS4_N2Qt15CaseSensitivityE@Qt_6 6.1.2
@@ -4060,6 +4110,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN9QtPrivate8qustrlenEPKDs@Qt_6 6.1.2
  _ZN9QtPrivate8toDoubleE14QByteArrayView@Qt_6 6.3.0
  (subst)_ZN9QtPrivate9qustrnlenEPKDs{qptrdiff}@Qt_6 6.7.2
+ _ZN9QtPrivate9sizedFreeEPvm@Qt_6 6.10.2
  _ZNK10QByteArray10toLongLongEPbi@Qt_6 6.1.2
  (subst)_ZNK10QByteArray11lastIndexOfEc{qptrdiff}@Qt_6 6.1.2
  _ZNK10QByteArray11toStdStringB5cxx11Ev@Qt_6 6.4.0
@@ -4099,6 +4150,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZNK10QCborValue11taggedValueERKS_@Qt_6 6.1.2
  _ZNK10QCborValue11toByteArrayERK10QByteArray@Qt_6 6.1.2
  _ZNK10QCborValue11toJsonValueEv@Qt_6 6.1.2
+ _ZNK10QCborValue12toStringViewE14QAnyStringView@Qt_6 6.10.2
  _ZNK10QCborValue19toRegularExpressionERK18QRegularExpression@Qt_6 6.1.2
  _ZNK10QCborValue20toDiagnosticNotationE6QFlagsINS_24DiagnosticNotationOptionEE@Qt_6 6.1.2
  _ZNK10QCborValue3tagE8QCborTag@Qt_6 6.1.2
@@ -4130,6 +4182,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZNK10QJsonArrayeqERKS_@Qt_6 6.1.2
  (subst)_ZNK10QJsonArrayixE{qptrdiff}@Qt_6 6.1.2
  _ZNK10QJsonArrayneERKS_@Qt_6 6.1.2
+ _ZNK10QJsonValue12toStringViewE14QAnyStringView@Qt_6 6.10.2
  _ZNK10QJsonValue4typeEv@Qt_6 6.1.2
  _ZNK10QJsonValue5toIntEi@Qt_6 6.1.2
  _ZNK10QJsonValue6toBoolEb@Qt_6 6.1.2
@@ -4264,6 +4317,28 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZNK11QMetaObject9classNameEv@Qt_6 6.1.2
  _ZNK11QObjectData17dynamicMetaObjectEv@Qt_6 6.1.2
  _ZNK11QPermission4dataE9QMetaType@Qt_6 6.6.0
+ _ZNK11QRangeModel10headerDataEiN2Qt11OrientationEi@Qt_6 6.10.2
+ _ZNK11QRangeModel10metaObjectEv@Qt_6 6.10.2
+ _ZNK11QRangeModel11columnCountERK11QModelIndex@Qt_6 6.10.2
+ _ZNK11QRangeModel11hasChildrenERK11QModelIndex@Qt_6 6.10.2
+ _ZNK11QRangeModel12canFetchMoreERK11QModelIndex@Qt_6 6.10.2
+ _ZNK11QRangeModel15canDropMimeDataEPK9QMimeDataN2Qt10DropActionEiiRK11QModelIndex@Qt_6 6.10.2
+ _ZNK11QRangeModel20supportedDragActionsEv@Qt_6 6.10.2
+ _ZNK11QRangeModel20supportedDropActionsEv@Qt_6 6.10.2
+ _ZNK11QRangeModel4dataERK11QModelIndexi@Qt_6 6.10.2
+ _ZNK11QRangeModel4spanERK11QModelIndex@Qt_6 6.10.2
+ _ZNK11QRangeModel5buddyERK11QModelIndex@Qt_6 6.10.2
+ _ZNK11QRangeModel5flagsERK11QModelIndex@Qt_6 6.10.2
+ _ZNK11QRangeModel5indexEiiRK11QModelIndex@Qt_6 6.10.2
+ _ZNK11QRangeModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@Qt_6 6.10.2
+ _ZNK11QRangeModel6parentERK11QModelIndex@Qt_6 6.10.2
+ _ZNK11QRangeModel7siblingEiiRK11QModelIndex@Qt_6 6.10.2
+ _ZNK11QRangeModel8itemDataERK11QModelIndex@Qt_6 6.10.2
+ _ZNK11QRangeModel8mimeDataERK5QListI11QModelIndexE@Qt_6 6.10.2
+ _ZNK11QRangeModel8rowCountERK11QModelIndex@Qt_6 6.10.2
+ _ZNK11QRangeModel9mimeTypesEv@Qt_6 6.10.2
+ _ZNK11QRangeModel9multiDataERK11QModelIndex18QModelRoleDataSpan@Qt_6 6.10.2
+ _ZNK11QRangeModel9roleNamesEv@Qt_6 6.10.2
  _ZNK11QStringView5splitE5QChar6QFlagsIN2Qt18SplitBehaviorFlagsEENS2_15CaseSensitivityE@Qt_6 6.1.2
  _ZNK11QStringView5splitERK18QRegularExpression6QFlagsIN2Qt18SplitBehaviorFlagsEE@Qt_6 6.1.2
  _ZNK11QStringView5splitES_6QFlagsIN2Qt18SplitBehaviorFlagsEENS1_15CaseSensitivityE@Qt_6 6.1.2
@@ -4616,8 +4691,11 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZNK16QXmlStreamReader7dtdNameEv@Qt_6 6.1.2
  _ZNK16QXmlStreamReader7isCDATAEv@Qt_6 6.1.2
  _ZNK16QXmlStreamReader9tokenTypeEv@Qt_6 6.1.2
+ _ZNK16QXmlStreamWriter11errorStringEv@Qt_6 6.10.2
  _ZNK16QXmlStreamWriter14autoFormattingEv@Qt_6 6.1.2
+ _ZNK16QXmlStreamWriter18stopWritingOnErrorEv@Qt_6 6.10.2
  _ZNK16QXmlStreamWriter20autoFormattingIndentEv@Qt_6 6.1.2
+ _ZNK16QXmlStreamWriter5errorEv@Qt_6 6.10.2
  _ZNK16QXmlStreamWriter6deviceEv@Qt_6 6.1.2
  _ZNK16QXmlStreamWriter8hasErrorEv@Qt_6 6.1.2
  (subst)_ZNK17QByteArrayMatcher7indexInE14QByteArrayView{qptrdiff}@Qt_6 6.3.0
@@ -5026,12 +5104,14 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZNK4QDir5countEv@Qt_6 6.1.2
  _ZNK4QDir5mkdirERK7QString6QFlagsIN11QFileDevice10PermissionEE@Qt_6 6.3.0
  _ZNK4QDir5mkdirERK7QString@Qt_6 6.1.2
+ _ZNK4QDir5mkdirERK7QStringSt8optionalI6QFlagsIN11QFileDevice10PermissionEEE@Qt_6 6.10.2
  _ZNK4QDir5rmdirERK7QString@Qt_6 6.1.2
  _ZNK4QDir6existsERK7QString@Qt_6 6.1.2
  _ZNK4QDir6existsEv@Qt_6 6.1.2
  _ZNK4QDir6filterEv@Qt_6 6.1.2
  _ZNK4QDir6isRootEv@Qt_6 6.1.2
  _ZNK4QDir6mkpathERK7QString@Qt_6 6.1.2
+ _ZNK4QDir6mkpathERK7QStringSt8optionalI6QFlagsIN11QFileDevice10PermissionEEE@Qt_6 6.10.2
  _ZNK4QDir6rmpathERK7QString@Qt_6 6.1.2
  _ZNK4QDir7dirNameEv@Qt_6 6.1.2
  _ZNK4QDir7isEmptyE6QFlagsINS_6FilterEE@Qt_6 6.1.2
@@ -5247,7 +5327,9 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZNK7QLocale8toStringERK9QDateTimeNS_10FormatTypeE@Qt_6 6.1.2
  _ZNK7QLocale8toStringEdci@Qt_6 6.1.2
  _ZNK7QLocale8toStringEx@Qt_6 6.1.2
+ _ZNK7QLocale8toStringExiDi@Qt_6 6.10.2
  _ZNK7QLocale8toStringEy@Qt_6 6.1.2
+ _ZNK7QLocale8toStringEyiDi@Qt_6 6.10.2
  _ZNK7QLocale8toUShortE11QStringViewPb@Qt_6 6.1.2
  _ZNK7QLocale8weekdaysEv@Qt_6 6.1.2
  _ZNK7QLocale9bcp47NameENS_12TagSeparatorE@Qt_6 6.7.2
@@ -5276,6 +5358,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  (subst)_ZNK7QString11lastIndexOfE5QChar{qptrdiff}N2Qt15CaseSensitivityE@Qt_6 6.1.2
  (subst)_ZNK7QString11lastIndexOfERK18QRegularExpression{qptrdiff}P23QRegularExpressionMatch@Qt_6 6.1.2
  (subst)_ZNK7QString11lastIndexOfERKS_{qptrdiff}N2Qt15CaseSensitivityE@Qt_6 6.1.2
+ _ZNK7QString11toStdStringB5cxx11Ev@Qt_6 6.10.2
  _ZNK7QString11toULongLongEPbi@Qt_6 6.1.2
  _ZNK7QString13isRightToLeftEv@Qt_6 6.1.2
  (subst)_ZNK7QString13leftJustifiedE{qptrdiff}5QCharb@Qt_6 6.1.2
@@ -5512,6 +5595,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZNK9QFileInfo7cachingEv@Qt_6 6.1.2
  _ZNK9QFileInfo7groupIdEv@Qt_6 6.1.2
  _ZNK9QFileInfo7isAliasEv@Qt_6 6.4.0
+ _ZNK9QFileInfo7isOtherEv@Qt_6 6.10.2
  _ZNK9QFileInfo7ownerIdEv@Qt_6 6.1.2
  _ZNK9QFileInfo8baseNameEv@Qt_6 6.1.2
  _ZNK9QFileInfo8fileNameEv@Qt_6 6.1.2
@@ -5718,9 +5802,13 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZNK9QtPrivate20QPropertyBindingData15notifyObserversEP20QUntypedPropertyData@Qt_6 6.1.2
  _ZNK9QtPrivate20QPropertyBindingData15notifyObserversEP20QUntypedPropertyDataP15QBindingStorage@Qt_6 6.2.0
  _ZNK9QtPrivate20QPropertyBindingData38registerWithCurrentlyEvaluatingBindingEv@Qt_6 6.1.2
+ _ZNKR10QByteArray14nullTerminatedEv@Qt_6 6.10.2
  (subst)_ZNKR10QByteArray3midE{qptrdiff}{qptrdiff}@Qt_6 6.7.2
+ _ZNKR7QString14nullTerminatedEv@Qt_6 6.10.2
  (subst)_ZNKR7QString3midE{qptrdiff}{qptrdiff}@Qt_6 6.7.2
+ _ZNO10QByteArray14nullTerminatedEv@Qt_6 6.10.2
  (subst)_ZNO10QByteArray3midE{qptrdiff}{qptrdiff}@Qt_6 6.7.2
+ _ZNO7QString14nullTerminatedEv@Qt_6 6.10.2
  (subst)_ZNO7QString3midE{qptrdiff}{qptrdiff}@Qt_6 6.7.2
  _ZNO9QBitArray16inverted_inplaceEv@Qt_6 6.7.2
  _ZTI10QEventLoop@Qt_6 6.1.2
@@ -5729,6 +5817,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZTI11QFileDevice@Qt_6 6.1.2
  _ZTI11QMetaObject@Qt_6 6.1.2
  _ZTI11QObjectData@Qt_6 6.1.2
+ _ZTI11QRangeModel@Qt_6 6.10.2
  _ZTI11QTextStream@Qt_6 6.1.2
  _ZTI11QThreadPool@Qt_6 6.1.2
  _ZTI11QTimerEvent@Qt_6 6.1.2
@@ -5787,10 +5876,12 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZTIN9QRunnable16QGenericRunnableE@Qt_6 6.6.0
  _ZTIN9QtPrivate15ResultStoreBaseE@Qt_6 6.1.2
  (arch=riscv64)_ZTIN9__gnu_cxx7__mutexE@Qt_6 6.3.0
+ _ZTIZN9QMetaType17registerConverterI5QHashIi10QByteArrayE9QIterableI16QMetaAssociationEN9QtPrivate34QAssociativeIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.10.2
  _ZTIZN9QMetaType17registerConverterI5QListI11QModelIndexE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListI21QPersistentModelIndexE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListIN2Qt9DayOfWeekEE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS4_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListIiE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS2_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
+ _ZTIZN9QMetaType19registerMutableViewI5QHashIi10QByteArrayE9QIterableI16QMetaAssociationEN9QtPrivate38QAssociativeIterableMutableViewFunctorIS3_EEEEbT1_EUlPvSB_E_@Qt_6 6.10.2
  _ZTIZN9QMetaType19registerMutableViewI5QListI11QModelIndexE9QIterableI13QMetaSequenceEN9QtPrivate37QSequentialIterableMutableViewFunctorIS3_EEEEbT1_EUlPvSB_E_@Qt_6 6.1.2
  _ZTIZN9QMetaType19registerMutableViewI5QListI21QPersistentModelIndexE9QIterableI13QMetaSequenceEN9QtPrivate37QSequentialIterableMutableViewFunctorIS3_EEEEbT1_EUlPvSB_E_@Qt_6 6.1.2
  _ZTIZN9QMetaType19registerMutableViewI5QListIN2Qt9DayOfWeekEE9QIterableI13QMetaSequenceEN9QtPrivate37QSequentialIterableMutableViewFunctorIS4_EEEEbT1_EUlPvSC_E_@Qt_6 6.1.2
@@ -5801,6 +5892,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZTS11QFileDevice@Qt_6 6.1.2
  _ZTS11QMetaObject@Qt_6 6.1.2
  _ZTS11QObjectData@Qt_6 6.1.2
+ _ZTS11QRangeModel@Qt_6 6.10.2
  _ZTS11QTextStream@Qt_6 6.1.2
  _ZTS11QThreadPool@Qt_6 6.1.2
  _ZTS11QTimerEvent@Qt_6 6.1.2
@@ -5859,10 +5951,12 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZTSN9QRunnable16QGenericRunnableE@Qt_6 6.6.0
  _ZTSN9QtPrivate15ResultStoreBaseE@Qt_6 6.1.2
  (arch=riscv64)_ZTSN9__gnu_cxx7__mutexE@Qt_6 6.3.0
+ _ZTSZN9QMetaType17registerConverterI5QHashIi10QByteArrayE9QIterableI16QMetaAssociationEN9QtPrivate34QAssociativeIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.10.2
  _ZTSZN9QMetaType17registerConverterI5QListI11QModelIndexE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTSZN9QMetaType17registerConverterI5QListI21QPersistentModelIndexE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTSZN9QMetaType17registerConverterI5QListIN2Qt9DayOfWeekEE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS4_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTSZN9QMetaType17registerConverterI5QListIiE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS2_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
+ _ZTSZN9QMetaType19registerMutableViewI5QHashIi10QByteArrayE9QIterableI16QMetaAssociationEN9QtPrivate38QAssociativeIterableMutableViewFunctorIS3_EEEEbT1_EUlPvSB_E_@Qt_6 6.10.2
  _ZTSZN9QMetaType19registerMutableViewI5QListI11QModelIndexE9QIterableI13QMetaSequenceEN9QtPrivate37QSequentialIterableMutableViewFunctorIS3_EEEEbT1_EUlPvSB_E_@Qt_6 6.1.2
  _ZTSZN9QMetaType19registerMutableViewI5QListI21QPersistentModelIndexE9QIterableI13QMetaSequenceEN9QtPrivate37QSequentialIterableMutableViewFunctorIS3_EEEEbT1_EUlPvSB_E_@Qt_6 6.1.2
  _ZTSZN9QMetaType19registerMutableViewI5QListIN2Qt9DayOfWeekEE9QIterableI13QMetaSequenceEN9QtPrivate37QSequentialIterableMutableViewFunctorIS4_EEEEbT1_EUlPvSC_E_@Qt_6 6.1.2
@@ -5871,6 +5965,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZTV10QException@Qt_6 6.1.2
  _ZTV11QChildEvent@Qt_6 6.1.2
  _ZTV11QFileDevice@Qt_6 6.1.2
+ _ZTV11QRangeModel@Qt_6 6.10.2
  _ZTV11QTextStream@Qt_6 6.1.2
  _ZTV11QThreadPool@Qt_6 6.1.2
  _ZTV11QTimerEvent@Qt_6 6.1.2
@@ -5928,10 +6023,12 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZTV9QTimeLine@Qt_6 6.1.2
  _ZTVN9QRunnable16QGenericRunnableE@Qt_6 6.6.0
  _ZTVN9QtPrivate15ResultStoreBaseE@Qt_6 6.1.2
+ (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QHashIi10QByteArrayE9QIterableI16QMetaAssociationEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.10.2
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListI11QModelIndexE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListI21QPersistentModelIndexE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListIN2Qt9DayOfWeekEE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListIiE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
+ (optional=templinst)_ZZN9QMetaType23registerMutableViewImplI5QHashIi10QByteArrayE9QIterableI16QMetaAssociationEEEbSt8functionIFbPvS8_EES_S_E10unregister@Qt_6 6.10.2
  (optional=templinst)_ZZN9QMetaType23registerMutableViewImplI5QListI11QModelIndexE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS8_EES_S_E10unregister@Qt_6 6.2.0
  (optional=templinst)_ZZN9QMetaType23registerMutableViewImplI5QListI21QPersistentModelIndexE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS8_EES_S_E10unregister@Qt_6 6.2.0
  (optional=templinst)_ZZN9QMetaType23registerMutableViewImplI5QListIN2Qt9DayOfWeekEE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS9_EES_S_E10unregister@Qt_6 6.2.0
@@ -6184,6 +6281,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  qt_startup_hook@Qt_6 6.1.2
  qt_version_tag@Qt_6.0 6.1.2
  qt_version_tag@Qt_6.1 6.1.2
+ qt_version_tag@Qt_6.10 6.10.2
  qt_version_tag@Qt_6.2 6.2.0
  qt_version_tag@Qt_6.3 6.3.0
  qt_version_tag@Qt_6.4 6.4.0
@@ -6193,6 +6291,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  qt_version_tag@Qt_6.8 6.8.2
  qt_version_tag@Qt_6.9 6.9.1
  qt_version_tag_6_0@Qt_6 6.1.2
+ qt_version_tag_6_10@Qt_6 6.10.2
  qt_version_tag_6_1@Qt_6 6.1.2
  qt_version_tag_6_2@Qt_6 6.2.0
  qt_version_tag_6_3@Qt_6 6.3.0

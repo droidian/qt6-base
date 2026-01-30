@@ -9,6 +9,7 @@ qt6-base (6.10.2+dfsg-1) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake.
   * Update list of installed files and new binary packages
     libqt6waylandclient6 & libqt6wlshellintegration6.
+  * Update symbols from buildlogs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Jan 2026 22:54:18 +0100
 

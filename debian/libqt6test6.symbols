@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.9.1 amd64
+# SymbolsHelper-Confirmed: 6.10.2 amd64
 libQt6Test.so.6 libqt6test6 #MINVER#
 | libqt6test6 #MINVER#, qt6-base-private-abi (= 6.10.2)
 * Build-Depends-Package: qt6-base-dev
@@ -37,11 +37,6 @@ libQt6Test.so.6 libqt6test6 #MINVER#
  _ZN5QTest11qGlobalDataEPKci@Qt_6 6.1.2
  _ZN5QTest11runningTestEv@Qt_6 6.4.1
  _ZN5QTest12CrashHandler17prepareStackTraceEv@Qt_6 6.8.2
- _ZN5QTest12CrashHandler18FatalSignalHandler10oldActionsEv@Qt_6 6.8.2
- _ZN5QTest12CrashHandler18FatalSignalHandler12fatalSignalsE@Qt_6 6.8.2
- _ZN5QTest12CrashHandler18FatalSignalHandler12pauseOnCrashE@Qt_6 6.8.2
- _ZN5QTest12CrashHandler18FatalSignalHandler13actionHandlerEiP9siginfo_tPv@Qt_6 6.8.2
- _ZN5QTest12CrashHandler18FatalSignalHandler18alternateStackSizeEv@Qt_6 6.8.2
  _ZN5QTest12CrashHandler18FatalSignalHandler18freeAlternateStackEv@Qt_6 6.8.2
  _ZN5QTest12CrashHandler18FatalSignalHandler19setupAlternateStackEv@Qt_6 6.8.2
  _ZN5QTest12CrashHandler18FatalSignalHandlerC1Ev@Qt_6 6.8.2
@@ -111,7 +106,7 @@ libQt6Test.so.6 libqt6test6 #MINVER#
  _ZN5QTest8Internal14noCrashHandlerE@Qt_6 6.8.2
  _ZN5QTest8Internal16maybeThrowOnFailEv@Qt_6 6.8.2
  _ZN5QTest8Internal16maybeThrowOnSkipEv@Qt_6 6.8.2
- _ZN5QTest8Internal28formatTryTimeoutDebugMessageE20QBasicUtf8StringViewILb0EEii@Qt_6 6.3.0
+ _ZN5QTest8Internal28formatTryTimeoutDebugMessageE20QBasicUtf8StringViewILb0EENSt6chrono8durationIlSt5ratioILl1ELl1000EEEES7_@Qt_6 6.10.2
  (subst)_ZN5QTest8Internal31formatPropertyTestHelperFailureEPc{size_t}PKcS3_S3_S3_@Qt_6 6.8.2
  _ZN5QTest8qCleanupEv@Qt_6 6.1.2
  _ZN5QTest8qCompareE11QStringViewRK13QLatin1StringPKcS5_S5_i@Qt_6 6.1.2
