@@ -1,4 +1,4 @@
-qt6-base (6.10.2+dfsg-1) UNRELEASED; urgency=medium
+qt6-base (6.10.2+dfsg-1) experimental; urgency=medium
 
   [ Patrick Franz ]
   * New upstream release (6.10.2).
@@ -16,7 +16,7 @@ qt6-base (6.10.2+dfsg-1) UNRELEASED; urgency=medium
   * Move private.pri files from qt6-base-dev to qt6-base-private-dev, to
     fix QMake's qtHaveModule() for private modules (Closes: #1122881).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Jan 2026 22:54:18 +0100
+ -- Patrick Franz <deltaone@debian.org>  Sat, 31 Jan 2026 14:05:27 +0100
 
 qt6-base (6.9.2+dfsg-4) unstable; urgency=medium
 
