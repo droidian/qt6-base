@@ -367,7 +367,7 @@ Description: Qt 6 test module
  libraries.
 
 Package: libqt6waylandclient6
-Architecture: any
+Architecture: linux-any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends},
 Depends: ${misc:Depends},
@@ -396,7 +396,7 @@ Description: Qt 6 widgets module
  The QtWidgets module extends QtGui with C++ widget functionality.
 
 Package: libqt6wlshellintegration6
-Architecture: any
+Architecture: linux-any
 Multi-Arch: same
 Depends: ${misc:Depends},
          ${shlibs:Depends},
@@ -458,9 +458,9 @@ Depends: libgl-dev,
          libqt6printsupport6 (= ${binary:Version}),
          libqt6sql6 (= ${binary:Version}),
          libqt6test6 (= ${binary:Version}),
-         libqt6waylandclient6 (= ${binary:Version}),
+         libqt6waylandclient6 (= ${binary:Version}) [linux-any],
          libqt6widgets6 (= ${binary:Version}),
-         libqt6wlshellintegration6  (= ${binary:Version}),
+         libqt6wlshellintegration6  (= ${binary:Version}) [linux-any],
          libqt6xml6 (= ${binary:Version}),
          libvulkan-dev,
          qmake6 (= ${binary:Version}),

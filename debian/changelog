@@ -5,6 +5,11 @@ qt6-base (6.10.2+dfsg-2) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Update the symbols files from the logs of buildds.
+  * Wayland is available only on Linux, so:
+    - restrict the libqt6waylandclient6, and libqt6wlshellintegration6 binary
+      packages as linux-any
+    - restrict the libqt6waylandclient6, and libqt6wlshellintegration6
+      dependencies in qt6-base-dev as linux-any
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jan 2026 14:46:15 +0100
 
