@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.10.2 amd64
+# SymbolsHelper-Confirmed: 6.10.2 amd64 armhf hppa i386 powerpc x32
 libQt6Network.so.6 libqt6network6 #MINVER#
 | libqt6network6 #MINVER#, qt6-base-private-abi (= 6.10.2)
 * Build-Depends-Package: qt6-base-dev
@@ -1194,7 +1194,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZNK12QHostAddress8toStringEv@Qt_6 6.1.2
  _ZNK12QHostAddresseqENS_14SpecialAddressE@Qt_6 6.1.2
  _ZNK12QHostAddresseqERKS_@Qt_6 6.1.2
- _ZNK12QHttpHeaders10intValueAtEx@Qt_6 6.10.2
+ (subst)_ZNK12QHttpHeaders10intValueAtE{qptrdiff}@Qt_6 6.10.2
  _ZNK12QHttpHeaders10toMultiMapEv@Qt_6 6.7.2
  _ZNK12QHttpHeaders11toMultiHashEv@Qt_6 6.7.2
  _ZNK12QHttpHeaders13combinedValueE14QAnyStringView@Qt_6 6.7.2
@@ -1204,7 +1204,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZNK12QHttpHeaders13toListOfPairsEv@Qt_6 6.7.2
  _ZNK12QHttpHeaders14dateTimeValuesE14QAnyStringView@Qt_6 6.10.2
  _ZNK12QHttpHeaders14dateTimeValuesENS_15WellKnownHeaderE@Qt_6 6.10.2
- _ZNK12QHttpHeaders15dateTimeValueAtEx@Qt_6 6.10.2
+ (subst)_ZNK12QHttpHeaders15dateTimeValueAtE{qptrdiff}@Qt_6 6.10.2
  _ZNK12QHttpHeaders4sizeEv@Qt_6 6.7.2
  _ZNK12QHttpHeaders5valueE14QAnyStringView14QByteArrayView@Qt_6 6.7.2
  _ZNK12QHttpHeaders5valueENS_15WellKnownHeaderE14QByteArrayView@Qt_6 6.7.2

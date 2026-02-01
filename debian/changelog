@@ -3,6 +3,9 @@ qt6-base (6.10.2+dfsg-2) UNRELEASED; urgency=medium
   [ Patrick Franz ]
   * Update d/watch to format version 5.
 
+  [ Pino Toscano ]
+  * Update the symbols files from the logs of buildds.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jan 2026 14:46:15 +0100
 
 qt6-base (6.10.2+dfsg-1) experimental; urgency=medium

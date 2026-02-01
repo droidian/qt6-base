@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.10.2 amd64
+# SymbolsHelper-Confirmed: 6.10.2 amd64 armhf hppa i386 powerpc ppc64el x32
 libQt6Core.so.6 libqt6core6t64 #MINVER#
 | libqt6core6t64 #MINVER#, qt6-base-private-abi (= 6.10.2)
 * Build-Depends-Package: qt6-base-dev
@@ -3914,7 +3914,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN9QtPrivate16QStringList_joinERK5QListI7QStringE13QLatin1String@Qt_6 6.1.2
  _ZN9QtPrivate16QStringList_sortEP5QListI7QStringEN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN9QtPrivate16convertToQStringE14QAnyStringView@Qt_6 6.1.2
- _ZN9QtPrivate17expectedAllocSizeEmm@Qt_6 6.10.2
+ (subst)_ZN9QtPrivate17expectedAllocSizeE{size_t}{size_t}@Qt_6 6.10.2
  _ZN9QtPrivate17shouldLogToStderrEv@Qt_6 6.1.2
  _ZN9QtPrivate17toUnsignedIntegerE14QByteArrayViewi@Qt_6 6.3.0
  _ZN9QtPrivate18QStringList_filterEPK5QListI7QStringE11QStringViewN2Qt15CaseSensitivityE@Qt_6 6.1.2
@@ -4066,7 +4066,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN9QtPrivate25QMetaTypeInterfaceWrapperIyE8metaTypeE@Qt_6 6.4.0
  _ZN9QtPrivate25initBindingStatusThreadIdEv@Qt_6 6.2.0
  _ZN9QtPrivate26isPropertyInBindingWrapperEPK20QUntypedPropertyData@Qt_6 6.2.0
- _ZN9QtPrivate26qfutureWarnIfUnusedResultsEx@Qt_6 6.10.2
+ (subst)_ZN9QtPrivate26qfutureWarnIfUnusedResultsE{qptrdiff}@Qt_6 6.10.2
  _ZN9QtPrivate27suspendCurrentBindingStatusEv@Qt_6 6.2.0
  _ZN9QtPrivate28QStringList_removeDuplicatesEP5QListI7QStringE@Qt_6 6.1.2
  _ZN9QtPrivate28QStringList_replaceInStringsEP5QListI7QStringE11QStringViewS4_N2Qt15CaseSensitivityE@Qt_6 6.1.2
@@ -4110,7 +4110,7 @@ libQt6Core.so.6 libqt6core6t64 #MINVER#
  _ZN9QtPrivate8qustrlenEPKDs@Qt_6 6.1.2
  _ZN9QtPrivate8toDoubleE14QByteArrayView@Qt_6 6.3.0
  (subst)_ZN9QtPrivate9qustrnlenEPKDs{qptrdiff}@Qt_6 6.7.2
- _ZN9QtPrivate9sizedFreeEPvm@Qt_6 6.10.2
+ (subst)_ZN9QtPrivate9sizedFreeEPv{size_t}@Qt_6 6.10.2
  _ZNK10QByteArray10toLongLongEPbi@Qt_6 6.1.2
  (subst)_ZNK10QByteArray11lastIndexOfEc{qptrdiff}@Qt_6 6.1.2
  _ZNK10QByteArray11toStdStringB5cxx11Ev@Qt_6 6.4.0
