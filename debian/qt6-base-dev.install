@@ -1585,21 +1585,21 @@ usr/include/${DEB_HOST_MULTIARCH}/qt6/QtTest/qttestexports.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtTest/qttestglobal.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtTest/qttestlib-config.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtTest/qttestversion.h
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/QWaylandClientExtension
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/QWaylandClientExtensionTemplate
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/QtWaylandClient
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/QtWaylandClientDepends
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/QtWaylandClientVersion
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/qtwaylandclient-config.h
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/qtwaylandclientexports.h
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/qtwaylandclientglobal.h
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/qtwaylandclientversion.h
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/qwaylandclientextension.h
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandGlobal/QtWaylandGlobal
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandGlobal/QtWaylandGlobalDepends
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandGlobal/QtWaylandGlobalVersion
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandGlobal/qtwaylandglobal-config.h
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandGlobal/qtwaylandglobalversion.h
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/QWaylandClientExtension
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/QWaylandClientExtensionTemplate
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/QtWaylandClient
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/QtWaylandClientDepends
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/QtWaylandClientVersion
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/qtwaylandclient-config.h
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/qtwaylandclientexports.h
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/qtwaylandclientglobal.h
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/qtwaylandclientversion.h
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/qwaylandclientextension.h
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandGlobal/QtWaylandGlobal
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandGlobal/QtWaylandGlobalDepends
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandGlobal/QtWaylandGlobalVersion
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandGlobal/qtwaylandglobal-config.h
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandGlobal/qtwaylandglobalversion.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWidgets/QAbstractButton
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWidgets/QAbstractGraphicsShapeItem
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWidgets/QAbstractItemDelegate
@@ -1925,10 +1925,10 @@ usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWidgets/qwhatsthis.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWidgets/qwidget.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWidgets/qwidgetaction.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWidgets/qwizard.h
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWlShellIntegration/QtWlShellIntegration
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWlShellIntegration/QtWlShellIntegrationDepends
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWlShellIntegration/QtWlShellIntegrationVersion
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWlShellIntegration/qtwlshellintegrationversion.h
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWlShellIntegration/QtWlShellIntegration
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWlShellIntegration/QtWlShellIntegrationDepends
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWlShellIntegration/QtWlShellIntegrationVersion
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWlShellIntegration/qtwlshellintegrationversion.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtXml/QDomAttr
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtXml/QDomCDATASection
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtXml/QDomCharacterData
@@ -2412,12 +2412,12 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfigVersion
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfigVersionImpl.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-none.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfigVersionImpl.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfigVersionImpl.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfigVersion.cmake
@@ -2623,96 +2623,96 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6TestPrivate/Qt6TestPrivateDependencies.cm
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6TestPrivate/Qt6TestPrivateTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6TestPrivate/Qt6TestPrivateVersionlessAliasTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6TestPrivate/Qt6TestPrivateVersionlessTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DmaBufServerBufferPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DmaBufServerBufferPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DmaBufServerBufferPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DmaBufServerBufferPluginConfigVersionImpl.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DmaBufServerBufferPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DmaBufServerBufferPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DrmEglServerBufferPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DrmEglServerBufferPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DrmEglServerBufferPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DrmEglServerBufferPluginConfigVersionImpl.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DrmEglServerBufferPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DrmEglServerBufferPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandBradientDecorationPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandBradientDecorationPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandBradientDecorationPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandBradientDecorationPluginConfigVersionImpl.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandBradientDecorationPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandBradientDecorationPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandEglClientBufferPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandEglClientBufferPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandEglClientBufferPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandEglClientBufferPluginConfigVersionImpl.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandEglClientBufferPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandEglClientBufferPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandFullScreenShellV1IntegrationPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandFullScreenShellV1IntegrationPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandFullScreenShellV1IntegrationPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandFullScreenShellV1IntegrationPluginConfigVersionImpl.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandFullScreenShellV1IntegrationPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandFullScreenShellV1IntegrationPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandWlShellIntegrationPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandWlShellIntegrationPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandWlShellIntegrationPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandWlShellIntegrationPluginConfigVersionImpl.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandWlShellIntegrationPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandWlShellIntegrationPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandXdgShellIntegrationPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandXdgShellIntegrationPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandXdgShellIntegrationPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandXdgShellIntegrationPluginConfigVersionImpl.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandXdgShellIntegrationPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandXdgShellIntegrationPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6ShmServerBufferPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6ShmServerBufferPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6ShmServerBufferPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6ShmServerBufferPluginConfigVersionImpl.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6ShmServerBufferPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6ShmServerBufferPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6VulkanServerBufferPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6VulkanServerBufferPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6VulkanServerBufferPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6VulkanServerBufferPluginConfigVersionImpl.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6VulkanServerBufferPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6VulkanServerBufferPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientConfigVersionImpl.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientDependencies.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientPlugins.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientVersionlessAliasTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientVersionlessTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClientPrivate/Qt6WaylandClientPrivateAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClientPrivate/Qt6WaylandClientPrivateConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClientPrivate/Qt6WaylandClientPrivateConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClientPrivate/Qt6WaylandClientPrivateConfigVersionImpl.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClientPrivate/Qt6WaylandClientPrivateDependencies.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClientPrivate/Qt6WaylandClientPrivateTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClientPrivate/Qt6WaylandClientPrivateVersionlessAliasTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClientPrivate/Qt6WaylandClientPrivateVersionlessTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateConfigVersionImpl.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateExtraProperties.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateVersionlessAliasTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateVersionlessTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandClientMacros.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandCompositorMacros.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsConfigVersionImpl.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsDependencies.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsVersionlessTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DmaBufServerBufferPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DmaBufServerBufferPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DmaBufServerBufferPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DmaBufServerBufferPluginConfigVersionImpl.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DmaBufServerBufferPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DmaBufServerBufferPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DrmEglServerBufferPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DrmEglServerBufferPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DrmEglServerBufferPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DrmEglServerBufferPluginConfigVersionImpl.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DrmEglServerBufferPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6DrmEglServerBufferPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandBradientDecorationPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandBradientDecorationPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandBradientDecorationPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandBradientDecorationPluginConfigVersionImpl.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandBradientDecorationPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandBradientDecorationPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandEglClientBufferPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandEglClientBufferPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandEglClientBufferPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandEglClientBufferPluginConfigVersionImpl.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandEglClientBufferPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandEglClientBufferPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandFullScreenShellV1IntegrationPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandFullScreenShellV1IntegrationPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandFullScreenShellV1IntegrationPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandFullScreenShellV1IntegrationPluginConfigVersionImpl.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandFullScreenShellV1IntegrationPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandFullScreenShellV1IntegrationPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandWlShellIntegrationPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandWlShellIntegrationPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandWlShellIntegrationPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandWlShellIntegrationPluginConfigVersionImpl.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandWlShellIntegrationPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandWlShellIntegrationPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandXdgShellIntegrationPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandXdgShellIntegrationPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandXdgShellIntegrationPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandXdgShellIntegrationPluginConfigVersionImpl.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandXdgShellIntegrationPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6QWaylandXdgShellIntegrationPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6ShmServerBufferPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6ShmServerBufferPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6ShmServerBufferPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6ShmServerBufferPluginConfigVersionImpl.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6ShmServerBufferPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6ShmServerBufferPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6VulkanServerBufferPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6VulkanServerBufferPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6VulkanServerBufferPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6VulkanServerBufferPluginConfigVersionImpl.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6VulkanServerBufferPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6VulkanServerBufferPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientConfigVersionImpl.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientDependencies.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientPlugins.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientVersionlessAliasTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClient/Qt6WaylandClientVersionlessTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClientPrivate/Qt6WaylandClientPrivateAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClientPrivate/Qt6WaylandClientPrivateConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClientPrivate/Qt6WaylandClientPrivateConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClientPrivate/Qt6WaylandClientPrivateConfigVersionImpl.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClientPrivate/Qt6WaylandClientPrivateDependencies.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClientPrivate/Qt6WaylandClientPrivateTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClientPrivate/Qt6WaylandClientPrivateVersionlessAliasTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandClientPrivate/Qt6WaylandClientPrivateVersionlessTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateConfigVersionImpl.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateExtraProperties.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateVersionlessAliasTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateVersionlessTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandClientMacros.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandCompositorMacros.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsConfigVersionImpl.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsDependencies.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsVersionlessTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake
@@ -2740,15 +2740,15 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-none.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateConfigVersionImpl.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateDependencies.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateVersionlessAliasTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateVersionlessTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateConfigVersionImpl.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateDependencies.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateVersionlessAliasTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6WlShellIntegrationPrivate/Qt6WlShellIntegrationPrivateVersionlessTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6XcbQpaPrivate/Qt6XcbQpaPrivateAdditionalTargetInfo.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6XcbQpaPrivate/Qt6XcbQpaPrivateConfig.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6XcbQpaPrivate/Qt6XcbQpaPrivateConfigVersion.cmake
@@ -2807,12 +2807,12 @@ usr/lib/${DEB_HOST_MULTIARCH}/libQt6Sql.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Sql.so
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Test.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Test.so
-usr/lib/${DEB_HOST_MULTIARCH}/libQt6WaylandClient.prl
-usr/lib/${DEB_HOST_MULTIARCH}/libQt6WaylandClient.so
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/libQt6WaylandClient.prl
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/libQt6WaylandClient.so
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Widgets.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Widgets.so
-usr/lib/${DEB_HOST_MULTIARCH}/libQt6WlShellIntegration.prl
-usr/lib/${DEB_HOST_MULTIARCH}/libQt6WlShellIntegration.so
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/libQt6WlShellIntegration.prl
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/libQt6WlShellIntegration.so
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6XcbQpa.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6XcbQpa.so
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Xml.prl
@@ -2828,7 +2828,7 @@ usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt6Platform.pc
 usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt6PrintSupport.pc
 usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt6Sql.pc
 usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt6Test.pc
-usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt6WaylandClient.pc
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt6WaylandClient.pc
 usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt6Widgets.pc
 usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt6Xml.pc
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6concurrent_metatypes.json
@@ -2836,23 +2836,23 @@ usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6core_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6dbus_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6devicediscoverysupportprivate_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6eglfsdeviceintegrationprivate_metatypes.json
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6eglfskmsgbmsupportprivate_metatypes.json
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6eglfskmssupportprivate_metatypes.json
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6eglfskmsgbmsupportprivate_metatypes.json
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6eglfskmssupportprivate_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6exampleiconsprivate_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6examplesassetdownloaderprivate_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6fbsupportprivate_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6gui_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6inputsupportprivate_metatypes.json
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6kmssupportprivate_metatypes.json
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6kmssupportprivate_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6network_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6opengl_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6openglwidgets_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6printsupport_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6sql_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6test_metatypes.json
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6waylandclient_metatypes.json
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6waylandclient_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6widgets_metatypes.json
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6wlshellintegrationprivate_metatypes.json
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6wlshellintegrationprivate_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6xcbqpaprivate_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6xml_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/REUSE.toml
@@ -2870,7 +2870,7 @@ usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_openglwidgets.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_printsupport.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_sql.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_testlib.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_waylandclient.pri
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_waylandclient.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_widgets.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_xml.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/unsupported/macx-tvos-clang/Info.plist.app
@@ -2900,10 +2900,10 @@ usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/PrintSupport.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/Sql.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/Test.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/TestInternalsPrivate.json
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/WaylandClient.json
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/WaylandGlobalPrivate.json
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/WaylandClient.json
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/WaylandGlobalPrivate.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/Widgets.json
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/WlShellIntegrationPrivate.json
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/WlShellIntegrationPrivate.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/XcbQpaPrivate.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/Xml.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/sbom/qtbase-6.*.spdx

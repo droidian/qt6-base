@@ -10,6 +10,8 @@ qt6-base (6.10.2+dfsg-2) UNRELEASED; urgency=medium
       packages as linux-any
     - restrict the libqt6waylandclient6, and libqt6wlshellintegration6
       dependencies in qt6-base-dev as linux-any
+    - restrict installed files in install files
+  * Update install files for more Linux-only bits.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jan 2026 14:46:15 +0100
 
