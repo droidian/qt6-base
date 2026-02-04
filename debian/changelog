@@ -1,4 +1,4 @@
-qt6-base (6.10.2+dfsg-2) UNRELEASED; urgency=medium
+qt6-base (6.10.2+dfsg-2) experimental; urgency=medium
 
   [ Patrick Franz ]
   * Update d/watch to format version 5.
@@ -16,7 +16,7 @@ qt6-base (6.10.2+dfsg-2) UNRELEASED; urgency=medium
   * Update install files for more Linux-only bits.
   * Drop breaks/replaces for versions older than what is in Debian Bookworm.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jan 2026 14:46:15 +0100
+ -- Patrick Franz <deltaone@debian.org>  Wed, 04 Feb 2026 18:03:13 +0100
 
 qt6-base (6.10.2+dfsg-1) experimental; urgency=medium
 
