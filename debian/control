@@ -498,6 +498,8 @@ Section: devel
 Depends: ${misc:Depends},
          ${shlibs:Depends},
 Suggests: cmake,
+Breaks: qt6-wayland-dev-tools (<< 6.10.2~),
+Replaces: qt6-wayland-dev-tools (<< 6.10.2~),
 Description: Qt 6 base development programs
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
