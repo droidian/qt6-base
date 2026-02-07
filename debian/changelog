@@ -1,9 +1,9 @@
-qt6-base (6.10.2+dfsg-3) UNRELEASED; urgency=medium
+qt6-base (6.10.2+dfsg-3) experimental; urgency=medium
 
   [ Patrick Franz ]
   * Update list of installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Feb 2026 22:42:20 +0100
+ -- Patrick Franz <deltaone@debian.org>  Sat, 07 Feb 2026 23:04:35 +0100
 
 qt6-base (6.10.2+dfsg-2) experimental; urgency=medium
 
