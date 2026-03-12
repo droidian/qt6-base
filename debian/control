@@ -459,7 +459,9 @@ Depends: libgl-dev,
          qt6-qpa-plugins (= ${binary:Version}),
          ${misc:Depends},
 Breaks: libqt6opengl6-dev (<< 6.4.2+dfsg-12~),
+        qt6-wayland-dev (<< 6.10.2~),
 Replaces: libqt6opengl6-dev (<< 6.4.2+dfsg-12~),
+          qt6-wayland-dev (<< 6.10.2~),
 Provides: libqt6opengl6-dev (= ${binary:Version}),
 Description: Qt 6 base development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -481,7 +483,9 @@ Depends: libfontconfig-dev,
          qt6-base-dev (= ${binary:Version}),
          ${misc:Depends},
 Breaks: qt6-base-dev (<< 6.10.2+dfsg-1~),
+        qt6-wayland-private-dev (<< 6.10.2~),
 Replaces: qt6-base-dev (<< 6.10.2+dfsg-1~),
+          qt6-wayland-private-dev (<< 6.10.2~),
 Description: Qt 6 base private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
