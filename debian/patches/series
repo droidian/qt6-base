@@ -1,3 +1,6 @@
+# Fixed in 6.10.3
+upstream_hdr_vulkan.diff
+
 # Needs to be fixed upstream.
 Add-SH-detection.patch
 
