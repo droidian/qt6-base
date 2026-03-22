@@ -1,4 +1,4 @@
-qt6-base (6.10.2+dfsg-6) UNRELEASED; urgency=medium
+qt6-base (6.10.2+dfsg-6) unstable; urgency=medium
 
   [ Patrick Franz ]
   * Revert moving private.pri files from qt6-base-dev to qt6-base-
@@ -6,7 +6,7 @@ qt6-base (6.10.2+dfsg-6) UNRELEASED; urgency=medium
   * Backport patch to fix HDR support while using the Vulkan renderer on
     certain hardware.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 22 Mar 2026 19:08:43 +0100
+ -- Patrick Franz <deltaone@debian.org>  Sun, 22 Mar 2026 20:00:57 +0100
 
 qt6-base (6.10.2+dfsg-5) unstable; urgency=medium
 
