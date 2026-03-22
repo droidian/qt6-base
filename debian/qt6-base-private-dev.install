@@ -5,12 +5,6 @@
 [linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandClient/6.*/*
 [linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWaylandGlobal/6.*/*
 [linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWlShellIntegration/6.*/*
-[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_eglfs_kms_gbm_support_private.pri
-[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri
-[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_kms_support_private.pri
-[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_waylandclient_private.pri
-[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_waylandglobal_private.pri
-[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_wl_shell_integration_private.pri
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtCore/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtDBus/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtDeviceDiscoverySupport/6.*/*
@@ -25,21 +19,3 @@ usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSql/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtTest/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWidgets/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtXml/6.*/*
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_core_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_dbus_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_devicediscovery_support_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_example_icons_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_examples_asset_downloader_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_fb_support_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_gui_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_input_support_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_network_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_opengl_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_printsupport_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_sql_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_testinternals_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_testlib_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_widgets_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_xml_private.pri

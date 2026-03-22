@@ -3157,3 +3157,27 @@ usr/share/qt6/wayland/protocols/xdg-toplevel-drag/xdg-toplevel-drag-v1.xml
 usr/share/qt6/wayland/protocols/xdg-toplevel-icon/REUSE.toml
 usr/share/qt6/wayland/protocols/xdg-toplevel-icon/qt_attribution.json
 usr/share/qt6/wayland/protocols/xdg-toplevel-icon/xdg-toplevel-icon-v1.xml
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_core_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_dbus_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_devicediscovery_support_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_example_icons_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_examples_asset_downloader_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_fb_support_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_gui_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_input_support_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_network_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_opengl_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_printsupport_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_sql_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_testinternals_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_testlib_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_widgets_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_xml_private.pri
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_eglfs_kms_gbm_support_private.pri
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_kms_support_private.pri
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_waylandclient_private.pri
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_waylandglobal_private.pri
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_wl_shell_integration_private.pri
