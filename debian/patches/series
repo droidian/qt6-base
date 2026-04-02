@@ -1,3 +1,6 @@
+# Fixed in 6.10.3
+upstream_hdr_vulkan.diff
+
 # Needs to be fixed upstream.
 Add-SH-detection.patch
 
@@ -8,7 +11,3 @@ cross.patch
 remove_rpath_from_examples.patch
 forkfd_grow_stack_upwards_on_hppa.patch
 enable_skip_plugins.patch
-
-# Support old ARM architectures
-# - Support ARMv4 until clang < 17 is available in Debian
-armv4.diff

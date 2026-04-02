@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 6.9.1 amd64
+# SymbolsHelper-Confirmed: 6.10.2 amd64 armhf hppa i386 powerpc x32
 libQt6Network.so.6 libqt6network6 #MINVER#
-| libqt6network6 #MINVER#, qt6-base-private-abi (= 6.9.2)
+| libqt6network6 #MINVER#, qt6-base-private-abi (= 6.10.2)
 * Build-Depends-Package: qt6-base-dev
  NonQt@NonQt 6.7.2
  Qt_6@Qt_6 6.1.2
@@ -276,7 +276,11 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN12QHostAddress10setAddressEj@Qt_6 6.1.2
  _ZN12QHostAddress10setScopeIdERK7QString@Qt_6 6.1.2
  _ZN12QHostAddress11parseSubnetERK7QString@Qt_6 6.1.2
+ _ZN12QHostAddress12IPv4ProtocolE@Qt_6 6.10.2
+ _ZN12QHostAddress12IPv6ProtocolE@Qt_6 6.10.2
+ _ZN12QHostAddress13AnyIPProtocolE@Qt_6 6.10.2
  _ZN12QHostAddress16staticMetaObjectE@Qt_6 6.2.0
+ _ZN12QHostAddress27UnknownNetworkLayerProtocolE@Qt_6 6.10.2
  _ZN12QHostAddress5clearEv@Qt_6 6.1.2
  _ZN12QHostAddressC1ENS_14SpecialAddressE@Qt_6 6.1.2
  _ZN12QHostAddressC1EPK8sockaddr@Qt_6 6.1.2
@@ -303,6 +307,8 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN12QHttpHeaders15fromListOfPairsERK5QListISt4pairI10QByteArrayS2_EE@Qt_6 6.7.2
  _ZN12QHttpHeaders15replaceOrAppendE14QAnyStringViewS0_@Qt_6 6.8.2
  _ZN12QHttpHeaders15replaceOrAppendENS_15WellKnownHeaderE14QAnyStringView@Qt_6 6.8.2
+ _ZN12QHttpHeaders16setDateTimeValueE14QAnyStringViewRK9QDateTime@Qt_6 6.10.2
+ _ZN12QHttpHeaders16setDateTimeValueENS_15WellKnownHeaderERK9QDateTime@Qt_6 6.10.2
  _ZN12QHttpHeaders16staticMetaObjectE@Qt_6 6.7.2
  _ZN12QHttpHeaders19wellKnownHeaderNameENS_15WellKnownHeaderE@Qt_6 6.7.2
  _ZN12QHttpHeaders5clearEv@Qt_6 6.7.2
@@ -579,6 +585,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN15QSslCertificate5clearEv@Qt_6 6.1.2
  _ZN15QSslCertificate6verifyERK5QListIS_ERK7QString@Qt_6 6.1.2
  _ZN15QSslCertificate8fromDataERK10QByteArrayN4QSsl14EncodingFormatE@Qt_6 6.1.2
+ _ZN15QSslCertificate8fromFileERK7QStringN4QSsl14EncodingFormatE@Qt_6 6.10.2
  _ZN15QSslCertificate8fromPathERK7QStringN4QSsl14EncodingFormatENS_13PatternSyntaxE@Qt_6 6.1.2
  _ZN15QSslCertificateC1EP9QIODeviceN4QSsl14EncodingFormatE@Qt_6 6.1.2
  _ZN15QSslCertificateC1ERK10QByteArrayN4QSsl14EncodingFormatE@Qt_6 6.1.2
@@ -1187,11 +1194,17 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZNK12QHostAddress8toStringEv@Qt_6 6.1.2
  _ZNK12QHostAddresseqENS_14SpecialAddressE@Qt_6 6.1.2
  _ZNK12QHostAddresseqERKS_@Qt_6 6.1.2
+ (subst)_ZNK12QHttpHeaders10intValueAtE{qptrdiff}@Qt_6 6.10.2
  _ZNK12QHttpHeaders10toMultiMapEv@Qt_6 6.7.2
  _ZNK12QHttpHeaders11toMultiHashEv@Qt_6 6.7.2
  _ZNK12QHttpHeaders13combinedValueE14QAnyStringView@Qt_6 6.7.2
  _ZNK12QHttpHeaders13combinedValueENS_15WellKnownHeaderE@Qt_6 6.7.2
+ _ZNK12QHttpHeaders13dateTimeValueE14QAnyStringView@Qt_6 6.10.2
+ _ZNK12QHttpHeaders13dateTimeValueENS_15WellKnownHeaderE@Qt_6 6.10.2
  _ZNK12QHttpHeaders13toListOfPairsEv@Qt_6 6.7.2
+ _ZNK12QHttpHeaders14dateTimeValuesE14QAnyStringView@Qt_6 6.10.2
+ _ZNK12QHttpHeaders14dateTimeValuesENS_15WellKnownHeaderE@Qt_6 6.10.2
+ (subst)_ZNK12QHttpHeaders15dateTimeValueAtE{qptrdiff}@Qt_6 6.10.2
  _ZNK12QHttpHeaders4sizeEv@Qt_6 6.7.2
  _ZNK12QHttpHeaders5valueE14QAnyStringView14QByteArrayView@Qt_6 6.7.2
  _ZNK12QHttpHeaders5valueENS_15WellKnownHeaderE14QByteArrayView@Qt_6 6.7.2
@@ -1201,6 +1214,10 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  (subst)_ZNK12QHttpHeaders7valueAtE{qptrdiff}@Qt_6 6.7.2
  _ZNK12QHttpHeaders8containsE14QAnyStringView@Qt_6 6.7.2
  _ZNK12QHttpHeaders8containsENS_15WellKnownHeaderE@Qt_6 6.7.2
+ _ZNK12QHttpHeaders8intValueE14QAnyStringView@Qt_6 6.10.2
+ _ZNK12QHttpHeaders8intValueENS_15WellKnownHeaderE@Qt_6 6.10.2
+ _ZNK12QHttpHeaders9intValuesE14QAnyStringView@Qt_6 6.10.2
+ _ZNK12QHttpHeaders9intValuesENS_15WellKnownHeaderE@Qt_6 6.10.2
  _ZNK12QLocalServer10metaObjectEv@Qt_6 6.1.2
  _ZNK12QLocalServer10serverNameEv@Qt_6 6.1.2
  _ZNK12QLocalServer11errorStringEv@Qt_6 6.1.2
@@ -1584,7 +1601,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTI21QAbstractNetworkCache@Qt_6 6.1.2
  _ZTI21QNetworkAccessManager@Qt_6 6.1.2
  _ZTI5QDtls@Qt_6 6.1.2
- (arch=armel riscv64)_ZTIN9__gnu_cxx7__mutexE@Qt_6 6.3.0
+ (arch=riscv64)_ZTIN9__gnu_cxx7__mutexE@Qt_6 6.3.0
  _ZTIZN9QMetaType17registerConverterI5QListI14QNetworkCookieE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListI9QSslErrorE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListISt4pairI10QByteArrayS3_EE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS5_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
@@ -1614,7 +1631,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTS21QAbstractNetworkCache@Qt_6 6.1.2
  _ZTS21QNetworkAccessManager@Qt_6 6.1.2
  _ZTS5QDtls@Qt_6 6.1.2
- (arch=armel riscv64)_ZTSN9__gnu_cxx7__mutexE@Qt_6 6.3.0
+ (arch=riscv64)_ZTSN9__gnu_cxx7__mutexE@Qt_6 6.3.0
  _ZTSZN9QMetaType17registerConverterI5QListI14QNetworkCookieE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTSZN9QMetaType17registerConverterI5QListI9QSslErrorE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTSZN9QMetaType17registerConverterI5QListISt4pairI10QByteArrayS3_EE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS5_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2

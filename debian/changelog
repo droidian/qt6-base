@@ -1,3 +1,84 @@
+qt6-base (6.10.2+dfsg-6) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Revert moving private.pri files from qt6-base-dev to qt6-base-
+    private-dev as this breaks many builds (Closes: #1131560).
+  * Backport patch to fix HDR support while using the Vulkan renderer on
+    certain hardware.
+
+ -- Patrick Franz <deltaone@debian.org>  Sun, 22 Mar 2026 20:00:57 +0100
+
+qt6-base (6.10.2+dfsg-5) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 19 Mar 2026 20:43:44 +0100
+
+qt6-base (6.10.2+dfsg-4) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * Add missing Breaks+Replaces against qt6-wayland packages.
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 12 Mar 2026 16:00:24 +0100
+
+qt6-base (6.10.2+dfsg-3) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * Update list of installed files.
+
+ -- Patrick Franz <deltaone@debian.org>  Sat, 07 Feb 2026 23:04:35 +0100
+
+qt6-base (6.10.2+dfsg-2) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * Update d/watch to format version 5.
+  * Add Breaks+Replaces for qt6-base-dev-tools against qt6-wayland-dev-
+    tools as qtwaylandscanner was moved from qtwayland to qtbase.
+
+  [ Pino Toscano ]
+  * Update the symbols files from the logs of buildds.
+  * Wayland is available only on Linux, so:
+    - restrict the libqt6waylandclient6, and libqt6wlshellintegration6 binary
+      packages as linux-any
+    - restrict the libqt6waylandclient6, and libqt6wlshellintegration6
+      dependencies in qt6-base-dev as linux-any
+    - restrict installed files in install files
+  * Update install files for more Linux-only bits.
+  * Drop breaks/replaces for versions older than what is in Debian Bookworm.
+
+ -- Patrick Franz <deltaone@debian.org>  Wed, 04 Feb 2026 18:03:13 +0100
+
+qt6-base (6.10.2+dfsg-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (6.10.2).
+  * Bump B-Ds for the documentation to 6.10.
+  * Update ABI to 6.10.2.
+  * Bump Standards-Version to 4.7.3 (no changes needed).
+  * Remove Priority: optional, not needed anymore.
+  * Update build-deps and deps with the info from cmake.
+  * Update list of installed files and new binary packages
+    libqt6waylandclient6 & libqt6wlshellintegration6.
+  * Update symbols from buildlogs.
+  * Update lintian-overrides.
+
+  [ Johannes Kauffmann ]
+  * Move private.pri files from qt6-base-dev to qt6-base-private-dev, to
+    fix QMake's qtHaveModule() for private modules (Closes: #1122881).
+
+ -- Patrick Franz <deltaone@debian.org>  Sat, 31 Jan 2026 14:05:27 +0100
+
+qt6-base (6.9.2+dfsg-4) unstable; urgency=medium
+
+  [ Pino Toscano ]
+  * The armel, mips64el, and mipsel architectures were discontinued, so:
+    - drop the architectures from libqt6sql6-ibase
+    - drop the architecture markers in install files, and symbols files
+    - drop the patch armv4.diff, specific to armel when building Qt software
+      using clang older than 17
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 29 Jan 2026 21:50:42 +0100
+
 qt6-base (6.9.2+dfsg-3) unstable; urgency=medium
 
   [ Patrick Franz ]

@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 6.9.1 amd64
+# SymbolsHelper-Confirmed: 6.10.2 amd64 armhf hppa i386 powerpc x32
 libQt6Test.so.6 libqt6test6 #MINVER#
-| libqt6test6 #MINVER#, qt6-base-private-abi (= 6.9.2)
+| libqt6test6 #MINVER#, qt6-base-private-abi (= 6.10.2)
 * Build-Depends-Package: qt6-base-dev
  NonQt@NonQt 6.7.2
  Qt_6@Qt_6 6.1.2
@@ -37,11 +37,6 @@ libQt6Test.so.6 libqt6test6 #MINVER#
  _ZN5QTest11qGlobalDataEPKci@Qt_6 6.1.2
  _ZN5QTest11runningTestEv@Qt_6 6.4.1
  _ZN5QTest12CrashHandler17prepareStackTraceEv@Qt_6 6.8.2
- _ZN5QTest12CrashHandler18FatalSignalHandler10oldActionsEv@Qt_6 6.8.2
- _ZN5QTest12CrashHandler18FatalSignalHandler12fatalSignalsE@Qt_6 6.8.2
- _ZN5QTest12CrashHandler18FatalSignalHandler12pauseOnCrashE@Qt_6 6.8.2
- _ZN5QTest12CrashHandler18FatalSignalHandler13actionHandlerEiP9siginfo_tPv@Qt_6 6.8.2
- _ZN5QTest12CrashHandler18FatalSignalHandler18alternateStackSizeEv@Qt_6 6.8.2
  _ZN5QTest12CrashHandler18FatalSignalHandler18freeAlternateStackEv@Qt_6 6.8.2
  _ZN5QTest12CrashHandler18FatalSignalHandler19setupAlternateStackEv@Qt_6 6.8.2
  _ZN5QTest12CrashHandler18FatalSignalHandlerC1Ev@Qt_6 6.8.2
@@ -111,7 +106,7 @@ libQt6Test.so.6 libqt6test6 #MINVER#
  _ZN5QTest8Internal14noCrashHandlerE@Qt_6 6.8.2
  _ZN5QTest8Internal16maybeThrowOnFailEv@Qt_6 6.8.2
  _ZN5QTest8Internal16maybeThrowOnSkipEv@Qt_6 6.8.2
- _ZN5QTest8Internal28formatTryTimeoutDebugMessageE20QBasicUtf8StringViewILb0EEii@Qt_6 6.3.0
+ (subst)_ZN5QTest8Internal28formatTryTimeoutDebugMessageE20QBasicUtf8StringViewILb0EENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEES7_@Qt_6 6.10.2
  (subst)_ZN5QTest8Internal31formatPropertyTestHelperFailureEPc{size_t}PKcS3_S3_S3_@Qt_6 6.8.2
  _ZN5QTest8qCleanupEv@Qt_6 6.1.2
  _ZN5QTest8qCompareE11QStringViewRK13QLatin1StringPKcS5_S5_i@Qt_6 6.1.2
@@ -158,10 +153,10 @@ libQt6Test.so.6 libqt6test6 #MINVER#
  _ZNK9QTestData9dataCountEv@Qt_6 6.1.2
  _ZTI14QTestEventLoop@Qt_6 6.1.2
  _ZTI24QAbstractItemModelTester@Qt_6 6.1.2
- (arch=armel riscv64)_ZTIN9__gnu_cxx7__mutexE@Qt_6 6.8.2
+ (arch=riscv64)_ZTIN9__gnu_cxx7__mutexE@Qt_6 6.8.2
  _ZTS14QTestEventLoop@Qt_6 6.1.2
  _ZTS24QAbstractItemModelTester@Qt_6 6.1.2
- (arch=armel riscv64)_ZTSN9__gnu_cxx7__mutexE@Qt_6 6.8.2
+ (arch=riscv64)_ZTSN9__gnu_cxx7__mutexE@Qt_6 6.8.2
  _ZTV14QTestEventLoop@Qt_6 6.1.2
  _ZTV24QAbstractItemModelTester@Qt_6 6.1.2
  _ZZN14QTestEventLoop8instanceEvE8testLoop@Qt_6 6.3.0

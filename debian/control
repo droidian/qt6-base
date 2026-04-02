@@ -1,5 +1,4 @@
 Source: qt6-base
-Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Patrick Franz <deltaone@debian.org>,
 Build-Depends: debhelper-compat (= 13),
@@ -26,6 +25,7 @@ Build-Depends: debhelper-compat (= 13),
                libharfbuzz-dev,
                libicu-dev,
                libinput-dev [linux-any],
+               libjemalloc-dev,
                libjpeg-dev,
                libkrb5-dev,
                liblttng-ust-dev [linux-any],
@@ -90,9 +90,9 @@ Build-Depends: debhelper-compat (= 13),
                qt6-base-dev:native <cross>,
                unixodbc-dev,
                zlib1g-dev,
-Build-Depends-Indep: qt6-base-dev (>= 6.9~) <!nodoc>,
-                     qt6-documentation-tools (>= 6.9~) <!nodoc>,
-Standards-Version: 4.7.2
+Build-Depends-Indep: qt6-base-dev (>= 6.10~) <!nodoc>,
+                     qt6-documentation-tools (>= 6.10~) <!nodoc>,
+Standards-Version: 4.7.3
 Section: libs
 Homepage: https://www.qt.io/developers/
 Vcs-Git: https://salsa.debian.org/qt-kde-team/qt6/qt6-base.git
@@ -101,7 +101,7 @@ Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt6/qt6-base
 Package: libqt6gui6-gles
 Architecture: any
 Conflicts: libqt6gui6
-Provides: libqt6gui6 (= 6.9.2+dfsg-3)
+Provides: libqt6gui6 (= 6.10.2+dfsg-6)
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends},
 Depends: fontconfig, ${misc:Depends}, ${shlibs:Depends},
