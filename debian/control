@@ -461,9 +461,11 @@ Depends: libgl-dev,
 Breaks: libqt6opengl6-dev (<< 6.4.2+dfsg-12~),
         qt6-base-private-dev (<< 6.10.2+dfsg-6~),
         qt6-wayland-dev (<< 6.10.2~),
+        qt6-wayland-private-dev (<< 6.10.2~),
 Replaces: libqt6opengl6-dev (<< 6.4.2+dfsg-12~),
           qt6-base-private-dev (<< 6.10.2+dfsg-6~),
           qt6-wayland-dev (<< 6.10.2~),
+          qt6-wayland-private-dev (<< 6.10.2~),
 Provides: libqt6opengl6-dev (= ${binary:Version}),
 Description: Qt 6 base development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -571,6 +573,8 @@ Architecture: all
 Section: doc
 Depends: ${misc:Depends},
 Multi-Arch: foreign
+Breaks: qt6-wayland-doc (<< 6.10.2~),
+Replaces: qt6-wayland-doc (<< 6.10.2~),
 Description: Qt 6 base documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -582,6 +586,8 @@ Architecture: all
 Section: doc
 Depends: ${misc:Depends},
 Multi-Arch: foreign
+Breaks: qt6-wayland-doc-html (<< 6.10.2~),
+Replaces: qt6-wayland-doc-html (<< 6.10.2~),
 Description: Qt 6 base HTML documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
