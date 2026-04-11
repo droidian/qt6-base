@@ -455,6 +455,7 @@ Depends: libgl-dev,
          libqt6xml6 (= ${binary:Version}),
          libvulkan-dev,
          qmake6 (= ${binary:Version}),
+         qtpaths6 (= ${binary:Version}),
          qt6-base-dev-tools (= ${binary:Version}),
          qt6-qpa-plugins (= ${binary:Version}),
          ${misc:Depends},
@@ -549,6 +550,7 @@ Architecture: any
 Multi-Arch: same
 Section: devel
 Depends: qmake6-bin (= ${binary:Version}),
+         qtpaths6 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
 Breaks: qt6-base-dev (<< 6.6.0+dfsg~),
@@ -565,8 +567,43 @@ Description: Qt 6 qmake Makefile generator tool
  .
  Qt 6 qmake requires a platform and a compiler description file which contains
  many default values used to generate appropriate Makefiles.
+
+Package: qtpaths6-bin
+Architecture: any
+Multi-Arch: foreign
+Section: devel
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Breaks: qt6-base-dev-tools (<< 6.10.2+dfsg-7~)
+Replaces: qt6-base-dev-tools (<< 6.10.2+dfsg-7~)
+Description: Qt 6 qtpaths quetioning tool — binary file
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains also these platform specifications.
+ This package contains the binary file for the qtpaths. Do not
+ install this package directly, use qtpaths6 instead.
+
+Package: qtpaths6
+Architecture: any
+Multi-Arch: same
+Section: devel
+Depends: qtpaths6-bin (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Breaks: qt6-base-dev (<< 6.10.2+dfsg-7~),
+        qt6-base-dev-tools (<< 6.10.2+dfsg-7~),
+        qmake6 (<< 6.10.2+dfsg-7~)
+Replaces: qt6-base-dev (<< 6.10.2+dfsg-7~),
+          qt6-base-dev-tools (<< 6.10.2+dfsg-7~),
+          qmake6 (<< 6.10.2+dfsg-7~)
+Description: Qt 6 qtpaths quetioning tool
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ Qtpaths is a command line client to query QStandardPaths and QLibraryInfo.
+ .
+ This package contains also the platform specifications, as the standardpaths
+ depend for some paths on the architecture.
 
 Package: qt6-base-doc
 Architecture: all
