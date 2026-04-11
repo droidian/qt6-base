@@ -11,3 +11,7 @@ cross.patch
 remove_rpath_from_examples.patch
 forkfd_grow_stack_upwards_on_hppa.patch
 enable_skip_plugins.patch
+
+# Droidian hybris specific
+revert_qeglplatformcontext_also_check_GL_EXT_ROB.patch
+revert_support_graphic_reset_on_egl.patch
