@@ -574,8 +574,8 @@ Multi-Arch: foreign
 Section: devel
 Depends: ${misc:Depends},
          ${shlibs:Depends},
-Breaks: qt6-base-dev-tools (<< 6.10.2+dfsg-7~)
-Replaces: qt6-base-dev-tools (<< 6.10.2+dfsg-7~)
+Breaks: qt6-base-dev-tools (<< 6.10.2+dfsg-8~)
+Replaces: qt6-base-dev-tools (<< 6.10.2+dfsg-8~)
 Description: Qt 6 qtpaths quetioning tool — binary file
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -590,12 +590,12 @@ Section: devel
 Depends: qtpaths6-bin (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
-Breaks: qt6-base-dev (<< 6.10.2+dfsg-7~),
-        qt6-base-dev-tools (<< 6.10.2+dfsg-7~),
-        qmake6 (<< 6.10.2+dfsg-7~)
-Replaces: qt6-base-dev (<< 6.10.2+dfsg-7~),
-          qt6-base-dev-tools (<< 6.10.2+dfsg-7~),
-          qmake6 (<< 6.10.2+dfsg-7~)
+Breaks: qt6-base-dev (<< 6.10.2+dfsg-8~),
+        qt6-base-dev-tools (<< 6.10.2+dfsg-8~),
+        qmake6 (<< 6.10.2+dfsg-8~)
+Replaces: qt6-base-dev (<< 6.10.2+dfsg-8~),
+          qt6-base-dev-tools (<< 6.10.2+dfsg-8~),
+          qmake6 (<< 6.10.2+dfsg-8~)
 Description: Qt 6 qtpaths quetioning tool
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
