@@ -529,6 +529,7 @@ Multi-Arch: same
 Section: misc
 Depends: ${misc:Depends},
          ${shlibs:Depends},
+         ${python3:Depends},
 Description: Qt 6 base examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
