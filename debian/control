@@ -611,6 +611,7 @@ Description: Qt 6 qtpaths quetioning tool
  depend for some paths on the architecture.
 
 Package: qt6-base-doc
+Build-Profiles: <!nodoc>
 Architecture: all
 Section: doc
 Depends: ${misc:Depends},
@@ -624,6 +625,7 @@ Description: Qt 6 base documentation
  This package contains the documentation for the Qt 6 base libraries.
 
 Package: qt6-base-doc-html
+Build-Profiles: <!nodoc>
 Architecture: all
 Section: doc
 Depends: ${misc:Depends},
@@ -638,6 +640,7 @@ Description: Qt 6 base HTML documentation
  libraries.
 
 Package: qt6-base-doc-dev
+Build-Profiles: <!nodoc>
 Architecture: all
 Section: libdevel
 Depends: ${misc:Depends},

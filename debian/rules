@@ -121,13 +121,17 @@ execute_after_dh_auto_install-arch:
 		debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/cmake/Qt6CoreTools/Qt6CoreToolsTargets-none.cmake
 
 override_dh_auto_build-indep:
+ifeq (,$(filter nodoc,$(DEB_BUILD_OPTIONS) $(DEB_BUILD_PROFILES)))
 	dh_auto_build -- docs
+endif
 
 override_dh_auto_install-indep:
+ifeq (,$(filter nodoc,$(DEB_BUILD_OPTIONS) $(DEB_BUILD_PROFILES)))
 	DESTDIR=$(CURDIR)/debian/tmp dh_auto_build -- install_docs
 	# Remove build path from index files.
 	find $(CURDIR)/debian/tmp/usr/share/qt6/doc -type f -name *.index -exec \
 		sed -i 's@$(CURDIR)/@@g' {} \;
+endif
 
 override_dh_python3-arch:
 	dh_python3 -pqmake6 /usr/lib/$(DEB_HOST_MULTIARCH)/qt6/mkspecs/features/uikit/
