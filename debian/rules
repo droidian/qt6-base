@@ -94,6 +94,10 @@ execute_after_dh_auto_install-archh:
 	# Reproducible builds: remove build paths from .prl files
 	sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt6*.prl
 
+	# Fix shebang
+	sed -i -e 's#/bin/env python#/usr/bin/python#' debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt6/examples/corelib/serialization/cbordump/cbortag.py
+	sed -i '1i #!/usr/bin/python3' debian/tmp/usr/lib/qt6/libexec/qt_cyclonedx_generator.py
+
 	# Specifies parameters to pass to the platform plugin.
 	mkdir -p debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt6
 	sed 's/@DEB_HOST_MULTIARCH@/$(DEB_HOST_MULTIARCH)/' debian/qt.conf.in \
@@ -117,13 +121,24 @@ execute_after_dh_auto_install-archh:
 		debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/cmake/Qt6CoreTools/Qt6CoreToolsTargets-none.cmake
 
 override_dh_auto_build-indep:
+ifeq (,$(filter nodoc,$(DEB_BUILD_OPTIONS) $(DEB_BUILD_PROFILES)))
 	dh_auto_build -- docs
+endif
 
 override_dh_auto_install-indep:
+ifeq (,$(filter nodoc,$(DEB_BUILD_OPTIONS) $(DEB_BUILD_PROFILES)))
 	DESTDIR=$(CURDIR)/debian/tmp dh_auto_build -- install_docs
 	# Remove build path from index files.
 	find $(CURDIR)/debian/tmp/usr/share/qt6/doc -type f -name *.index -exec \
 		sed -i 's@$(CURDIR)/@@g' {} \;
+endif
+
+override_dh_python3-arch:
+	dh_python3 -pqmake6 /usr/lib/$(DEB_HOST_MULTIARCH)/qt6/mkspecs/features/uikit/
+	mv $(CURDIR)/debian/qmake6/usr/share/python3/runtime.d/qmake6.rtupdate $(CURDIR)/debian/qmake6//usr/share/python3/runtime.d/qmake6-${DEB_HOST_GNU_TYPE}.rtupdate
+	dh_python3 -pqt6-base-dev-tools /usr/lib/qt6/libexec/
+	dh_python3 -pqt6-base-examples /usr/lib/$(DEB_HOST_MULTIARCH)/qt6/examples/corelib/serialization/cbordump/
+	mv $(CURDIR)/debian/qt6-base-examples/usr/share/python3/runtime.d/qt6-base-examples.rtupdate $(CURDIR)/debian/qt6-base-examples/usr/share/python3/runtime.d/qt6-base-examples-${DEB_HOST_GNU_TYPE}.rtupdate
 
 override_dh_makeshlibs:
 	dh_makeshlibs -XlibQt6EglFSDeviceIntegration -XlibQt6EglFsKmsGbmSupport -XlibQt6EglFsKmsSupport -XlibQt6XcbQpa

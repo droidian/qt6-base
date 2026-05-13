@@ -1,3 +1,78 @@
+qt6-base (6.10.2+dfsg-12) unstable; urgency=medium
+
+  * Team upload.
+  * Update the symbols files from the logs of buildds.
+  * Backport upstream commit 406903b6ef76b8333bcc332a2e5768953c3fddd4 to handle
+    copy_file_range() returning ENOSYS (e.g. on Hurd); patch
+    upstream_QFileSystemEngine-handle-copy_file_range-returning-E.patch.
+    (Closes: #1133708)
+  * Backport upstream commit 4b1eb34337bdbc66e0da18a7e7375ed0dd8455ec to fix
+    concurrency issues in QProcessEnvironment; patch
+    upstream_Revert-QProcessEnvironment-simplify-locking.patch.
+    (Closes: #1123679)
+
+ -- Pino Toscano <pino@debian.org>  Sat, 02 May 2026 10:14:59 +0200
+
+qt6-base (6.10.2+dfsg-11) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * Find a solution to use dh-python: Install the .rtupdate files with
+    a different name for each arch to be coinstallable. (Closes: #1134675)
+
+ -- Sandro Knauß <hefee@debian.org>  Sun, 26 Apr 2026 18:14:15 +0200
+
+qt6-base (6.10.2+dfsg-10) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster (oldstable):
+    + Build-Depends: Drop versioned constraint on pkg-kde-tools (>= 0.15.17~).
+
+  [ Patrick Franz ]
+  * Remove the dependency to python3 from qmake6 and qt6-base-examples
+    as it breaks Multi-Arch installations due to the added rtupdate
+    files (Closes: #1134675).
+
+ -- Patrick Franz <deltaone@debian.org>  Sat, 25 Apr 2026 00:40:06 +0200
+
+qt6-base (6.10.2+dfsg-9) unstable; urgency=medium
+
+  * Team upload.
+  * Release to unstable.
+
+  [ Mike Gabriel ]
+  * Fix building with DEB_BUILD_PROFILES=nodoc.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 22 Apr 2026 22:52:12 +0200
+
+qt6-base (6.10.2+dfsg-8) experimental; urgency=medium
+
+  * Team upload.
+
+  [Daniel Richard G.]
+  * Fix numerous lintian warnings.
+
+  [ Sandro Knauß ]
+  * Split qtpaths into own package (Closes: #1134349).
+  * Use dh-python to handle python dependencies.
+  * Bump Standards-Version to 4.7.4 (No changes needed).
+  * Cleanup copyright file.
+  * Update lintian overrides.
+  * Add python3 to build-depends, as this is needed for dh-python.
+  * Fix shebangs for some Python scripts.
+  * Scan the correct directories for Python scripts.
+
+ -- Sandro Knauß <hefee@debian.org>  Sun, 19 Apr 2026 17:56:32 +0200
+
+qt6-base (6.10.2+dfsg-7) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Add patch to fix FTCBFS for missing qt-android-runner.py, thanks to
+    Helmut Grohne (Closes: #1127020).
+  * Add Breaks+Replaces for several packages against qt6-wayland
+    (Closes: #1133204).
+
+ -- Patrick Franz <deltaone@debian.org>  Sat, 11 Apr 2026 12:46:07 +0200
+
 qt6-base (6.10.2+dfsg-6) unstable; urgency=medium
 
   [ Patrick Franz ]
