@@ -1,0 +1,54 @@
+From ccf46dfa8c1c4833af8de5642385e819241c53c7 Mon Sep 17 00:00:00 2001
+From: Alexander Rutz <alex@familyrutz.com>
+Date: Tue, 19 May 2026 18:15:46 -0600
+Subject: [PATCH] QEGLPlatformContext: avoid invalid
+ glGetGraphicsResetStatusARB usage
+
+---
+ .../platform/egl/qeglplatformcontext.cpp      | 23 ++++++++++++++++++-
+ 1 file changed, 22 insertions(+), 1 deletion(-)
+
+diff --git a/src/gui/opengl/platform/egl/qeglplatformcontext.cpp b/src/gui/opengl/platform/egl/qeglplatformcontext.cpp
+index 350968b87d4..d1800aac7be 100644
+--- a/src/gui/opengl/platform/egl/qeglplatformcontext.cpp
++++ b/src/gui/opengl/platform/egl/qeglplatformcontext.cpp
+@@ -165,7 +165,25 @@ QEGLPlatformContext::QEGLPlatformContext(const QSurfaceFormat &format, QPlatform
+         return;
+     }
+ 
+-    m_getGraphicsResetStatus = reinterpret_cast<GLenum (QOPENGLF_APIENTRYP)()>(getProcAddress("glGetGraphicsResetStatusARB"));
++    m_getGraphicsResetStatus = nullptr;
++
++    if (format.testOption(QSurfaceFormat::ResetNotification)) {
++
++        const char *ext = reinterpret_cast<const char *>(glGetString(GL_EXTENSIONS));
++
++        if (ext && strstr(ext, "GL_EXT_robustness")) {
++            m_getGraphicsResetStatus =
++                reinterpret_cast<GLenum (QOPENGLF_APIENTRYP)()>(
++                    getProcAddress("glGetGraphicsResetStatusEXT"));
++        } else if (ext &&
++                   (strstr(ext, "GL_KHR_robustness") ||
++                    strstr(ext, "GL_ARB_robustness"))) {
++            m_getGraphicsResetStatus =
++                reinterpret_cast<GLenum (QOPENGLF_APIENTRYP)()>(
++                    getProcAddress("glGetGraphicsResetStatusARB"));
++        }
++
++    }
+ 
+     static const bool printConfig = qEnvironmentVariableIntValue("QT_QPA_EGLFS_DEBUG");
+     if (printConfig) {
+@@ -997,6 +1015,9 @@ EGLConfig QEGLPlatformContext::eglConfig() const
+ 
+ bool QEGLPlatformContext::checkGraphicsReset()
+ {
++    if(!m_getGraphicsResetStatus)
++        return true;
++
+     if (m_getGraphicsResetStatus && m_getGraphicsResetStatus() != GL_NO_ERROR) {
+         invalidateContext();
+         return false;
+-- 
+2.43.0
+
