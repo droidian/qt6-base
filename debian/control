@@ -503,6 +503,7 @@ Description: Qt 6 base private development files
  Use at your own risk.
 
 Package: qt6-base-dev-tools
+Provides: qt6-wayland-dev-tools (= ${binary:Version})
 Architecture: any
 Multi-Arch: foreign
 Section: devel
