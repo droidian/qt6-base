@@ -1,3 +1,33 @@
+qt6-base (6.10.2+dfsg-15) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Backport patch to support OpenSSL 4 (Closes: #1138359).
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 04 Jun 2026 00:18:45 +0200
+
+qt6-base (6.10.2+dfsg-14) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Replace default-libmysqlclient-dev with libmariadb-dev (Closes:
+    #1137791).
+
+ -- Patrick Franz <deltaone@debian.org>  Wed, 27 May 2026 20:00:01 +0200
+
+qt6-base (6.10.2+dfsg-13) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * Use python3:any as Build-Dependency to help cross-compiling.
+    (Thanks Daniel Richard G.)
+
+  [ Patrick Franz ]
+  * Add a Provides for qt6-wayland-dev-tools in qt6-base-dev-tools as
+    the former has been merged into the latter (Closes: #1127915).
+  * Remove kernel version from build artifacts to help with reproducible
+    builds.
+  * Update lintian-overrides.
+
+ -- Patrick Franz <deltaone@debian.org>  Mon, 25 May 2026 23:10:38 +0200
+
 qt6-base (6.10.2+dfsg-12) unstable; urgency=medium
 
   * Team upload.
