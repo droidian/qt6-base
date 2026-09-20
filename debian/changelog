@@ -1,10 +1,10 @@
-qt6-base (6.11.2+dfsg-5) UNRELEASED; urgency=medium
+qt6-base (6.11.2+dfsg-5) unstable; urgency=medium
 
   [ Patrick Franz ]
   * Backport patch to prevent defaulting back to breeze icons despite
     having selected a different icon pack.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Sep 2026 16:08:22 +0200
+ -- Patrick Franz <deltaone@debian.org>  Sun, 20 Sep 2026 16:12:22 +0200
 
 qt6-base (6.11.2+dfsg-4) experimental; urgency=medium
 
