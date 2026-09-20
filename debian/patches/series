@@ -1,3 +1,6 @@
+# Fixed in 6.11.3
+upstream_444b479_dont_consider_fallbackthemename_in_themename.diff
+
 # Needs to be fixed upstream.
 Add-SH-detection.patch
 
