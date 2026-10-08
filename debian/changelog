@@ -1,3 +1,49 @@
+qt6-base (6.11.2+dfsg-5) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Backport patch to prevent defaulting back to breeze icons despite
+    having selected a different icon pack.
+
+ -- Patrick Franz <deltaone@debian.org>  Sun, 20 Sep 2026 16:12:22 +0200
+
+qt6-base (6.11.2+dfsg-4) experimental; urgency=medium
+
+  * Team upload.
+  * Update the symbols files from the logs of buildds.
+
+ -- Pino Toscano <pino@debian.org>  Tue, 01 Sep 2026 04:47:40 +0200
+
+qt6-base (6.11.2+dfsg-3) experimental; urgency=medium
+
+  * Team upload.
+  * Update install files for Linux-only bits, and ibase-specific files.
+
+ -- Pino Toscano <pino@debian.org>  Mon, 31 Aug 2026 07:38:37 +0200
+
+qt6-base (6.11.2+dfsg-2) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * Limit QIORing to linux-any.
+  * Update symbols from buildlogs.
+
+ -- Patrick Franz <deltaone@debian.org>  Mon, 24 Aug 2026 07:24:23 +0200
+
+qt6-base (6.11.2+dfsg-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (6.11.2).
+  * Bump B-Ds for the documentation to 6.11.
+  * Bump compat level to 14.
+  * Update ABI to 6.11.2.
+  * Refresh patches.
+  * Update list of installed files.
+  * Update symbols from buildlogs.
+  * Update lintian-overrides.
+  * Update d/copyright.
+  * Enable QIORing to abstract io_uring.
+
+ -- Patrick Franz <deltaone@debian.org>  Wed, 19 Aug 2026 22:23:04 +0200
+
 qt6-base (6.10.2+dfsg-16) unstable; urgency=medium
 
   [ Jakub Vanek ]

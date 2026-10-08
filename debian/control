@@ -1,7 +1,7 @@
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Patrick Franz <deltaone@debian.org>,
-Build-Depends: debhelper-compat (= 13),
+Build-Depends: debhelper-compat (= 14),
                dh-exec,
                dh-sequence-pkgkde-symbolshelper,
                dh-sequence-python3,
@@ -43,6 +43,7 @@ Build-Depends: debhelper-compat (= 13),
                libsystemd-dev [linux-any],
                libts-dev,
                libudev-dev [linux-any],
+               liburing-dev [linux-any],
                libvulkan-dev,
                libwayland-dev [linux-any],
                libx11-dev,
@@ -92,8 +93,8 @@ Build-Depends: debhelper-compat (= 13),
                qt6-base-dev:native <cross>,
                unixodbc-dev,
                zlib1g-dev,
-Build-Depends-Indep: qt6-base-dev (>= 6.10~) <!nodoc>,
-                     qt6-documentation-tools (>= 6.10~) <!nodoc>,
+Build-Depends-Indep: qt6-base-dev (>= 6.11~) <!nodoc>,
+                     qt6-documentation-tools (>= 6.11~) <!nodoc>,
 Standards-Version: 4.7.4
 Section: libs
 Homepage: https://www.qt.io/developers/
@@ -103,7 +104,7 @@ Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt6/qt6-base
 Package: libqt6gui6-gles
 Architecture: any
 Conflicts: libqt6gui6
-Provides: libqt6gui6 (= 6.10.2+dfsg-16)
+Provides: libqt6gui6 (= 6.11.2+dfsg-5)
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends},
 Depends: fontconfig,
